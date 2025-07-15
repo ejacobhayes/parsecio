@@ -86,11 +86,16 @@ jobs:
               categories.push('Databases');
             }
         
-            // AI/ML
+            // AI/ML - be more specific to avoid false positives
             if (this.matchesKeywords(name, description, topics, [
-              'machine-learning', 'ai', 'artificial-intelligence', 'neural-network',
-              'deep-learning', 'tensorflow', 'pytorch', 'ml'
-            ])) {
+              'machine-learning', 'artificial-intelligence', 'neural-network',
+              'deep-learning', 'tensorflow', 'pytorch', 'scikit-learn',
+              'keras', 'huggingface', 'transformers', 'llm', 'gpt',
+              'computer-vision', 'nlp', 'natural-language'
+            ]) || (
+              this.matchesKeywords(name, description, topics, ['ai']) &&
+              !this.matchesKeywords(name, description, topics, ['graphics', '3d', 'game', 'animation'])
+            )) {
               categories.push('AI/ML');
             }
         
@@ -116,10 +121,24 @@ jobs:
               categories.push('Templates');
             }
         
-            // Language-specific categories
-            if (language) {
-              categories.push(language);
+            // Security
+            if (this.matchesKeywords(name, description, topics, [
+              'security', 'auth', 'authentication', 'authorization', 'crypto',
+              'encryption', 'oauth', 'jwt', 'ssl', 'tls'
+            ])) {
+              categories.push('Security');
             }
+        
+            // Testing
+            if (this.matchesKeywords(name, description, topics, [
+              'test', 'testing', 'jest', 'mocha', 'cypress', 'selenium',
+              'unit-test', 'e2e', 'integration-test'
+            ])) {
+              categories.push('Testing');
+            }
+        
+            // Don't use programming languages as categories anymore
+            // Languages are handled separately in analytics
         
             return categories.length > 0 ? categories : ['Uncategorized'];
           }

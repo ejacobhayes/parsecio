@@ -17,8 +17,7 @@
         "tutorials"
       ],
       "categories": [
-        "Learning Resources",
-        "Markdown"
+        "Learning Resources"
       ],
       "lastUpdated": "2025-07-15T09:35:38Z",
       "isArchived": false,
@@ -74,8 +73,7 @@
         "Web Frameworks",
         "DevOps",
         "Learning Resources",
-        "AI/ML",
-        "TypeScript"
+        "AI/ML"
       ],
       "lastUpdated": "2025-07-15T09:35:36Z",
       "isArchived": false,
@@ -130,8 +128,7 @@
         "webapp"
       ],
       "categories": [
-        "Developer Tools",
-        "Python"
+        "Developer Tools"
       ],
       "lastUpdated": "2025-07-15T09:28:57Z",
       "isArchived": false,
@@ -145,7 +142,7 @@
       "language": "C",
       "topics": [],
       "categories": [
-        "C"
+        "Uncategorized"
       ],
       "lastUpdated": "2025-07-15T09:28:00Z",
       "isArchived": false,
@@ -181,7 +178,9 @@
       "categories": [
         "CLI Tools",
         "DevOps",
-        "Learning Resources"
+        "Learning Resources",
+        "Security",
+        "Testing"
       ],
       "lastUpdated": "2025-07-15T09:35:53Z",
       "isArchived": false,
@@ -201,8 +200,7 @@
         "visual-studio-code"
       ],
       "categories": [
-        "Developer Tools",
-        "TypeScript"
+        "Developer Tools"
       ],
       "lastUpdated": "2025-07-15T09:31:14Z",
       "isArchived": false,
@@ -246,8 +244,7 @@
       "categories": [
         "Web Frameworks",
         "Awesome Lists",
-        "Libraries",
-        "Go"
+        "Libraries"
       ],
       "lastUpdated": "2025-07-15T09:22:18Z",
       "isArchived": false,
@@ -278,7 +275,7 @@
         "qwen"
       ],
       "categories": [
-        "Go"
+        "AI/ML"
       ],
       "lastUpdated": "2025-07-15T09:19:14Z",
       "isArchived": false,
@@ -299,8 +296,7 @@
       ],
       "categories": [
         "CLI Tools",
-        "Awesome Lists",
-        "JavaScript"
+        "AI/ML"
       ],
       "lastUpdated": "2025-07-15T09:36:37Z",
       "isArchived": false,
@@ -314,8 +310,7 @@
       "language": "Jupyter Notebook",
       "topics": [],
       "categories": [
-        "AI/ML",
-        "Jupyter Notebook"
+        "AI/ML"
       ],
       "lastUpdated": "2025-07-15T09:36:17Z",
       "isArchived": false,
@@ -342,9 +337,7 @@
         "webxr"
       ],
       "categories": [
-        "AI/ML",
-        "Libraries",
-        "JavaScript"
+        "Libraries"
       ],
       "lastUpdated": "2025-07-15T09:34:19Z",
       "isArchived": false,
@@ -375,7 +368,7 @@
       ],
       "categories": [
         "AI/ML",
-        "JavaScript"
+        "AI/ML"
       ],
       "lastUpdated": "2025-07-15T09:30:52Z",
       "isArchived": false,
@@ -398,7 +391,7 @@
         "raspberry-pi"
       ],
       "categories": [
-        "Python"
+        "Uncategorized"
       ],
       "lastUpdated": "2025-07-15T09:22:04Z",
       "isArchived": false,
@@ -417,7 +410,7 @@
         "python"
       ],
       "categories": [
-        "Python"
+        "Uncategorized"
       ],
       "lastUpdated": "2025-07-15T09:07:47Z",
       "isArchived": false,
@@ -435,7 +428,7 @@
       ],
       "categories": [
         "AI/ML",
-        "C++"
+        "AI/ML"
       ],
       "lastUpdated": "2025-07-15T08:00:38Z",
       "isArchived": false,
@@ -467,8 +460,7 @@
       ],
       "categories": [
         "Web Frameworks",
-        "CLI Tools",
-        "TypeScript"
+        "CLI Tools"
       ],
       "lastUpdated": "2025-07-15T09:26:37Z",
       "isArchived": false,
@@ -486,8 +478,7 @@
       ],
       "categories": [
         "DevOps",
-        "AI/ML",
-        "Python"
+        "AI/ML"
       ],
       "lastUpdated": "2025-07-15T09:26:13Z",
       "isArchived": false,
@@ -504,7 +495,6 @@
         "mcp"
       ],
       "categories": [
-        "Awesome Lists",
         "AI/ML"
       ],
       "lastUpdated": "2025-07-15T09:35:19Z",
@@ -524,8 +514,7 @@
         "uv"
       ],
       "categories": [
-        "Libraries",
-        "Rust"
+        "Libraries"
       ],
       "lastUpdated": "2025-07-15T09:26:21Z",
       "isArchived": false,
@@ -539,7 +528,7 @@
       "language": "TypeScript",
       "topics": [],
       "categories": [
-        "TypeScript"
+        "Uncategorized"
       ],
       "lastUpdated": "2025-07-15T09:27:57Z",
       "isArchived": false,
@@ -562,8 +551,7 @@
       ],
       "categories": [
         "DevOps",
-        "Databases",
-        "Go"
+        "Databases"
       ],
       "lastUpdated": "2025-07-15T07:56:30Z",
       "isArchived": false,
@@ -588,8 +576,7 @@
         "search"
       ],
       "categories": [
-        "CLI Tools",
-        "Rust"
+        "CLI Tools"
       ],
       "lastUpdated": "2025-07-15T09:25:37Z",
       "isArchived": false,
@@ -612,8 +599,7 @@
         "tool"
       ],
       "categories": [
-        "CLI Tools",
-        "Rust"
+        "CLI Tools"
       ],
       "lastUpdated": "2025-07-15T08:35:48Z",
       "isArchived": false,
@@ -649,7 +635,7 @@
       ],
       "categories": [
         "AI/ML",
-        "Python"
+        "AI/ML"
       ],
       "lastUpdated": "2025-07-15T09:23:47Z",
       "isArchived": false,
@@ -684,7 +670,7 @@
         "webdav"
       ],
       "categories": [
-        "Go"
+        "Security"
       ],
       "lastUpdated": "2025-07-15T09:03:57Z",
       "isArchived": false,
@@ -706,8 +692,7 @@
       ],
       "categories": [
         "CLI Tools",
-        "DevOps",
-        "Go"
+        "DevOps"
       ],
       "lastUpdated": "2025-07-15T09:05:10Z",
       "isArchived": false,
@@ -734,7 +719,7 @@
         "zsh-theme"
       ],
       "categories": [
-        "Rust"
+        "Uncategorized"
       ],
       "lastUpdated": "2025-07-15T08:11:34Z",
       "isArchived": false,
@@ -757,8 +742,7 @@
         "windows"
       ],
       "categories": [
-        "CLI Tools",
-        "C#"
+        "CLI Tools"
       ],
       "lastUpdated": "2025-07-15T06:58:02Z",
       "isArchived": false,
@@ -772,8 +756,7 @@
       "language": "TypeScript",
       "topics": [],
       "categories": [
-        "CLI Tools",
-        "TypeScript"
+        "CLI Tools"
       ],
       "lastUpdated": "2025-07-15T09:08:13Z",
       "isArchived": false,
@@ -816,8 +799,7 @@
       "categories": [
         "CLI Tools",
         "DevOps",
-        "AI/ML",
-        "Go"
+        "AI/ML"
       ],
       "lastUpdated": "2025-07-15T08:52:08Z",
       "isArchived": false,
@@ -859,7 +841,7 @@
         "Web Frameworks",
         "Databases",
         "AI/ML",
-        "Python"
+        "AI/ML"
       ],
       "lastUpdated": "2025-07-15T09:36:25Z",
       "isArchived": false,
@@ -897,11 +879,9 @@
         "Web Frameworks",
         "CLI Tools",
         "DevOps",
-        "Awesome Lists",
         "Databases",
         "AI/ML",
-        "Developer Tools",
-        "JavaScript"
+        "Developer Tools"
       ],
       "lastUpdated": "2025-07-15T05:19:41Z",
       "isArchived": false,
@@ -918,7 +898,7 @@
         "shell"
       ],
       "categories": [
-        "Roff"
+        "Uncategorized"
       ],
       "lastUpdated": "2025-07-15T09:13:57Z",
       "isArchived": false,
@@ -955,7 +935,7 @@
       "categories": [
         "Learning Resources",
         "AI/ML",
-        "Python"
+        "AI/ML"
       ],
       "lastUpdated": "2025-07-15T09:30:40Z",
       "isArchived": false,
@@ -982,8 +962,7 @@
         "shell-scripts"
       ],
       "categories": [
-        "Learning Resources",
-        "Shell"
+        "Learning Resources"
       ],
       "lastUpdated": "2025-07-15T03:43:37Z",
       "isArchived": true,
@@ -1021,7 +1000,7 @@
         "CLI Tools",
         "DevOps",
         "Developer Tools",
-        "Python"
+        "Testing"
       ],
       "lastUpdated": "2025-07-15T08:20:43Z",
       "isArchived": false,
@@ -1056,7 +1035,7 @@
       "categories": [
         "Databases",
         "AI/ML",
-        "Go"
+        "AI/ML"
       ],
       "lastUpdated": "2025-07-15T09:26:42Z",
       "isArchived": false,
@@ -1093,7 +1072,7 @@
       "categories": [
         "DevOps",
         "AI/ML",
-        "Go"
+        "AI/ML"
       ],
       "lastUpdated": "2025-07-15T07:55:26Z",
       "isArchived": false,
@@ -1115,8 +1094,7 @@
       ],
       "categories": [
         "CLI Tools",
-        "AI/ML",
-        "Python"
+        "AI/ML"
       ],
       "lastUpdated": "2025-07-14T20:13:06Z",
       "isArchived": false,
@@ -1132,8 +1110,7 @@
         "jq"
       ],
       "categories": [
-        "CLI Tools",
-        "C"
+        "CLI Tools"
       ],
       "lastUpdated": "2025-07-15T09:24:06Z",
       "isArchived": false,
@@ -1158,7 +1135,7 @@
       "categories": [
         "CLI Tools",
         "DevOps",
-        "Go"
+        "AI/ML"
       ],
       "lastUpdated": "2025-07-15T08:47:54Z",
       "isArchived": false,
@@ -1175,8 +1152,7 @@
         "kubernetes"
       ],
       "categories": [
-        "DevOps",
-        "Go"
+        "DevOps"
       ],
       "lastUpdated": "2025-07-15T09:34:18Z",
       "isArchived": false,
@@ -1213,7 +1189,7 @@
         "CLI Tools",
         "DevOps",
         "Libraries",
-        "Rust"
+        "Security"
       ],
       "lastUpdated": "2025-07-15T09:22:25Z",
       "isArchived": false,
@@ -1248,8 +1224,7 @@
       ],
       "categories": [
         "CLI Tools",
-        "Developer Tools",
-        "Rust"
+        "Developer Tools"
       ],
       "lastUpdated": "2025-07-15T09:33:40Z",
       "isArchived": false,
@@ -1263,8 +1238,7 @@
       "language": "Go",
       "topics": [],
       "categories": [
-        "DevOps",
-        "Go"
+        "DevOps"
       ],
       "lastUpdated": "2025-07-15T06:28:45Z",
       "isArchived": false,
@@ -1285,7 +1259,7 @@
       ],
       "categories": [
         "AI/ML",
-        "C#"
+        "AI/ML"
       ],
       "lastUpdated": "2025-07-15T08:55:24Z",
       "isArchived": false,
@@ -1311,7 +1285,7 @@
         "validation"
       ],
       "categories": [
-        "Python"
+        "Uncategorized"
       ],
       "lastUpdated": "2025-07-15T08:57:38Z",
       "isArchived": false,
@@ -1326,8 +1300,7 @@
       "topics": [],
       "categories": [
         "CLI Tools",
-        "AI/ML",
-        "PowerShell"
+        "AI/ML"
       ],
       "lastUpdated": "2025-07-15T09:37:08Z",
       "isArchived": false,
@@ -1349,8 +1322,7 @@
         "visualizations"
       ],
       "categories": [
-        "Databases",
-        "TypeScript"
+        "Databases"
       ],
       "lastUpdated": "2025-07-15T09:33:36Z",
       "isArchived": false,
@@ -1365,7 +1337,7 @@
       "topics": [],
       "categories": [
         "Web Frameworks",
-        "Python"
+        "AI/ML"
       ],
       "lastUpdated": "2025-07-15T08:07:46Z",
       "isArchived": false,
@@ -1385,8 +1357,8 @@
       ],
       "categories": [
         "AI/ML",
-        "Developer Tools",
-        "JavaScript"
+        "AI/ML",
+        "Developer Tools"
       ],
       "lastUpdated": "2025-07-15T09:23:22Z",
       "isArchived": false,
@@ -1417,8 +1389,7 @@
         "pipeline"
       ],
       "categories": [
-        "DevOps",
-        "Go"
+        "DevOps"
       ],
       "lastUpdated": "2025-07-15T08:18:48Z",
       "isArchived": false,
@@ -1432,7 +1403,7 @@
       "language": "Perl",
       "topics": [],
       "categories": [
-        "Perl"
+        "Uncategorized"
       ],
       "lastUpdated": "2025-07-15T07:56:50Z",
       "isArchived": false,
@@ -1450,7 +1421,7 @@
         "mcp-server"
       ],
       "categories": [
-        "Go"
+        "Uncategorized"
       ],
       "lastUpdated": "2025-07-15T09:12:14Z",
       "isArchived": false,
@@ -1473,8 +1444,7 @@
       ],
       "categories": [
         "DevOps",
-        "AI/ML",
-        "Go"
+        "AI/ML"
       ],
       "lastUpdated": "2025-07-15T09:23:09Z",
       "isArchived": false,
@@ -1488,8 +1458,7 @@
       "language": "Jupyter Notebook",
       "topics": [],
       "categories": [
-        "Learning Resources",
-        "Jupyter Notebook"
+        "Learning Resources"
       ],
       "lastUpdated": "2025-07-15T08:36:45Z",
       "isArchived": false,
@@ -1508,8 +1477,7 @@
         "cloud-management"
       ],
       "categories": [
-        "CLI Tools",
-        "Python"
+        "CLI Tools"
       ],
       "lastUpdated": "2025-07-14T17:40:19Z",
       "isArchived": false,
@@ -1545,8 +1513,7 @@
       ],
       "categories": [
         "DevOps",
-        "Databases",
-        "Rust"
+        "Databases"
       ],
       "lastUpdated": "2025-07-15T09:01:55Z",
       "isArchived": false,
@@ -1563,7 +1530,7 @@
         "playwright"
       ],
       "categories": [
-        "TypeScript"
+        "Uncategorized"
       ],
       "lastUpdated": "2025-07-15T09:35:11Z",
       "isArchived": false,
@@ -1580,8 +1547,7 @@
         "json"
       ],
       "categories": [
-        "CLI Tools",
-        "Go"
+        "CLI Tools"
       ],
       "lastUpdated": "2025-07-15T09:12:35Z",
       "isArchived": false,
@@ -1607,8 +1573,7 @@
       ],
       "categories": [
         "CLI Tools",
-        "DevOps",
-        "Go"
+        "DevOps"
       ],
       "lastUpdated": "2025-07-15T02:21:27Z",
       "isArchived": false,
@@ -1662,8 +1627,7 @@
         "terraform-cost-estimation"
       ],
       "categories": [
-        "DevOps",
-        "Go"
+        "DevOps"
       ],
       "lastUpdated": "2025-07-14T21:57:03Z",
       "isArchived": false,
@@ -1681,9 +1645,7 @@
       ],
       "categories": [
         "CLI Tools",
-        "DevOps",
-        "AI/ML",
-        "Go"
+        "DevOps"
       ],
       "lastUpdated": "2025-07-15T09:23:59Z",
       "isArchived": false,
@@ -1697,7 +1659,7 @@
       "language": "PowerShell",
       "topics": [],
       "categories": [
-        "PowerShell"
+        "Uncategorized"
       ],
       "lastUpdated": "2025-07-15T08:34:00Z",
       "isArchived": false,
@@ -1719,8 +1681,7 @@
         "static-analysis"
       ],
       "categories": [
-        "DevOps",
-        "Haskell"
+        "DevOps"
       ],
       "lastUpdated": "2025-07-15T08:41:50Z",
       "isArchived": false,
@@ -1742,8 +1703,7 @@
       ],
       "categories": [
         "Web Frameworks",
-        "AI/ML",
-        "Python"
+        "AI/ML"
       ],
       "lastUpdated": "2025-07-15T09:31:22Z",
       "isArchived": false,
@@ -1773,7 +1733,7 @@
       "categories": [
         "Web Frameworks",
         "Learning Resources",
-        "Python"
+        "AI/ML"
       ],
       "lastUpdated": "2025-07-15T08:55:52Z",
       "isArchived": false,
@@ -1798,7 +1758,7 @@
         "policy"
       ],
       "categories": [
-        "Go"
+        "Security"
       ],
       "lastUpdated": "2025-07-15T09:17:38Z",
       "isArchived": false,
@@ -1812,8 +1772,7 @@
       "language": "Shell",
       "topics": [],
       "categories": [
-        "CLI Tools",
-        "Shell"
+        "CLI Tools"
       ],
       "lastUpdated": "2025-07-15T03:21:08Z",
       "isArchived": false,
@@ -1857,7 +1816,7 @@
         "tts"
       ],
       "categories": [
-        "C++"
+        "Uncategorized"
       ],
       "lastUpdated": "2025-07-15T07:58:17Z",
       "isArchived": false,
@@ -1879,8 +1838,7 @@
       ],
       "categories": [
         "DevOps",
-        "AI/ML",
-        "Shell"
+        "AI/ML"
       ],
       "lastUpdated": "2025-07-15T05:47:11Z",
       "isArchived": false,
@@ -1903,7 +1861,7 @@
         "usdt"
       ],
       "categories": [
-        "C++"
+        "Uncategorized"
       ],
       "lastUpdated": "2025-07-15T08:12:42Z",
       "isArchived": false,
@@ -1931,8 +1889,7 @@
       ],
       "categories": [
         "CLI Tools",
-        "DevOps",
-        "C"
+        "DevOps"
       ],
       "lastUpdated": "2025-07-15T08:53:52Z",
       "isArchived": false,
@@ -1947,7 +1904,7 @@
       "topics": [],
       "categories": [
         "CLI Tools",
-        "Go"
+        "Security"
       ],
       "lastUpdated": "2025-07-14T11:18:28Z",
       "isArchived": false,
@@ -1984,7 +1941,7 @@
         "DevOps",
         "Learning Resources",
         "AI/ML",
-        "Python"
+        "AI/ML"
       ],
       "lastUpdated": "2025-07-15T09:35:58Z",
       "isArchived": false,
@@ -2002,8 +1959,7 @@
       ],
       "categories": [
         "DevOps",
-        "Developer Tools",
-        "Go"
+        "Developer Tools"
       ],
       "lastUpdated": "2025-07-14T20:22:59Z",
       "isArchived": false,
@@ -2029,8 +1985,7 @@
         "watch-changes"
       ],
       "categories": [
-        "DevOps",
-        "Go"
+        "DevOps"
       ],
       "lastUpdated": "2025-07-15T08:29:33Z",
       "isArchived": false,
@@ -2044,7 +1999,7 @@
       "language": "Python",
       "topics": [],
       "categories": [
-        "Python"
+        "AI/ML"
       ],
       "lastUpdated": "2025-07-15T06:02:04Z",
       "isArchived": false,
@@ -2066,7 +2021,7 @@
         "standup"
       ],
       "categories": [
-        "Shell"
+        "Uncategorized"
       ],
       "lastUpdated": "2025-07-13T15:58:30Z",
       "isArchived": false,
@@ -2097,7 +2052,7 @@
         "DevOps",
         "AI/ML",
         "Libraries",
-        "Python"
+        "Security"
       ],
       "lastUpdated": "2025-07-15T09:11:12Z",
       "isArchived": false,
@@ -2121,7 +2076,7 @@
       ],
       "categories": [
         "DevOps",
-        "Go"
+        "Security"
       ],
       "lastUpdated": "2025-07-14T23:56:20Z",
       "isArchived": false,
@@ -2146,7 +2101,7 @@
         "webxr"
       ],
       "categories": [
-        "TypeScript"
+        "Uncategorized"
       ],
       "lastUpdated": "2025-07-15T01:11:45Z",
       "isArchived": false,
@@ -2165,7 +2120,7 @@
         "shell"
       ],
       "categories": [
-        "Rust"
+        "Uncategorized"
       ],
       "lastUpdated": "2025-07-15T07:55:21Z",
       "isArchived": false,
@@ -2196,7 +2151,7 @@
       "categories": [
         "DevOps",
         "Developer Tools",
-        "Go"
+        "Testing"
       ],
       "lastUpdated": "2025-07-15T07:02:10Z",
       "isArchived": false,
@@ -2233,8 +2188,7 @@
       "categories": [
         "CLI Tools",
         "DevOps",
-        "Databases",
-        "Shell"
+        "Databases"
       ],
       "lastUpdated": "2025-07-14T16:43:40Z",
       "isArchived": false,
@@ -2269,7 +2223,7 @@
       ],
       "categories": [
         "DevOps",
-        "Go"
+        "Security"
       ],
       "lastUpdated": "2025-07-13T16:19:27Z",
       "isArchived": false,
@@ -2290,8 +2244,8 @@
       ],
       "categories": [
         "AI/ML",
-        "Developer Tools",
-        "TypeScript"
+        "AI/ML",
+        "Developer Tools"
       ],
       "lastUpdated": "2025-07-14T16:55:29Z",
       "isArchived": false,
@@ -2318,8 +2272,7 @@
       ],
       "categories": [
         "CLI Tools",
-        "DevOps",
-        "Go"
+        "DevOps"
       ],
       "lastUpdated": "2025-07-14T20:36:45Z",
       "isArchived": false,
@@ -2340,8 +2293,7 @@
       "categories": [
         "CLI Tools",
         "DevOps",
-        "AI/ML",
-        "Go"
+        "AI/ML"
       ],
       "lastUpdated": "2025-07-15T07:02:37Z",
       "isArchived": false,
@@ -2356,8 +2308,7 @@
       "topics": [],
       "categories": [
         "CLI Tools",
-        "AI/ML",
-        "Go"
+        "AI/ML"
       ],
       "lastUpdated": "2025-07-15T09:08:30Z",
       "isArchived": false,
@@ -2374,8 +2325,7 @@
       ],
       "categories": [
         "DevOps",
-        "AI/ML",
-        "Go"
+        "AI/ML"
       ],
       "lastUpdated": "2025-07-14T12:16:20Z",
       "isArchived": false,
@@ -2396,8 +2346,7 @@
       ],
       "categories": [
         "CLI Tools",
-        "AI/ML",
-        "JavaScript"
+        "AI/ML"
       ],
       "lastUpdated": "2025-07-15T07:53:30Z",
       "isArchived": false,
@@ -2417,8 +2366,7 @@
         "prometheus"
       ],
       "categories": [
-        "DevOps",
-        "Mustache"
+        "DevOps"
       ],
       "lastUpdated": "2025-07-15T05:26:03Z",
       "isArchived": false,
@@ -2446,7 +2394,7 @@
       "categories": [
         "DevOps",
         "Developer Tools",
-        "Go"
+        "Testing"
       ],
       "lastUpdated": "2025-07-15T04:25:23Z",
       "isArchived": false,
@@ -2463,8 +2411,7 @@
         "kubernetes"
       ],
       "categories": [
-        "DevOps",
-        "Go"
+        "DevOps"
       ],
       "lastUpdated": "2025-07-15T08:09:06Z",
       "isArchived": false,
@@ -2478,7 +2425,7 @@
       "language": "Python",
       "topics": [],
       "categories": [
-        "Python"
+        "Uncategorized"
       ],
       "lastUpdated": "2025-07-13T18:56:18Z",
       "isArchived": false,
@@ -2502,8 +2449,7 @@
         "modelcontextprotocol"
       ],
       "categories": [
-        "CLI Tools",
-        "Python"
+        "CLI Tools"
       ],
       "lastUpdated": "2025-07-15T09:29:36Z",
       "isArchived": false,
@@ -2521,8 +2467,7 @@
         "kustomize"
       ],
       "categories": [
-        "DevOps",
-        "Go"
+        "DevOps"
       ],
       "lastUpdated": "2025-07-15T09:14:10Z",
       "isArchived": false,
@@ -2543,8 +2488,7 @@
         "tsdb"
       ],
       "categories": [
-        "AI/ML",
-        "Go"
+        "AI/ML"
       ],
       "lastUpdated": "2025-07-15T07:10:48Z",
       "isArchived": false,
@@ -2580,8 +2524,7 @@
       "categories": [
         "CLI Tools",
         "DevOps",
-        "Learning Resources",
-        "Go"
+        "Learning Resources"
       ],
       "lastUpdated": "2025-07-15T05:30:35Z",
       "isArchived": false,
@@ -2602,8 +2545,7 @@
         "kubernetes-ingress-controller"
       ],
       "categories": [
-        "DevOps",
-        "Go"
+        "DevOps"
       ],
       "lastUpdated": "2025-07-11T08:36:42Z",
       "isArchived": false,
@@ -2621,8 +2563,7 @@
         "structured-logging"
       ],
       "categories": [
-        "DevOps",
-        "Python"
+        "DevOps"
       ],
       "lastUpdated": "2025-07-15T05:55:25Z",
       "isArchived": false,
@@ -2647,7 +2588,7 @@
       "categories": [
         "CLI Tools",
         "AI/ML",
-        "Python"
+        "AI/ML"
       ],
       "lastUpdated": "2025-07-15T09:17:33Z",
       "isArchived": false,
@@ -2663,8 +2604,7 @@
         "k8s-sig-cluster-lifecycle"
       ],
       "categories": [
-        "DevOps",
-        "Go"
+        "DevOps"
       ],
       "lastUpdated": "2025-07-15T08:22:28Z",
       "isArchived": false,
@@ -2696,7 +2636,8 @@
       "categories": [
         "CLI Tools",
         "Developer Tools",
-        "Shell"
+        "Security",
+        "Testing"
       ],
       "lastUpdated": "2025-07-14T22:20:30Z",
       "isArchived": false,
@@ -2717,8 +2658,7 @@
         "kubernetes"
       ],
       "categories": [
-        "DevOps",
-        "Go"
+        "DevOps"
       ],
       "lastUpdated": "2025-07-15T07:50:12Z",
       "isArchived": false,
@@ -2742,7 +2682,7 @@
         "terragrunt"
       ],
       "categories": [
-        "Shell"
+        "Uncategorized"
       ],
       "lastUpdated": "2025-07-14T20:27:07Z",
       "isArchived": false,
@@ -2783,8 +2723,7 @@
         "untracked"
       ],
       "categories": [
-        "AI/ML",
-        "TypeScript"
+        "Testing"
       ],
       "lastUpdated": "2025-07-13T13:10:30Z",
       "isArchived": false,
@@ -2809,8 +2748,7 @@
       ],
       "categories": [
         "DevOps",
-        "AI/ML",
-        "Go"
+        "AI/ML"
       ],
       "lastUpdated": "2025-07-14T22:03:16Z",
       "isArchived": false,
@@ -2832,8 +2770,7 @@
         "visualization"
       ],
       "categories": [
-        "CLI Tools",
-        "Python"
+        "CLI Tools"
       ],
       "lastUpdated": "2025-07-15T08:26:44Z",
       "isArchived": false,
@@ -2868,8 +2805,7 @@
         "windows"
       ],
       "categories": [
-        "Databases",
-        "Ruby"
+        "Databases"
       ],
       "lastUpdated": "2025-07-15T07:29:25Z",
       "isArchived": false,
@@ -2883,7 +2819,7 @@
       "language": "Shell",
       "topics": [],
       "categories": [
-        "Shell"
+        "Uncategorized"
       ],
       "lastUpdated": "2025-07-15T01:17:13Z",
       "isArchived": false,
@@ -2902,8 +2838,7 @@
         "vsphere"
       ],
       "categories": [
-        "Libraries",
-        "Go"
+        "Libraries"
       ],
       "lastUpdated": "2025-07-13T21:33:23Z",
       "isArchived": false,
@@ -2921,8 +2856,7 @@
         "reboot"
       ],
       "categories": [
-        "DevOps",
-        "Go"
+        "DevOps"
       ],
       "lastUpdated": "2025-07-15T08:30:56Z",
       "isArchived": false,
@@ -2937,8 +2871,7 @@
       "topics": [],
       "categories": [
         "AI/ML",
-        "Libraries",
-        "Python"
+        "Libraries"
       ],
       "lastUpdated": "2025-07-15T08:49:19Z",
       "isArchived": false,
@@ -2959,8 +2892,7 @@
       "categories": [
         "CLI Tools",
         "DevOps",
-        "AI/ML",
-        "Go"
+        "AI/ML"
       ],
       "lastUpdated": "2025-07-13T12:24:55Z",
       "isArchived": false,
@@ -2983,8 +2915,7 @@
         "prometheus"
       ],
       "categories": [
-        "DevOps",
-        "Go"
+        "DevOps"
       ],
       "lastUpdated": "2025-07-15T05:53:40Z",
       "isArchived": false,
@@ -3019,8 +2950,7 @@
       ],
       "categories": [
         "DevOps",
-        "Templates",
-        "Go"
+        "Templates"
       ],
       "lastUpdated": "2025-07-14T06:48:26Z",
       "isArchived": false,
@@ -3086,8 +3016,7 @@
         "vault"
       ],
       "categories": [
-        "DevOps",
-        "Go"
+        "DevOps"
       ],
       "lastUpdated": "2025-07-12T12:46:24Z",
       "isArchived": false,
@@ -3108,7 +3037,7 @@
       ],
       "categories": [
         "AI/ML",
-        "TypeScript"
+        "AI/ML"
       ],
       "lastUpdated": "2025-07-15T09:12:25Z",
       "isArchived": false,
@@ -3122,8 +3051,7 @@
       "language": null,
       "topics": [],
       "categories": [
-        "CLI Tools",
-        "Awesome Lists"
+        "CLI Tools"
       ],
       "lastUpdated": "2025-07-08T23:50:45Z",
       "isArchived": false,
@@ -3148,7 +3076,7 @@
       "categories": [
         "CLI Tools",
         "DevOps",
-        "Go"
+        "Security"
       ],
       "lastUpdated": "2025-07-13T02:43:46Z",
       "isArchived": false,
@@ -3170,8 +3098,7 @@
         "windows"
       ],
       "categories": [
-        "CLI Tools",
-        "C++"
+        "CLI Tools"
       ],
       "lastUpdated": "2025-07-15T08:51:31Z",
       "isArchived": false,
@@ -3186,7 +3113,7 @@
       "topics": [],
       "categories": [
         "Web Frameworks",
-        "TypeScript"
+        "AI/ML"
       ],
       "lastUpdated": "2025-07-14T08:55:06Z",
       "isArchived": false,
@@ -3221,7 +3148,7 @@
         "specification"
       ],
       "categories": [
-        "Makefile"
+        "Uncategorized"
       ],
       "lastUpdated": "2025-07-08T16:03:03Z",
       "isArchived": false,
@@ -3235,7 +3162,7 @@
       "language": "Go",
       "topics": [],
       "categories": [
-        "Go"
+        "Uncategorized"
       ],
       "lastUpdated": "2025-07-10T07:10:13Z",
       "isArchived": false,
@@ -3259,8 +3186,7 @@
         "time-series"
       ],
       "categories": [
-        "DevOps",
-        "Go"
+        "DevOps"
       ],
       "lastUpdated": "2025-07-14T11:39:32Z",
       "isArchived": false,
@@ -3274,7 +3200,7 @@
       "language": "Shell",
       "topics": [],
       "categories": [
-        "Shell"
+        "Uncategorized"
       ],
       "lastUpdated": "2025-07-15T03:26:34Z",
       "isArchived": false,
@@ -3303,8 +3229,7 @@
         "unix-shell"
       ],
       "categories": [
-        "CLI Tools",
-        "C"
+        "CLI Tools"
       ],
       "lastUpdated": "2025-07-14T23:30:14Z",
       "isArchived": false,
@@ -3318,7 +3243,7 @@
       "language": "Shell",
       "topics": [],
       "categories": [
-        "Shell"
+        "Uncategorized"
       ],
       "lastUpdated": "2025-07-07T23:24:58Z",
       "isArchived": false,
@@ -3346,7 +3271,7 @@
       "language": "Go",
       "topics": [],
       "categories": [
-        "Go"
+        "Uncategorized"
       ],
       "lastUpdated": "2025-07-15T06:26:22Z",
       "isArchived": false,
@@ -3360,8 +3285,7 @@
       "language": "Go",
       "topics": [],
       "categories": [
-        "DevOps",
-        "Go"
+        "DevOps"
       ],
       "lastUpdated": "2025-07-15T00:30:28Z",
       "isArchived": false,
@@ -3380,7 +3304,7 @@
         "x86"
       ],
       "categories": [
-        "Assembly"
+        "Uncategorized"
       ],
       "lastUpdated": "2025-07-14T12:02:11Z",
       "isArchived": false,
@@ -3419,7 +3343,7 @@
         "CLI Tools",
         "DevOps",
         "AI/ML",
-        "Python"
+        "AI/ML"
       ],
       "lastUpdated": "2025-07-15T09:07:00Z",
       "isArchived": false,
@@ -3439,8 +3363,7 @@
         "kubernetes"
       ],
       "categories": [
-        "DevOps",
-        "Go"
+        "DevOps"
       ],
       "lastUpdated": "2025-07-14T05:46:21Z",
       "isArchived": false,
@@ -3473,8 +3396,7 @@
       "categories": [
         "DevOps",
         "Learning Resources",
-        "AI/ML",
-        "JavaScript"
+        "AI/ML"
       ],
       "lastUpdated": "2025-07-15T05:42:25Z",
       "isArchived": false,
@@ -3500,7 +3422,7 @@
         "xfce"
       ],
       "categories": [
-        "Shell"
+        "Uncategorized"
       ],
       "lastUpdated": "2025-07-06T18:14:16Z",
       "isArchived": false,
@@ -3514,7 +3436,7 @@
       "language": "C#",
       "topics": [],
       "categories": [
-        "C#"
+        "Uncategorized"
       ],
       "lastUpdated": "2025-07-15T05:57:30Z",
       "isArchived": false,
@@ -3536,7 +3458,7 @@
       "categories": [
         "CLI Tools",
         "AI/ML",
-        "Go"
+        "AI/ML"
       ],
       "lastUpdated": "2025-07-15T00:48:43Z",
       "isArchived": false,
@@ -3550,8 +3472,7 @@
       "language": "Go",
       "topics": [],
       "categories": [
-        "AI/ML",
-        "Go"
+        "AI/ML"
       ],
       "lastUpdated": "2025-07-14T23:41:56Z",
       "isArchived": false,
@@ -3570,8 +3491,7 @@
         "upgrades"
       ],
       "categories": [
-        "DevOps",
-        "Go"
+        "DevOps"
       ],
       "lastUpdated": "2025-07-12T18:11:56Z",
       "isArchived": false,
@@ -3603,7 +3523,7 @@
         "CLI Tools",
         "Databases",
         "AI/ML",
-        "Python"
+        "AI/ML"
       ],
       "lastUpdated": "2025-07-14T19:48:11Z",
       "isArchived": false,
@@ -3626,8 +3546,7 @@
         "mkdocs-material"
       ],
       "categories": [
-        "CLI Tools",
-        "Go"
+        "CLI Tools"
       ],
       "lastUpdated": "2025-07-14T16:47:38Z",
       "isArchived": false,
@@ -3642,9 +3561,7 @@
       "topics": [],
       "categories": [
         "DevOps",
-        "AI/ML",
-        "Developer Tools",
-        "Go"
+        "Developer Tools"
       ],
       "lastUpdated": "2025-07-15T09:02:08Z",
       "isArchived": false,
@@ -3663,8 +3580,8 @@
         "transformers"
       ],
       "categories": [
-        "Libraries",
-        "Go"
+        "AI/ML",
+        "Libraries"
       ],
       "lastUpdated": "2025-07-13T12:02:13Z",
       "isArchived": false,
@@ -3692,8 +3609,7 @@
       "language": "Python",
       "topics": [],
       "categories": [
-        "Templates",
-        "Python"
+        "Templates"
       ],
       "lastUpdated": "2025-07-09T10:29:10Z",
       "isArchived": false,
@@ -3709,8 +3625,7 @@
       "categories": [
         "DevOps",
         "AI/ML",
-        "Libraries",
-        "PowerShell"
+        "Libraries"
       ],
       "lastUpdated": "2025-07-14T10:22:18Z",
       "isArchived": false,
@@ -3726,8 +3641,7 @@
         "kubernetes"
       ],
       "categories": [
-        "DevOps",
-        "TypeScript"
+        "DevOps"
       ],
       "lastUpdated": "2025-07-11T12:57:50Z",
       "isArchived": false,
@@ -3741,7 +3655,7 @@
       "language": "Python",
       "topics": [],
       "categories": [
-        "Python"
+        "AI/ML"
       ],
       "lastUpdated": "2025-07-14T05:46:07Z",
       "isArchived": false,
@@ -3761,7 +3675,7 @@
         "python"
       ],
       "categories": [
-        "Python"
+        "Uncategorized"
       ],
       "lastUpdated": "2025-07-10T17:27:34Z",
       "isArchived": false,
@@ -3781,8 +3695,7 @@
         "mongodb-database"
       ],
       "categories": [
-        "Databases",
-        "TypeScript"
+        "Databases"
       ],
       "lastUpdated": "2025-07-15T09:26:56Z",
       "isArchived": false,
@@ -3802,8 +3715,7 @@
       ],
       "categories": [
         "CLI Tools",
-        "DevOps",
-        "Go"
+        "DevOps"
       ],
       "lastUpdated": "2025-07-10T06:10:42Z",
       "isArchived": false,
@@ -3833,7 +3745,7 @@
         "Learning Resources",
         "Awesome Lists",
         "AI/ML",
-        "Python"
+        "AI/ML"
       ],
       "lastUpdated": "2025-07-15T01:18:33Z",
       "isArchived": false,
@@ -3852,8 +3764,7 @@
         "vector-database"
       ],
       "categories": [
-        "Databases",
-        "JavaScript"
+        "Databases"
       ],
       "lastUpdated": "2025-07-14T06:16:04Z",
       "isArchived": false,
@@ -3872,8 +3783,7 @@
         "html5-canvas"
       ],
       "categories": [
-        "AI/ML",
-        "JavaScript"
+        "Uncategorized"
       ],
       "lastUpdated": "2025-07-08T09:03:51Z",
       "isArchived": false,
@@ -3891,8 +3801,7 @@
         "server"
       ],
       "categories": [
-        "DevOps",
-        "Go"
+        "DevOps"
       ],
       "lastUpdated": "2025-07-14T14:42:11Z",
       "isArchived": false,
@@ -3924,8 +3833,7 @@
       "categories": [
         "CLI Tools",
         "DevOps",
-        "AI/ML",
-        "TypeScript"
+        "AI/ML"
       ],
       "lastUpdated": "2025-07-14T15:10:42Z",
       "isArchived": false,
@@ -3949,8 +3857,7 @@
       "categories": [
         "AI/ML",
         "Libraries",
-        "Templates",
-        "Jinja"
+        "Templates"
       ],
       "lastUpdated": "2025-07-14T20:04:45Z",
       "isArchived": false,
@@ -3970,7 +3877,7 @@
       ],
       "categories": [
         "CLI Tools",
-        "C"
+        "Security"
       ],
       "lastUpdated": "2025-07-13T19:02:20Z",
       "isArchived": false,
@@ -3986,7 +3893,7 @@
       "categories": [
         "CLI Tools",
         "DevOps",
-        "Shell"
+        "Security"
       ],
       "lastUpdated": "2025-07-14T13:41:53Z",
       "isArchived": false,
@@ -4022,8 +3929,7 @@
       ],
       "categories": [
         "DevOps",
-        "AI/ML",
-        "D2"
+        "AI/ML"
       ],
       "lastUpdated": "2025-07-14T16:43:52Z",
       "isArchived": false,
@@ -4045,8 +3951,7 @@
         "tunables"
       ],
       "categories": [
-        "DevOps",
-        "Java"
+        "DevOps"
       ],
       "lastUpdated": "2025-07-11T19:36:18Z",
       "isArchived": false,
@@ -4073,8 +3978,7 @@
         "Web Frameworks",
         "CLI Tools",
         "Learning Resources",
-        "AI/ML",
-        "TypeScript"
+        "AI/ML"
       ],
       "lastUpdated": "2025-07-15T06:19:07Z",
       "isArchived": false,
@@ -4088,7 +3992,7 @@
       "language": "JavaScript",
       "topics": [],
       "categories": [
-        "JavaScript"
+        "Uncategorized"
       ],
       "lastUpdated": "2025-07-12T17:06:22Z",
       "isArchived": false,
@@ -4124,8 +4028,7 @@
       ],
       "categories": [
         "DevOps",
-        "Databases",
-        "Shell"
+        "Databases"
       ],
       "lastUpdated": "2025-07-15T01:51:28Z",
       "isArchived": false,
@@ -4148,8 +4051,7 @@
         "terraform-module"
       ],
       "categories": [
-        "Libraries",
-        "HCL"
+        "Libraries"
       ],
       "lastUpdated": "2025-07-10T12:55:38Z",
       "isArchived": false,
@@ -4174,8 +4076,7 @@
         "ui-components"
       ],
       "categories": [
-        "Libraries",
-        "Shell"
+        "Libraries"
       ],
       "lastUpdated": "2025-07-10T01:39:44Z",
       "isArchived": false,
@@ -4198,7 +4099,7 @@
       "categories": [
         "DevOps",
         "AI/ML",
-        "Python"
+        "AI/ML"
       ],
       "lastUpdated": "2025-07-15T09:14:30Z",
       "isArchived": false,
@@ -4215,8 +4116,7 @@
         "etcd"
       ],
       "categories": [
-        "CLI Tools",
-        "Go"
+        "CLI Tools"
       ],
       "lastUpdated": "2025-07-15T08:39:36Z",
       "isArchived": false,
@@ -4249,7 +4149,7 @@
         "documentation"
       ],
       "categories": [
-        "HTML"
+        "Uncategorized"
       ],
       "lastUpdated": "2025-07-08T16:48:34Z",
       "isArchived": false,
@@ -4263,8 +4163,7 @@
       "language": "Python",
       "topics": [],
       "categories": [
-        "AI/ML",
-        "Python"
+        "AI/ML"
       ],
       "lastUpdated": "2025-06-12T17:29:20Z",
       "isArchived": false,
@@ -4278,7 +4177,7 @@
       "language": "Python",
       "topics": [],
       "categories": [
-        "Python"
+        "Uncategorized"
       ],
       "lastUpdated": "2025-07-13T19:15:11Z",
       "isArchived": false,
@@ -4292,7 +4191,7 @@
       "language": "Ruby",
       "topics": [],
       "categories": [
-        "Ruby"
+        "Uncategorized"
       ],
       "lastUpdated": "2025-06-27T08:47:38Z",
       "isArchived": false,
@@ -4337,8 +4236,7 @@
         "CLI Tools",
         "Learning Resources",
         "AI/ML",
-        "Libraries",
-        "TypeScript"
+        "Libraries"
       ],
       "lastUpdated": "2025-07-15T06:18:56Z",
       "isArchived": false,
@@ -4361,8 +4259,7 @@
         "stars"
       ],
       "categories": [
-        "Web Frameworks",
-        "TypeScript"
+        "Web Frameworks"
       ],
       "lastUpdated": "2025-07-15T06:55:31Z",
       "isArchived": false,
@@ -4376,7 +4273,7 @@
       "language": "Rust",
       "topics": [],
       "categories": [
-        "Rust"
+        "Uncategorized"
       ],
       "lastUpdated": "2025-07-14T21:47:58Z",
       "isArchived": false,
@@ -4399,8 +4296,7 @@
       ],
       "categories": [
         "DevOps",
-        "AI/ML",
-        "Go"
+        "AI/ML"
       ],
       "lastUpdated": "2025-07-15T07:19:41Z",
       "isArchived": false,
@@ -4415,8 +4311,7 @@
       "topics": [],
       "categories": [
         "Developer Tools",
-        "Templates",
-        "TypeScript"
+        "Templates"
       ],
       "lastUpdated": "2025-07-15T07:58:53Z",
       "isArchived": false,
@@ -4443,8 +4338,7 @@
       ],
       "categories": [
         "CLI Tools",
-        "AI/ML",
-        "Shell"
+        "AI/ML"
       ],
       "lastUpdated": "2025-07-14T18:49:18Z",
       "isArchived": false,
@@ -4490,7 +4384,7 @@
         "azurelandingzones"
       ],
       "categories": [
-        "Makefile"
+        "Uncategorized"
       ],
       "lastUpdated": "2025-07-15T02:26:49Z",
       "isArchived": false,
@@ -4508,7 +4402,7 @@
         "maze"
       ],
       "categories": [
-        "JavaScript"
+        "Uncategorized"
       ],
       "lastUpdated": "2025-06-14T01:28:38Z",
       "isArchived": false,
@@ -4522,7 +4416,7 @@
       "language": "TypeScript",
       "topics": [],
       "categories": [
-        "TypeScript"
+        "Uncategorized"
       ],
       "lastUpdated": "2025-06-14T01:36:32Z",
       "isArchived": false,
@@ -4537,7 +4431,7 @@
       "topics": [],
       "categories": [
         "Learning Resources",
-        "Python"
+        "Security"
       ],
       "lastUpdated": "2025-07-03T08:22:45Z",
       "isArchived": false,
@@ -4546,68 +4440,46 @@
   ],
   "analytics": {
     "byLanguage": {
+      "Markdown": 1,
+      "Unknown": 19,
       "TypeScript": 20,
       "Python": 33,
-      "Go": 60,
-      "Unknown": 19,
-      "C#": 3,
-      "JavaScript": 11,
-      "Rust": 9,
-      "C++": 4,
       "C": 5,
-      "Makefile": 2,
+      "Go": 60,
+      "JavaScript": 11,
+      "Jupyter Notebook": 2,
+      "C++": 4,
+      "Rust": 9,
+      "C#": 3,
+      "Roff": 1,
       "Shell": 15,
       "PowerShell": 3,
-      "Jupyter Notebook": 2,
-      "HCL": 1,
-      "Assembly": 1,
-      "Ruby": 2,
-      "Roff": 1,
-      "Java": 1,
+      "Perl": 1,
       "Haskell": 1,
       "Mustache": 1,
-      "Perl": 1,
-      "Markdown": 1,
+      "Ruby": 2,
+      "Makefile": 2,
+      "Assembly": 1,
       "Jinja": 1,
       "D2": 1,
+      "Java": 1,
+      "HCL": 1,
       "HTML": 1
     },
     "byCategory": {
-      "Web Frameworks": 13,
-      "TypeScript": 20,
       "Learning Resources": 16,
-      "AI/ML": 56,
-      "Python": 33,
-      "Libraries": 13,
-      "CLI Tools": 54,
-      "Databases": 12,
-      "Go": 60,
-      "Uncategorized": 8,
+      "Uncategorized": 45,
+      "Web Frameworks": 13,
       "DevOps": 70,
+      "AI/ML": 78,
       "Developer Tools": 13,
-      "C#": 3,
-      "JavaScript": 11,
-      "Awesome Lists": 10,
-      "Rust": 9,
-      "C++": 4,
-      "C": 5,
-      "Templates": 5,
-      "Makefile": 2,
-      "Shell": 15,
-      "PowerShell": 3,
-      "Jupyter Notebook": 2,
-      "HCL": 1,
-      "Assembly": 1,
-      "Ruby": 2,
-      "Roff": 1,
-      "Java": 1,
-      "Haskell": 1,
-      "Mustache": 1,
-      "Perl": 1,
-      "Markdown": 1,
-      "Jinja": 1,
-      "D2": 1,
-      "HTML": 1
+      "CLI Tools": 54,
+      "Security": 13,
+      "Testing": 6,
+      "Awesome Lists": 6,
+      "Libraries": 13,
+      "Databases": 12,
+      "Templates": 5
     }
   }
 }
