@@ -143,8 +143,8 @@ class StarsDashboard {
     renderAnalytics(analytics) {
         if (!analytics) return;
 
-        this.renderChart('language-chart', analytics.byLanguage, 'Languages');
-        this.renderChart('category-chart', analytics.byCategory, 'Categories');
+        this.renderLanguageDonutChart('language-chart', analytics.byLanguage);
+        this.renderCategoryCards('category-chart', analytics.byCategory);
     }
 
     renderChart(containerId, data, title) {
@@ -171,6 +171,220 @@ class StarsDashboard {
         }).join('');
 
         container.innerHTML = html;
+    }
+
+    renderLanguageDonutChart(containerId, data) {
+        const container = document.getElementById(containerId);
+        if (!data || Object.keys(data).length === 0) {
+            container.innerHTML = '<p>No language data available</p>';
+            return;
+        }
+
+        // Filter out 'Unknown' and get top 8 languages
+        const filteredData = Object.entries(data)
+            .filter(([key]) => key !== 'Unknown')
+            .sort((a, b) => b[1] - a[1])
+            .slice(0, 8);
+        
+        const total = filteredData.reduce((sum, [, count]) => sum + count, 0);
+        
+        // Create SVG donut chart
+        const size = 200;
+        const strokeWidth = 30;
+        const radius = (size - strokeWidth) / 2;
+        const centerX = size / 2;
+        const centerY = size / 2;
+        
+        let cumulativePercentage = 0;
+        
+        const segments = filteredData.map(([language, count]) => {
+            const percentage = count / total;
+            const startAngle = cumulativePercentage * 2 * Math.PI;
+            const endAngle = (cumulativePercentage + percentage) * 2 * Math.PI;
+            
+            const startX = centerX + radius * Math.cos(startAngle - Math.PI / 2);
+            const startY = centerY + radius * Math.sin(startAngle - Math.PI / 2);
+            const endX = centerX + radius * Math.cos(endAngle - Math.PI / 2);
+            const endY = centerY + radius * Math.sin(endAngle - Math.PI / 2);
+            
+            const largeArcFlag = percentage > 0.5 ? 1 : 0;
+            
+            const pathData = `
+                M ${centerX} ${centerY}
+                L ${startX} ${startY}
+                A ${radius} ${radius} 0 ${largeArcFlag} 1 ${endX} ${endY}
+                Z
+            `;
+            
+            cumulativePercentage += percentage;
+            
+            return {
+                language,
+                count,
+                percentage: (percentage * 100).toFixed(1),
+                pathData,
+                color: this.getLanguageColor(language)
+            };
+        });
+        
+        const html = `
+            <div class="donut-chart-container">
+                <svg width="${size}" height="${size}" class="donut-chart">
+                    ${segments.map((segment, index) => `
+                        <path
+                            d="${segment.pathData}"
+                            fill="${segment.color}"
+                            stroke="var(--bg-primary)"
+                            stroke-width="2"
+                            class="donut-segment"
+                            data-language="${segment.language}"
+                            data-count="${segment.count}"
+                            data-percentage="${segment.percentage}"
+                        />
+                    `).join('')}
+                    <circle
+                        cx="${centerX}"
+                        cy="${centerY}"
+                        r="${radius - strokeWidth}"
+                        fill="var(--bg-primary)"
+                    />
+                </svg>
+                <div class="donut-center">
+                    <div class="donut-total">${total}</div>
+                    <div class="donut-label">Languages</div>
+                </div>
+            </div>
+        `;
+        
+        container.innerHTML = html;
+        
+        // Add hover interactions
+        const segments_elements = container.querySelectorAll('.donut-segment');
+        const centerLabel = container.querySelector('.donut-label');
+        const centerTotal = container.querySelector('.donut-total');
+        
+        segments_elements.forEach(element => {
+            element.addEventListener('mouseenter', (e) => {
+                const language = element.dataset.language;
+                const count = element.dataset.count;
+                const percentage = element.dataset.percentage;
+                
+                centerLabel.textContent = language;
+                centerTotal.textContent = `${count} (${percentage}%)`;
+                
+                // Highlight corresponding elements
+                segments_elements.forEach(el => {
+                    if (el.dataset.language === language) {
+                        el.classList.add('highlighted');
+                    } else {
+                        el.classList.add('dimmed');
+                    }
+                });
+            });
+            
+            element.addEventListener('mouseleave', () => {
+                centerLabel.textContent = 'Languages';
+                centerTotal.textContent = total;
+                
+                segments_elements.forEach(el => {
+                    el.classList.remove('highlighted', 'dimmed');
+                });
+            });
+            
+            // Click to filter
+            element.addEventListener('click', () => {
+                const language = element.dataset.language;
+                this.filters.language = language;
+                document.getElementById('language-filter').value = language;
+                this.applyFilters();
+            });
+        });
+    }
+
+    renderCategoryCards(containerId, data) {
+        const container = document.getElementById(containerId);
+        if (!data || Object.keys(data).length === 0) {
+            container.innerHTML = '<p>No category data available</p>';
+            return;
+        }
+
+        // Filter out programming languages from categories
+        const programmingLanguages = new Set([
+            'JavaScript', 'TypeScript', 'Python', 'Java', 'C++', 'C', 'C#', 
+            'Go', 'Rust', 'Ruby', 'PHP', 'Swift', 'Kotlin', 'Dart', 'HTML', 
+            'CSS', 'Shell', 'Dockerfile', 'Vue', 'Unknown'
+        ]);
+        
+        const categoryData = Object.entries(data)
+            .filter(([category]) => !programmingLanguages.has(category))
+            .sort((a, b) => b[1] - a[1]);
+        
+        const maxCount = Math.max(...categoryData.map(([, count]) => count));
+        const minCount = Math.min(...categoryData.map(([, count]) => count));
+        
+        const categoryIcons = {
+            'Web Frameworks': '🌐',
+            'CLI Tools': '⌨️',
+            'DevOps': '🚀',
+            'AI/ML': '🤖',
+            'Learning Resources': '📚',
+            'Awesome Lists': '📋',
+            'Databases': '🗄️',
+            'Developer Tools': '🔧',
+            'Libraries': '📦',
+            'Templates': '📄',
+            'Security': '🔒',
+            'Testing': '🧪',
+            'Uncategorized': '📁'
+        };
+        
+        const html = `
+            <div class="word-cloud">
+                ${categoryData.map(([category, count]) => {
+                    // Calculate font size based on count (between 0.7em and 1.4em for better fit)
+                    const fontSizeRatio = maxCount > minCount ? (count - minCount) / (maxCount - minCount) : 0;
+                    const fontSize = 0.7 + (fontSizeRatio * 0.7);
+                    
+                    // Calculate opacity based on count
+                    const opacity = 0.7 + (fontSizeRatio * 0.3);
+                    
+                    return `
+                        <span class="word-cloud-item" 
+                              data-category="${category}"
+                              style="font-size: ${fontSize}em; opacity: ${opacity};"
+                              title="${category}: ${count} repositories">
+                            <span class="word-text">${category}</span>
+                            <span class="word-count">(${count})</span>
+                        </span>
+                    `;
+                }).join('')}
+            </div>
+        `;
+        
+        container.innerHTML = html;
+        
+        // Add click interactions
+        const words = container.querySelectorAll('.word-cloud-item');
+        words.forEach(word => {
+            word.addEventListener('click', () => {
+                const category = word.dataset.category;
+                this.filters.category = category;
+                document.getElementById('category-filter').value = category;
+                this.applyFilters();
+                
+                // Visual feedback
+                words.forEach(w => w.classList.remove('selected'));
+                word.classList.add('selected');
+            });
+            
+            word.addEventListener('mouseenter', () => {
+                word.classList.add('hovered');
+            });
+            
+            word.addEventListener('mouseleave', () => {
+                word.classList.remove('hovered');
+            });
+        });
     }
 
     applyFilters() {
@@ -389,10 +603,24 @@ class RepositoryCategorizer {
             categories.push('Templates');
         }
 
-        // Language-specific categories
-        if (language) {
-            categories.push(language);
+        // Security
+        if (this.matchesKeywords(name, description, topics, [
+            'security', 'auth', 'authentication', 'authorization', 'crypto',
+            'encryption', 'oauth', 'jwt', 'ssl', 'tls'
+        ])) {
+            categories.push('Security');
         }
+
+        // Testing
+        if (this.matchesKeywords(name, description, topics, [
+            'test', 'testing', 'jest', 'mocha', 'cypress', 'selenium',
+            'unit-test', 'e2e', 'integration-test'
+        ])) {
+            categories.push('Testing');
+        }
+
+        // Don't use programming languages as categories anymore
+        // Languages are handled separately in analytics
 
         return categories.length > 0 ? categories : ['Uncategorized'];
     }

@@ -233,7 +233,7 @@ body {
 
 .analytics-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: 1fr 1fr;
     gap: 2rem;
 }
 
@@ -476,5 +476,191 @@ body {
     .repo-footer {
         flex-direction: column;
         align-items: flex-start;
+    }
+}
+
+/* Donut Chart Styles */
+.donut-chart-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.donut-chart {
+    position: relative;
+}
+
+.donut-segment {
+    cursor: pointer;
+    transition: var(--transition);
+    transform-origin: center;
+}
+
+.donut-segment:hover {
+    opacity: 0.8;
+    transform: scale(1.02);
+}
+
+.donut-segment.highlighted {
+    opacity: 1;
+    filter: brightness(1.2);
+}
+
+.donut-segment.dimmed {
+    opacity: 0.3;
+}
+
+.donut-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    pointer-events: none;
+}
+
+.donut-total {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    line-height: 1;
+}
+
+.donut-label {
+    font-size: 0.875rem;
+    color: var(--text-secondary);
+    margin-top: 0.25rem;
+}
+
+
+/* Updated Chart Container */
+.chart-container {
+    height: 300px;
+    padding: 1rem;
+    background: var(--bg-primary);
+    border-radius: var(--radius);
+    border: 1px solid var(--border-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+/* Word Cloud Styles */
+.word-cloud {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+    gap: 0.5rem;
+    width: 100%;
+    height: 100%;
+    padding: 0.75rem;
+    line-height: 1.3;
+    overflow-y: auto;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    
+    /* Custom scrollbar */
+    scrollbar-width: thin;
+    scrollbar-color: var(--border-color) transparent;
+}
+
+.word-cloud::-webkit-scrollbar {
+    width: 6px;
+}
+
+.word-cloud::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.word-cloud::-webkit-scrollbar-thumb {
+    background: var(--border-color);
+    border-radius: 3px;
+}
+
+.word-cloud::-webkit-scrollbar-thumb:hover {
+    background: var(--accent-color);
+}
+
+.word-cloud-item {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+    padding: 0.2rem 0.4rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: var(--transition);
+    white-space: nowrap;
+    color: var(--text-primary);
+    font-weight: 600;
+    border: 1px solid transparent;
+    flex-shrink: 0;
+}
+
+.word-cloud-item:hover,
+.word-cloud-item.hovered {
+    background: var(--bg-secondary);
+    border-color: var(--accent-color);
+    transform: scale(1.05);
+    opacity: 1 !important;
+    z-index: 10;
+    position: relative;
+}
+
+.word-cloud-item.selected {
+    background: var(--accent-color)25;
+    border-color: var(--accent-color);
+    color: var(--accent-color);
+}
+
+.word-text {
+    font-size: inherit;
+    line-height: 1.2;
+}
+
+.word-count {
+    font-size: 0.75em;
+    opacity: 0.7;
+    font-weight: 500;
+}
+
+/* Responsive updates for new visualizations */
+@media (max-width: 768px) {
+    .analytics-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .chart-container {
+        height: 250px;
+    }
+    
+    .word-cloud {
+        gap: 0.5rem;
+        padding: 0.75rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .chart-container {
+        height: 200px;
+    }
+    
+    .word-cloud {
+        gap: 0.25rem;
+        padding: 0.5rem;
+    }
+    
+    .word-cloud-item {
+        padding: 0.125rem 0.25rem;
+        gap: 0.125rem;
+    }
+    
+    .donut-chart {
+        width: 150px;
+        height: 150px;
     }
 }

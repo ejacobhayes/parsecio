@@ -34,12 +34,21 @@ Build a modern, static dashboard that automatically organizes and displays my Gi
    - By date starred
    - Alphabetical
 
-4. **Analytics Section**
-   - Total repos starred
-   - Distribution by language (pie/bar chart)
-   - Distribution by category
-   - Starring timeline (repos starred over time)
-   - "Dead projects" indicator (no updates in 2+ years)
+### Analytics Section
+- Total repos starred
+- **Language Distribution**
+  - Interactive donut/pie chart with language-specific colors
+  - Hover states showing exact counts and percentages
+  - Language icons/dots matching GitHub's color scheme
+  - Option to toggle between chart types (donut/bar/treemap)
+- **Category Distribution**
+  - Modern card-based layout or bubble chart
+  - Category icons for visual recognition
+  - Size-based on count with hover details
+  - Avoid redundancy (don't show languages as categories)
+- Starring timeline (repos starred over time)
+- "Dead projects" indicator (no updates in 2+ years)
+- **Interactive filters** - click on language/category to filter main view
 
 ## Technical Architecture
 
@@ -67,20 +76,25 @@ Build a modern, static dashboard that automatically organizes and displays my Gi
 4. Generates `data/starred.json` with enriched data
 5. Commits and pushes changes
 
-### Categorization Logic
+### Enhanced Categorization Logic
 ```javascript
-// Example categories to implement:
-- "Web Frameworks" (React, Vue, Angular repos)
-- "CLI Tools" (command-line utilities)
-- "DevOps" (Docker, K8s, CI/CD)
-- "Learning Resources" (tutorials, courses)
-- "Awesome Lists" (curated lists)
-- "Databases" (SQL, NoSQL)
-- "AI/ML" (machine learning projects)
-- "Developer Tools" (editors, productivity)
-- "Libraries" (utility libraries)
-- "Templates" (boilerplates, starters)
-```
+// Separate language detection from category assignment
+// Categories should be functional, not language-based:
+const categories = {
+  "Web Frameworks": ["react", "vue", "angular", "svelte"],
+  "CLI Tools": ["cli", "terminal", "command-line"],
+  "DevOps": ["docker", "kubernetes", "ci-cd", "terraform"],
+  "AI/ML": ["machine-learning", "ai", "tensorflow", "pytorch"],
+  "Developer Tools": ["vscode", "vim", "productivity"],
+  "Databases": ["database", "sql", "nosql", "orm"],
+  "Learning Resources": ["tutorial", "course", "awesome-"],
+  "Templates": ["boilerplate", "starter", "template"],
+  "Libraries": ["lib", "util", "helper"], // Generic utilities
+  "Security": ["security", "auth", "crypto"],
+  "Testing": ["test", "jest", "mocha", "cypress"]
+};
+
+// Don't use programming languages as categories
 
 ### Data Schema (starred.json)
 ```json
