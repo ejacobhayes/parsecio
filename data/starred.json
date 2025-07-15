@@ -1,0 +1,178 @@
+{
+  "generated": "2025-01-15T10:00:00Z",
+  "total": 12,
+  "repositories": [
+    {
+      "name": "facebook/react",
+      "description": "A declarative, efficient, and flexible JavaScript library for building user interfaces.",
+      "url": "https://github.com/facebook/react",
+      "stars": 213000,
+      "language": "JavaScript",
+      "topics": ["react", "ui", "frontend", "javascript"],
+      "categories": ["Web Frameworks", "Libraries"],
+      "lastUpdated": "2025-01-14T09:00:00Z",
+      "isArchived": false,
+      "isFork": false
+    },
+    {
+      "name": "microsoft/vscode",
+      "description": "Visual Studio Code - The Editor for Web Developers",
+      "url": "https://github.com/microsoft/vscode",
+      "stars": 155000,
+      "language": "TypeScript",
+      "topics": ["editor", "vscode", "typescript", "developer-tools"],
+      "categories": ["Developer Tools", "TypeScript"],
+      "lastUpdated": "2025-01-14T08:30:00Z",
+      "isArchived": false,
+      "isFork": false
+    },
+    {
+      "name": "docker/docker",
+      "description": "Docker is a platform for developers and sysadmins to develop, ship, and run applications",
+      "url": "https://github.com/docker/docker",
+      "stars": 67000,
+      "language": "Go",
+      "topics": ["docker", "containers", "devops", "go"],
+      "categories": ["DevOps", "Go"],
+      "lastUpdated": "2025-01-13T15:45:00Z",
+      "isArchived": false,
+      "isFork": false
+    },
+    {
+      "name": "tensorflow/tensorflow",
+      "description": "An Open Source Machine Learning Framework for Everyone",
+      "url": "https://github.com/tensorflow/tensorflow",
+      "stars": 180000,
+      "language": "Python",
+      "topics": ["machine-learning", "ai", "tensorflow", "python"],
+      "categories": ["AI/ML", "Python"],
+      "lastUpdated": "2025-01-14T07:20:00Z",
+      "isArchived": false,
+      "isFork": false
+    },
+    {
+      "name": "sindresorhus/awesome",
+      "description": "😎 Awesome lists about all kinds of interesting topics",
+      "url": "https://github.com/sindresorhus/awesome",
+      "stars": 250000,
+      "language": null,
+      "topics": ["awesome", "list", "resources"],
+      "categories": ["Awesome Lists"],
+      "lastUpdated": "2025-01-12T12:00:00Z",
+      "isArchived": false,
+      "isFork": false
+    },
+    {
+      "name": "vercel/next.js",
+      "description": "The React Framework for the Web",
+      "url": "https://github.com/vercel/next.js",
+      "stars": 115000,
+      "language": "JavaScript",
+      "topics": ["react", "nextjs", "frontend", "ssr"],
+      "categories": ["Web Frameworks", "JavaScript"],
+      "lastUpdated": "2025-01-14T11:30:00Z",
+      "isArchived": false,
+      "isFork": false
+    },
+    {
+      "name": "kubernetes/kubernetes",
+      "description": "Production-Grade Container Scheduling and Management",
+      "url": "https://github.com/kubernetes/kubernetes",
+      "stars": 105000,
+      "language": "Go",
+      "topics": ["kubernetes", "k8s", "containers", "orchestration"],
+      "categories": ["DevOps", "Go"],
+      "lastUpdated": "2025-01-14T06:15:00Z",
+      "isArchived": false,
+      "isFork": false
+    },
+    {
+      "name": "vuejs/vue",
+      "description": "🖖 Vue.js is a progressive, incrementally-adoptable JavaScript framework",
+      "url": "https://github.com/vuejs/vue",
+      "stars": 207000,
+      "language": "JavaScript",
+      "topics": ["vue", "frontend", "javascript", "framework"],
+      "categories": ["Web Frameworks", "JavaScript"],
+      "lastUpdated": "2025-01-13T14:20:00Z",
+      "isArchived": false,
+      "isFork": false
+    },
+    {
+      "name": "rust-lang/rust",
+      "description": "Empowering everyone to build reliable and efficient software.",
+      "url": "https://github.com/rust-lang/rust",
+      "stars": 89000,
+      "language": "Rust",
+      "topics": ["rust", "programming-language", "systems"],
+      "categories": ["Rust"],
+      "lastUpdated": "2025-01-14T10:45:00Z",
+      "isArchived": false,
+      "isFork": false
+    },
+    {
+      "name": "create-react-app",
+      "description": "Set up a modern web app by running one command.",
+      "url": "https://github.com/facebook/create-react-app",
+      "stars": 102000,
+      "language": "JavaScript",
+      "topics": ["react", "template", "boilerplate", "cli"],
+      "categories": ["Templates", "CLI Tools", "JavaScript"],
+      "lastUpdated": "2025-01-11T16:30:00Z",
+      "isArchived": false,
+      "isFork": false
+    },
+    {
+      "name": "mongodb/mongo",
+      "description": "The MongoDB Database",
+      "url": "https://github.com/mongodb/mongo",
+      "stars": 25000,
+      "language": "C++",
+      "topics": ["database", "mongodb", "nosql"],
+      "categories": ["Databases", "C++"],
+      "lastUpdated": "2025-01-14T05:00:00Z",
+      "isArchived": false,
+      "isFork": false
+    },
+    {
+      "name": "pytorch/pytorch",
+      "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
+      "url": "https://github.com/pytorch/pytorch",
+      "stars": 75000,
+      "language": "Python",
+      "topics": ["pytorch", "machine-learning", "deep-learning", "ai"],
+      "categories": ["AI/ML", "Python"],
+      "lastUpdated": "2025-01-14T08:15:00Z",
+      "isArchived": false,
+      "isFork": false
+    }
+  ],
+  "analytics": {
+    "byLanguage": {
+      "JavaScript": 4,
+      "Python": 2,
+      "Go": 2,
+      "TypeScript": 1,
+      "Rust": 1,
+      "C++": 1,
+      "Unknown": 1
+    },
+    "byCategory": {
+      "Web Frameworks": 3,
+      "AI/ML": 2,
+      "DevOps": 2,
+      "JavaScript": 4,
+      "Python": 2,
+      "Go": 2,
+      "Developer Tools": 1,
+      "TypeScript": 1,
+      "Awesome Lists": 1,
+      "Rust": 1,
+      "Templates": 1,
+      "CLI Tools": 1,
+      "Databases": 1,
+      "C++": 1,
+      "Libraries": 1
+    }
+  }
+}

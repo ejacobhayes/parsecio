@@ -1,0 +1,257 @@
+name: Update Starred Repositories
+
+on:
+  schedule:
+    # Run every Sunday at 6:00 AM UTC
+    - cron: '0 6 * * 0'
+  workflow_dispatch:
+    # Allow manual trigger
+
+jobs:
+  update-stars:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        
+    - name: Fetch starred repositories
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        # Create a Node.js script to fetch starred repositories
+        cat > fetch-stars.js << 'EOF'
+        const fs = require('fs');
+        const https = require('https');
+        
+        const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
+        const GITHUB_USERNAME = process.env.GITHUB_REPOSITORY.split('/')[0];
+        
+        class RepositoryCategorizer {
+          static categorize(repo) {
+            const categories = [];
+            const name = repo.name.toLowerCase();
+            const description = (repo.description || '').toLowerCase();
+            const topics = repo.topics || [];
+            const language = repo.language || '';
+        
+            // Web Frameworks
+            if (this.matchesKeywords(name, description, topics, [
+              'react', 'vue', 'angular', 'svelte', 'next.js', 'nuxt', 'gatsby',
+              'framework', 'frontend', 'ui-library'
+            ])) {
+              categories.push('Web Frameworks');
+            }
+        
+            // CLI Tools
+            if (this.matchesKeywords(name, description, topics, [
+              'cli', 'command-line', 'terminal', 'console', 'tool'
+            ]) || name.includes('cli')) {
+              categories.push('CLI Tools');
+            }
+        
+            // DevOps
+            if (this.matchesKeywords(name, description, topics, [
+              'docker', 'kubernetes', 'k8s', 'ci/cd', 'deployment', 'devops',
+              'infrastructure', 'monitoring', 'logging'
+            ])) {
+              categories.push('DevOps');
+            }
+        
+            // Learning Resources
+            if (this.matchesKeywords(name, description, topics, [
+              'tutorial', 'learning', 'course', 'guide', 'examples', 'demo',
+              'workshop', 'training', 'book'
+            ])) {
+              categories.push('Learning Resources');
+            }
+        
+            // Awesome Lists
+            if (name.startsWith('awesome-') || description.includes('curated list')) {
+              categories.push('Awesome Lists');
+            }
+        
+            // Databases
+            if (this.matchesKeywords(name, description, topics, [
+              'database', 'sql', 'nosql', 'mongodb', 'postgresql', 'mysql',
+              'redis', 'elasticsearch'
+            ])) {
+              categories.push('Databases');
+            }
+        
+            // AI/ML
+            if (this.matchesKeywords(name, description, topics, [
+              'machine-learning', 'ai', 'artificial-intelligence', 'neural-network',
+              'deep-learning', 'tensorflow', 'pytorch', 'ml'
+            ])) {
+              categories.push('AI/ML');
+            }
+        
+            // Developer Tools
+            if (this.matchesKeywords(name, description, topics, [
+              'editor', 'vscode', 'extension', 'productivity', 'developer-tools',
+              'development', 'debugging', 'testing'
+            ])) {
+              categories.push('Developer Tools');
+            }
+        
+            // Libraries
+            if (this.matchesKeywords(name, description, topics, [
+              'library', 'utility', 'helper', 'package', 'module'
+            ])) {
+              categories.push('Libraries');
+            }
+        
+            // Templates
+            if (this.matchesKeywords(name, description, topics, [
+              'template', 'boilerplate', 'starter', 'scaffold', 'generator'
+            ])) {
+              categories.push('Templates');
+            }
+        
+            // Language-specific categories
+            if (language) {
+              categories.push(language);
+            }
+        
+            return categories.length > 0 ? categories : ['Uncategorized'];
+          }
+        
+          static matchesKeywords(name, description, topics, keywords) {
+            const text = `${name} ${description} ${topics.join(' ')}`.toLowerCase();
+            return keywords.some(keyword => text.includes(keyword));
+          }
+        }
+        
+        async function fetchStarredRepos() {
+          const repositories = [];
+          let page = 1;
+          let hasNextPage = true;
+        
+          while (hasNextPage) {
+            const options = {
+              hostname: 'api.github.com',
+              path: `/users/${GITHUB_USERNAME}/starred?per_page=100&page=${page}`,
+              method: 'GET',
+              headers: {
+                'Authorization': `token ${GITHUB_TOKEN}`,
+                'User-Agent': 'Parsecio-Stars-Fetcher',
+                'Accept': 'application/vnd.github.v3+json'
+              }
+            };
+        
+            const repos = await new Promise((resolve, reject) => {
+              const req = https.request(options, (res) => {
+                let data = '';
+                res.on('data', (chunk) => data += chunk);
+                res.on('end', () => {
+                  if (res.statusCode === 200) {
+                    resolve(JSON.parse(data));
+                  } else {
+                    reject(new Error(`GitHub API error: ${res.statusCode}`));
+                  }
+                });
+              });
+              req.on('error', reject);
+              req.end();
+            });
+        
+            if (repos.length === 0) {
+              hasNextPage = false;
+            } else {
+              for (const repo of repos) {
+                const processedRepo = {
+                  name: repo.full_name,
+                  description: repo.description,
+                  url: repo.html_url,
+                  stars: repo.stargazers_count,
+                  language: repo.language,
+                  topics: repo.topics || [],
+                  categories: RepositoryCategorizer.categorize(repo),
+                  lastUpdated: repo.updated_at,
+                  isArchived: repo.archived,
+                  isFork: repo.fork
+                };
+                repositories.push(processedRepo);
+              }
+              page++;
+            }
+          }
+        
+          return repositories;
+        }
+        
+        async function generateAnalytics(repositories) {
+          const byLanguage = {};
+          const byCategory = {};
+        
+          repositories.forEach(repo => {
+            // Language analytics
+            const language = repo.language || 'Unknown';
+            byLanguage[language] = (byLanguage[language] || 0) + 1;
+        
+            // Category analytics
+            repo.categories.forEach(category => {
+              byCategory[category] = (byCategory[category] || 0) + 1;
+            });
+          });
+        
+          return { byLanguage, byCategory };
+        }
+        
+        async function main() {
+          try {
+            console.log('Fetching starred repositories...');
+            const repositories = await fetchStarredRepos();
+            
+            console.log(`Found ${repositories.length} starred repositories`);
+            
+            const analytics = await generateAnalytics(repositories);
+            
+            const data = {
+              generated: new Date().toISOString(),
+              total: repositories.length,
+              repositories: repositories.sort((a, b) => b.stars - a.stars),
+              analytics
+            };
+            
+            // Ensure data directory exists
+            if (!fs.existsSync('data')) {
+              fs.mkdirSync('data');
+            }
+            
+            fs.writeFileSync('data/starred.json', JSON.stringify(data, null, 2));
+            console.log('Successfully updated starred.json');
+            
+          } catch (error) {
+            console.error('Error:', error.message);
+            process.exit(1);
+          }
+        }
+        
+        main();
+        EOF
+        
+        # Run the script
+        node fetch-stars.js
+        
+    - name: Commit and push changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add data/starred.json
+        
+        # Check if there are changes to commit
+        if git diff --staged --quiet; then
+          echo "No changes to commit"
+        else
+          git commit -m "Update starred repositories data - $(date +'%Y-%m-%d %H:%M:%S')"
+          git push
+        fi
