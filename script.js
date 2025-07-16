@@ -575,9 +575,10 @@ class RepositoryCategorizer {
 
         // AI/ML
         if (this.matchesKeywords(name, description, topics, [
-            'machine-learning', 'ai', 'artificial-intelligence', 'neural-network',
-            'deep-learning', 'tensorflow', 'pytorch', 'ml'
-        ])) {
+            'machine-learning', 'artificial-intelligence', 'neural-network',
+            'deep-learning', 'tensorflow', 'pytorch', 'scikit-learn', 'keras',
+            'huggingface', 'transformers', 'llm', 'nlp', 'computer-vision'
+        ]) || this.matchesWordBoundary(name, description, topics, ['ai', 'ml'])) {
             categories.push('AI/ML');
         }
 
@@ -628,6 +629,14 @@ class RepositoryCategorizer {
     static matchesKeywords(name, description, topics, keywords) {
         const text = `${name} ${description} ${topics.join(' ')}`.toLowerCase();
         return keywords.some(keyword => text.includes(keyword));
+    }
+
+    static matchesWordBoundary(name, description, topics, keywords) {
+        const text = `${name} ${description} ${topics.join(' ')}`.toLowerCase();
+        return keywords.some(keyword => {
+            const regex = new RegExp(`\\b${keyword}\\b`, 'i');
+            return regex.test(text);
+        });
     }
 }
 
