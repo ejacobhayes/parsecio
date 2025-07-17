@@ -5,7 +5,8 @@
       "Bash(node:*)",
       "Bash(rm:*)",
       "Bash(grep:*)",
-      "Bash(python3:*)"
+      "Bash(python3:*)",
+      "Bash(cp:*)"
     ],
     "deny": []
   }

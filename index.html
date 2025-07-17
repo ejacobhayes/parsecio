@@ -3,97 +3,629 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Parsecio - GitHub Stars Dashboard</title>
+    <title>Parsecio - Modern GitHub Stars Dashboard</title>
+    <meta name="description" content="A beautiful, self-updating dashboard for your GitHub starred repositories with smart categorization and analytics.">
     <link rel="icon" type="image/png" href="assets/parsecio_icon.png">
     <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Product page specific styles */
+        .product-page {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 80px 20px;
+            background: linear-gradient(180deg, rgba(88, 166, 255, 0.1) 0%, transparent 100%);
+        }
+
+        .hero-logo {
+            width: 250px;
+            height: auto;
+            margin-bottom: 30px;
+            filter: drop-shadow(0 4px 20px rgba(88, 166, 255, 0.3));
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+            background: linear-gradient(135deg, #58a6ff, #79c0ff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .hero-subtitle {
+            font-size: 1.25rem;
+            color: var(--text-secondary);
+            margin-bottom: 40px;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .hero-buttons {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            padding: 12px 24px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.2s;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .btn-primary {
+            background-color: var(--accent-color);
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background-color: #79c0ff;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(88, 166, 255, 0.4);
+        }
+
+        .btn-secondary {
+            background-color: transparent;
+            color: var(--text-primary);
+            border: 1px solid var(--border-color);
+        }
+
+        .btn-secondary:hover {
+            border-color: var(--accent-color);
+            color: var(--accent-color);
+        }
+
+        .badges {
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+            margin-top: 30px;
+            flex-wrap: wrap;
+        }
+
+        .section {
+            padding: 80px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        /* Reduce gap between hero badges and features section */
+        .hero + .section {
+            padding-top: 5px;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        .section-subtitle {
+            text-align: center;
+            color: var(--text-secondary);
+            font-size: 1.1rem;
+            margin-bottom: 60px;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+            margin-bottom: 60px;
+        }
+
+        .feature-card {
+            background-color: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 30px;
+            transition: all 0.3s;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-4px);
+            border-color: var(--accent-color);
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+        }
+
+        .feature-icon {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        .feature-title {
+            font-size: 1.25rem;
+            margin-bottom: 15px;
+            color: var(--text-primary);
+        }
+
+        .feature-list {
+            list-style: none;
+            padding: 0;
+            color: var(--text-secondary);
+        }
+
+        .feature-list li {
+            margin-bottom: 10px;
+            padding-left: 20px;
+            position: relative;
+        }
+
+        .feature-list li:before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: var(--accent-color);
+        }
+
+        .demo-preview {
+            background-color: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s;
+        }
+
+        .demo-preview:hover {
+            transform: scale(1.02);
+        }
+
+        .demo-header {
+            background-color: var(--bg-primary);
+            padding: 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .demo-dot {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background-color: var(--border-color);
+        }
+
+        .demo-dot:first-child { background-color: #ff5f56; }
+        .demo-dot:nth-child(2) { background-color: #ffbd2e; }
+        .demo-dot:nth-child(3) { background-color: #27c93f; }
+
+        .demo-image {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .how-it-works {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 40px;
+            margin-top: 60px;
+        }
+
+        .step {
+            text-align: center;
+        }
+
+        .step-number {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 60px;
+            height: 60px;
+            background-color: var(--accent-color);
+            color: white;
+            border-radius: 50%;
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .step-title {
+            font-size: 1.25rem;
+            margin-bottom: 15px;
+        }
+
+        .step-description {
+            color: var(--text-secondary);
+            line-height: 1.6;
+        }
+
+        .quick-start {
+            background-color: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 40px;
+            margin-top: 40px;
+        }
+
+        .quick-start-steps {
+            counter-reset: step-counter;
+            list-style: none;
+            padding: 0;
+        }
+
+        .quick-start-steps li {
+            counter-increment: step-counter;
+            margin-bottom: 30px;
+            padding-left: 50px;
+            position: relative;
+        }
+
+        .quick-start-steps li:before {
+            content: counter(step-counter);
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 36px;
+            height: 36px;
+            background-color: var(--accent-color);
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+        }
+
+        .quick-start-steps h4 {
+            margin-bottom: 10px;
+            color: var(--text-primary);
+        }
+
+        .quick-start-steps p {
+            color: var(--text-secondary);
+            line-height: 1.6;
+        }
+
+        .code-block {
+            background-color: var(--bg-primary);
+            border: 1px solid var(--border-color);
+            border-radius: 6px;
+            padding: 10px 15px;
+            font-family: monospace;
+            font-size: 0.9rem;
+            margin-top: 10px;
+            overflow-x: auto;
+        }
+
+        .footer-cta {
+            text-align: center;
+            padding: 80px 20px;
+            background: linear-gradient(180deg, transparent 0%, rgba(88, 166, 255, 0.1) 100%);
+        }
+
+        .footer-cta h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+
+        .footer-cta p {
+            color: var(--text-secondary);
+            margin-bottom: 30px;
+            font-size: 1.1rem;
+        }
+
+        .product-footer {
+            background-color: var(--bg-secondary);
+            border-top: 1px solid var(--border-color);
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+        }
+
+        .footer-links a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        .footer-links a:hover {
+            color: var(--accent-color);
+        }
+
+        .nav-header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background-color: rgba(13, 17, 23, 0.9);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border-color);
+            padding: 15px 20px;
+            z-index: 1000;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .nav-logo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            text-decoration: none;
+            color: var(--text-primary);
+            font-weight: bold;
+            font-size: 1.1rem;
+        }
+
+        .nav-logo img {
+            width: 30px;
+            height: 30px;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 30px;
+            align-items: center;
+        }
+
+        .nav-links a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        .nav-links a:hover {
+            color: var(--accent-color);
+        }
+
+        /* Add padding to account for fixed nav */
+        .product-page {
+            padding-top: 60px;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2rem;
+            }
+
+            .section-title {
+                font-size: 1.75rem;
+            }
+
+            .nav-links {
+                gap: 15px;
+            }
+
+            .quick-start {
+                padding: 20px;
+            }
+        }
+    </style>
 </head>
 <body>
-    <div class="container">
-        <header class="header">
-            <h1 class="logo-stack">
-                <img src="assets/parsecio.png" alt="Parsecio" class="logo-image">
-            </h1>
-            <div class="header-actions">
-                <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
-                    <span class="theme-icon">☀️</span>
-                </button>
-                <button id="view-toggle" class="view-toggle" aria-label="Toggle view">
-                    <span class="view-icon">▦</span>
-                </button>
-            </div>
-        </header>
-
-        <div class="stats-bar">
-            <div class="stat">
-                <span class="stat-value" id="total-repos">0</span>
-                <span class="stat-label">Starred Repos</span>
-            </div>
-            <div class="stat">
-                <span class="stat-value" id="total-languages">0</span>
-                <span class="stat-label">Languages</span>
-            </div>
-            <div class="stat">
-                <span class="stat-value" id="total-categories">0</span>
-                <span class="stat-label">Categories</span>
-            </div>
+    <nav class="nav-header">
+        <a href="/" class="nav-logo">
+            <img src="assets/parsecio_icon.png" alt="Parsecio">
+            <span>Parsecio</span>
+        </a>
+        <div class="nav-links">
+            <a href="demo.html">Live Demo</a>
+            <a href="https://github.com/ejacobhayes/parsecio" target="_blank">GitHub</a>
+            <a href="#quick-start">Quick Start</a>
         </div>
+    </nav>
 
-        <div class="controls">
-            <div class="search-container">
-                <input type="text" id="search-input" placeholder="Search repositories..." class="search-input">
-                <span class="search-icon">🔍</span>
+    <div class="product-page">
+        <section class="hero">
+            <img src="assets/parsecio.png" alt="Parsecio" class="hero-logo">
+            <p class="hero-subtitle">
+                A modern, self-updating dashboard for your GitHub starred repositories
+                with smart categorization, filtering, and beautiful analytics.
+            </p>
+            <div class="hero-buttons">
+                <a href="demo.html" class="btn btn-primary">
+                    <span>🌟</span> View Live Demo
+                </a>
+                <a href="https://github.com/ejacobhayes/parsecio" class="btn btn-secondary" target="_blank">
+                    <span>📦</span> Fork on GitHub
+                </a>
             </div>
+            <div class="badges">
+                <img src="https://img.shields.io/badge/GitHub%20Pages-Live-brightgreen" alt="GitHub Pages">
+                <img src="https://img.shields.io/badge/GitHub%20Actions-Automated-blue" alt="GitHub Actions">
+                <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="MIT License">
+            </div>
+        </section>
+
+        <section class="section">
+            <h2 class="section-title">✨ Features</h2>
+            <p class="section-subtitle">
+                Everything you need to organize and understand your GitHub starred repositories
+            </p>
             
-            <div class="filter-container">
-                <select id="category-filter" class="filter-select">
-                    <option value="">All Categories</option>
-                </select>
-                
-                <select id="language-filter" class="filter-select">
-                    <option value="">All Languages</option>
-                </select>
-                
-                <select id="sort-filter" class="filter-select">
-                    <option value="stars">Sort by Stars</option>
-                    <option value="updated">Recently Updated</option>
-                    <option value="name">Alphabetical</option>
-                </select>
-            </div>
-        </div>
-
-        <div class="analytics-section" id="analytics-section">
-            <div class="analytics-grid">
-                <div class="analytics-card">
-                    <h3>Languages</h3>
-                    <div id="language-chart" class="chart-container"></div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🎯</div>
+                    <h3 class="feature-title">Smart Organization</h3>
+                    <ul class="feature-list">
+                        <li>Automatic categorization</li>
+                        <li>10+ predefined categories</li>
+                        <li>Real-time filtering</li>
+                        <li>Full-text search</li>
+                    </ul>
                 </div>
-                <div class="analytics-card">
-                    <h3>Categories</h3>
-                    <div id="category-chart" class="chart-container"></div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">🎨</div>
+                    <h3 class="feature-title">Beautiful Design</h3>
+                    <ul class="feature-list">
+                        <li>Dark mode by default</li>
+                        <li>GitHub-inspired UI</li>
+                        <li>Fully responsive</li>
+                        <li>Smooth animations</li>
+                    </ul>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">📊</div>
+                    <h3 class="feature-title">Insightful Analytics</h3>
+                    <ul class="feature-list">
+                        <li>Language distribution</li>
+                        <li>Category breakdown</li>
+                        <li>Repository statistics</li>
+                        <li>Visual charts</li>
+                    </ul>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">🤖</div>
+                    <h3 class="feature-title">Zero Maintenance</h3>
+                    <ul class="feature-list">
+                        <li>Weekly auto-updates</li>
+                        <li>GitHub Pages hosting</li>
+                        <li>No backend required</li>
+                        <li>Zero dependencies</li>
+                    </ul>
                 </div>
             </div>
-        </div>
+        </section>
 
-        <main class="main-content">
-            <div id="loading" class="loading">
-                <div class="spinner"></div>
-                <p>Loading starred repositories...</p>
-            </div>
+        <section class="section">
+            <h2 class="section-title">🖥️ See It In Action</h2>
+            <p class="section-subtitle">
+                A clean, intuitive interface that makes browsing your starred repositories a pleasure
+            </p>
             
-            <div id="error" class="error" style="display: none;">
-                <p>Failed to load repositories. Please try again later.</p>
+            <div class="demo-preview">
+                <div class="demo-header">
+                    <div class="demo-dot"></div>
+                    <div class="demo-dot"></div>
+                    <div class="demo-dot"></div>
+                </div>
+                <a href="demo.html">
+                    <img src="assets/demo-screenshot.png" alt="Parsecio Dashboard Demo" class="demo-image" onerror="this.style.display='none'; this.parentElement.innerHTML='<div style=\"padding: 100px; text-align: center; color: var(--text-secondary);\">Click to view live demo</div>'">
+                </a>
             </div>
-            
-            <div id="repositories" class="repositories grid-view">
-                <!-- Repository cards will be dynamically inserted here -->
-            </div>
-        </main>
+        </section>
 
-        <footer class="footer">
-            <p>Updated automatically via GitHub Actions • <a href="https://github.com/ejacobhayes/parsecio" target="_blank">Fork on GitHub</a></p>
+        <section class="section">
+            <h2 class="section-title">🔧 How It Works</h2>
+            <p class="section-subtitle">
+                Fully automated repository tracking powered by GitHub Actions
+            </p>
+            
+            <div class="how-it-works">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3 class="step-title">Fork & Deploy</h3>
+                    <p class="step-description">
+                        Fork the repository and enable GitHub Pages. Your dashboard goes live instantly at your GitHub Pages URL.
+                    </p>
+                </div>
+
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3 class="step-title">Auto Updates</h3>
+                    <p class="step-description">
+                        GitHub Actions runs weekly, fetching your starred repos and analyzing them for smart categorization.
+                    </p>
+                </div>
+
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3 class="step-title">Browse & Filter</h3>
+                    <p class="step-description">
+                        Access your beautifully organized dashboard anytime. Filter by category, language, or search for specific repos.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="quick-start">
+            <h2 class="section-title">🚀 Quick Start</h2>
+            <p class="section-subtitle">
+                Get your own Parsecio dashboard running in just a few minutes
+            </p>
+            
+            <div class="quick-start">
+                <ol class="quick-start-steps">
+                    <li>
+                        <h4>Fork This Repository</h4>
+                        <p>Click the "Fork" button in the top right corner of the GitHub repository.</p>
+                    </li>
+                    
+                    <li>
+                        <h4>Enable GitHub Pages</h4>
+                        <p>Go to Settings → Pages → Deploy from branch → main → / (root)</p>
+                        <div class="code-block">
+                            https://yourusername.github.io/parsecio
+                        </div>
+                    </li>
+                    
+                    <li>
+                        <h4>Configure Custom Domain (Optional)</h4>
+                        <p>Update the CNAME file and configure your DNS:</p>
+                        <div class="code-block">
+                            185.199.108.153<br>
+                            185.199.109.153<br>
+                            185.199.110.153<br>
+                            185.199.111.153
+                        </div>
+                    </li>
+                    
+                    <li>
+                        <h4>Customize (Optional)</h4>
+                        <p>Replace logo files, update categories, and modify styles to match your preferences.</p>
+                    </li>
+                </ol>
+            </div>
+        </section>
+
+        <section class="footer-cta">
+            <h2>Ready to organize your GitHub stars?</h2>
+            <p>Join developers who are already using Parsecio to manage their starred repositories.</p>
+            <div class="hero-buttons">
+                <a href="https://github.com/ejacobhayes/parsecio/fork" class="btn btn-primary" target="_blank">
+                    <span>🚀</span> Fork Parsecio Now
+                </a>
+                <a href="demo.html" class="btn btn-secondary">
+                    <span>👀</span> See Demo First
+                </a>
+            </div>
+        </section>
+
+        <footer class="product-footer">
+            <div class="footer-links">
+                <a href="https://github.com/ejacobhayes/parsecio" target="_blank">GitHub</a>
+                <a href="https://github.com/ejacobhayes/parsecio/issues" target="_blank">Issues</a>
+                <a href="https://github.com/ejacobhayes/parsecio/blob/main/LICENSE" target="_blank">License</a>
+                <a href="demo.html">Demo</a>
+            </div>
+            <p style="color: var(--text-secondary); margin: 0;">
+                Built with ❤️ by <a href="https://github.com/ejacobhayes" target="_blank" style="color: var(--accent-color);">ejacobhayes</a>
+            </p>
         </footer>
     </div>
 
-    <script src="script.js"></script>
+    <script>
+        // Simple theme toggle for product page
+        const savedTheme = localStorage.getItem('theme') || 'dark';
+        document.documentElement.setAttribute('data-theme', savedTheme);
+    </script>
 </body>
 </html>

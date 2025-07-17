@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parsecio - GitHub Stars Dashboard</title>
+    <link rel="icon" type="image/png" href="assets/parsecio_icon.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1 class="logo-stack">
+                <img src="assets/parsecio.png" alt="Parsecio" class="logo-image">
+            </h1>
+            <div class="header-actions">
+                <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
+                    <span class="theme-icon">☀️</span>
+                </button>
+                <button id="view-toggle" class="view-toggle" aria-label="Toggle view">
+                    <span class="view-icon">▦</span>
+                </button>
+            </div>
+        </header>
+
+        <div class="stats-bar">
+            <div class="stat">
+                <span class="stat-value" id="total-repos">0</span>
+                <span class="stat-label">Starred Repos</span>
+            </div>
+            <div class="stat">
+                <span class="stat-value" id="total-languages">0</span>
+                <span class="stat-label">Languages</span>
+            </div>
+            <div class="stat">
+                <span class="stat-value" id="total-categories">0</span>
+                <span class="stat-label">Categories</span>
+            </div>
+        </div>
+
+        <div class="controls">
+            <div class="search-container">
+                <input type="text" id="search-input" placeholder="Search repositories..." class="search-input">
+                <span class="search-icon">🔍</span>
+            </div>
+            
+            <div class="filter-container">
+                <select id="category-filter" class="filter-select">
+                    <option value="">All Categories</option>
+                </select>
+                
+                <select id="language-filter" class="filter-select">
+                    <option value="">All Languages</option>
+                </select>
+                
+                <select id="sort-filter" class="filter-select">
+                    <option value="stars">Sort by Stars</option>
+                    <option value="updated">Recently Updated</option>
+                    <option value="name">Alphabetical</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="analytics-section" id="analytics-section">
+            <div class="analytics-grid">
+                <div class="analytics-card">
+                    <h3>Languages</h3>
+                    <div id="language-chart" class="chart-container"></div>
+                </div>
+                <div class="analytics-card">
+                    <h3>Categories</h3>
+                    <div id="category-chart" class="chart-container"></div>
+                </div>
+            </div>
+        </div>
+
+        <main class="main-content">
+            <div id="loading" class="loading">
+                <div class="spinner"></div>
+                <p>Loading starred repositories...</p>
+            </div>
+            
+            <div id="error" class="error" style="display: none;">
+                <p>Failed to load repositories. Please try again later.</p>
+            </div>
+            
+            <div id="repositories" class="repositories grid-view">
+                <!-- Repository cards will be dynamically inserted here -->
+            </div>
+        </main>
+
+        <footer class="footer">
+            <p>Updated automatically via GitHub Actions • <a href="/" target="_blank">Back to Home</a> • <a href="https://github.com/ejacobhayes/parsecio" target="_blank">Fork on GitHub</a></p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
