@@ -132,6 +132,41 @@ jobs:
             ])) {
               categories.push('Testing');
             }
+
+            // Interview & Algorithms
+            if (this.matchesKeywords(name, description, topics, [
+              'interview', 'interview-prep', 'interview-preparation', 'coding-interview',
+              'coding-interviews', 'algorithm', 'algorithms', 'data-structures',
+              'computer-science', 'programming-interviews', 'study-plan', 'leetcode',
+              'competitive-programming'
+            ])) {
+              categories.push('Interview & Algorithms');
+            }
+
+            // Data & Analytics
+            if (this.matchesKeywords(name, description, topics, [
+              'analytics', 'data-science', 'data-analysis', 'data-visualization',
+              'visualization', 'observability', 'mlops', 'dashboard', 'charts'
+            ])) {
+              categories.push('Data & Analytics');
+            }
+
+            // IoT & Hardware
+            if (this.matchesKeywords(name, description, topics, [
+              'iot', 'internet-of-things', 'raspberry-pi', 'arduino', 'home-automation',
+              'mqtt', 'embedded', 'hardware', 'smart-home'
+            ])) {
+              categories.push('IoT & Hardware');
+            }
+
+            // Infrastructure & Cloud
+            if (this.matchesKeywords(name, description, topics, [
+              'aws', 'gcp', 'azure', 'cloud', 'infrastructure-as-code', 'terraform',
+              'cloudformation', 'networking', 'network', 'dns', 'certificate',
+              'cost-optimization'
+            ])) {
+              categories.push('Infrastructure & Cloud');
+            }
         
             // Don't use programming languages as categories anymore
             // Languages are handled separately in analytics
