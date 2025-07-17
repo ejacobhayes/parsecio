@@ -14,6 +14,32 @@
     --shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     --radius: 6px;
     --transition: all 0.2s ease;
+    
+    /* Word Cloud Category Colors - Dark Mode */
+    --category-web: #61dafb;
+    --category-cli: #4ade80;
+    --category-devops: #f59e0b;
+    --category-llm: #a78bfa;
+    --category-ml: #ec4899;
+    --category-cv: #06b6d4;
+    --category-ai: #4682b4;
+    --category-mcp: #10b981;
+    --category-dev-resources: #3b82f6;
+    --category-awesome: #fbbf24;
+    --category-databases: #ef4444;
+    --category-dev-tools: #84cc16;
+    --category-desktop: #06b6d4;
+    --category-shell: #22c55e;
+    --category-system: #f97316;
+    --category-version: #6366f1;
+    --category-libraries: #14b8a6;
+    --category-security: #dc2626;
+    --category-testing: #059669;
+    --category-monitoring: #0ea5e9;
+    --category-data: #7c3aed;
+    --category-infrastructure: #0891b2;
+    --category-iot: #f59e0b;
+    --category-uncategorized: #94a3b8;
 }
 
 /* Light Mode */
@@ -30,6 +56,32 @@
     --success-color: #1f883d;
     --warning-color: #d1242f;
     --shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+    /* Word Cloud Category Colors - Light Mode */
+    --category-web: #0ea5e9;
+    --category-cli: #059669;
+    --category-devops: #ea580c;
+    --category-llm: #7c3aed;
+    --category-ml: #be185d;
+    --category-cv: #0891b2;
+    --category-ai: #36648b;
+    --category-mcp: #047857;
+    --category-dev-resources: #1d4ed8;
+    --category-awesome: #d97706;
+    --category-databases: #dc2626;
+    --category-dev-tools: #65a30d;
+    --category-desktop: #0891b2;
+    --category-shell: #16a34a;
+    --category-system: #ea580c;
+    --category-version: #4f46e5;
+    --category-libraries: #0d9488;
+    --category-security: #b91c1c;
+    --category-testing: #047857;
+    --category-monitoring: #0284c7;
+    --category-data: #6d28d9;
+    --category-infrastructure: #0e7490;
+    --category-iot: #d97706;
+    --category-uncategorized: #64748b;
 }
 
 /* Reset and Base Styles */

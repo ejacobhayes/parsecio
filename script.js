@@ -322,21 +322,6 @@ class StarsDashboard {
         const maxCount = Math.max(...categoryData.map(([, count]) => count));
         const minCount = Math.min(...categoryData.map(([, count]) => count));
         
-        const categoryIcons = {
-            'Web Frameworks': '🌐',
-            'CLI Tools': '⌨️',
-            'DevOps': '🚀',
-            'AI/ML': '🤖',
-            'Learning Resources': '📚',
-            'Awesome Lists': '📋',
-            'Databases': '🗄️',
-            'Developer Tools': '🔧',
-            'Libraries': '📦',
-            'Templates': '📄',
-            'Security': '🔒',
-            'Testing': '🧪',
-            'Uncategorized': '📁'
-        };
         
         const html = `
             <div class="word-cloud">
@@ -348,10 +333,13 @@ class StarsDashboard {
                     // Calculate opacity based on count
                     const opacity = 0.7 + (fontSizeRatio * 0.3);
                     
+                    // Get category color
+                    const categoryColor = this.getCategoryColor(category);
+                    
                     return `
                         <span class="word-cloud-item" 
                               data-category="${category}"
-                              style="font-size: ${fontSize}em; opacity: ${opacity};"
+                              style="font-size: ${fontSize}em; opacity: ${opacity}; color: ${categoryColor};"
                               title="${category}: ${count} repositories">
                             <span class="word-text">${category}</span>
                             <span class="word-count">(${count})</span>
@@ -510,6 +498,41 @@ class StarsDashboard {
         return colors[language] || '#8b949e';
     }
 
+    getCategoryColor(category) {
+        const colorMap = {
+            'Web Frameworks': 'var(--category-web)',
+            'CLI Tools': 'var(--category-cli)',
+            'DevOps': 'var(--category-devops)',
+            'LLM & AI Agents': 'var(--category-llm)',
+            'Machine Learning': 'var(--category-ml)',
+            'Computer Vision': 'var(--category-cv)',
+            'Artificial Intelligence': 'var(--category-ai)',
+            'Model Context Protocol': 'var(--category-mcp)',
+            'Development Resources': 'var(--category-dev-resources)',
+            'Awesome Lists': 'var(--category-awesome)',
+            'Databases': 'var(--category-databases)',
+            'Developer Tools': 'var(--category-dev-tools)',
+            'Desktop Applications': 'var(--category-desktop)',
+            'Shell & Terminal': 'var(--category-shell)',
+            'System Tools': 'var(--category-system)',
+            'Version Management': 'var(--category-version)',
+            'Libraries': 'var(--category-libraries)',
+            'Security': 'var(--category-security)',
+            'Testing': 'var(--category-testing)',
+            'Monitoring & Observability': 'var(--category-monitoring)',
+            'Data & Analytics': 'var(--category-data)',
+            'Infrastructure & Cloud': 'var(--category-infrastructure)',
+            'IoT & Hardware': 'var(--category-iot)',
+            'Uncategorized': 'var(--category-uncategorized)',
+            // Backward compatibility
+            'AI/ML': 'var(--category-ai)',
+            'Learning Resources': 'var(--category-dev-resources)',
+            'Templates': 'var(--category-dev-resources)',
+            'Interview & Algorithms': 'var(--category-dev-resources)'
+        };
+        return colorMap[category] || 'var(--category-uncategorized)';
+    }
+
     hideLoading() {
         document.getElementById('loading').style.display = 'none';
     }
@@ -537,31 +560,63 @@ class RepositoryCategorizer {
             categories.push('Web Frameworks');
         }
 
+        // Model Context Protocol
+        if (this.matchesKeywords(name, description, topics, [
+            'mcp', 'mcp-server', 'mcp-client', 'model-context-protocol'
+        ])) {
+            categories.push('Model Context Protocol');
+        }
+
         // CLI Tools
         if (this.matchesKeywords(name, description, topics, [
-            'cli', 'command-line', 'terminal', 'console', 'tool'
+            'cli', 'command-line', 'console', 'tool'
         ]) || name.includes('cli')) {
             categories.push('CLI Tools');
+        }
+
+        // Shell & Terminal
+        if (this.matchesKeywords(name, description, topics, [
+            'shell', 'bash', 'zsh', 'fish', 'terminal', 'shell-prompt',
+            'oh-my-zsh', 'starship', 'powershell', 'fish-prompt', 'zsh-prompt',
+            'zsh-theme', 'fish-theme'
+        ])) {
+            categories.push('Shell & Terminal');
         }
 
         // DevOps
         if (this.matchesKeywords(name, description, topics, [
             'docker', 'kubernetes', 'k8s', 'ci/cd', 'deployment', 'devops',
-            'infrastructure', 'monitoring', 'logging'
+            'infrastructure'
         ])) {
             categories.push('DevOps');
         }
 
-        // Learning Resources
+        // Monitoring & Observability
+        if (this.matchesKeywords(name, description, topics, [
+            'monitoring', 'observability', 'prometheus', 'grafana', 'alerting',
+            'logging', 'metrics', 'tracing', 'telemetry', 'apm'
+        ])) {
+            categories.push('Monitoring & Observability');
+        }
+
+        // Development Resources (merged category)
         if (this.matchesKeywords(name, description, topics, [
             'tutorial', 'learning', 'course', 'guide', 'examples', 'demo',
-            'workshop', 'training', 'book'
+            'workshop', 'training', 'book', 'template', 'boilerplate', 'starter',
+            'scaffold', 'generator', 'interview', 'interview-prep', 'interview-preparation',
+            'coding-interview', 'coding-interviews', 'algorithm', 'algorithms',
+            'data-structures', 'computer-science', 'programming-interviews',
+            'study-plan', 'leetcode', 'competitive-programming'
         ])) {
-            categories.push('Learning Resources');
+            categories.push('Development Resources');
         }
 
         // Awesome Lists
-        if (name.startsWith('awesome-') || description.includes('curated list')) {
+        if (name.startsWith('awesome-') || description.includes('curated list') ||
+            this.matchesKeywords(name, description, topics, [
+                'awesome', 'awesome-list', 'lists', 'resources', 'curated',
+                'collection', 'collections'
+            ])) {
             categories.push('Awesome Lists');
         }
 
@@ -573,21 +628,54 @@ class RepositoryCategorizer {
             categories.push('Databases');
         }
 
-        // AI/ML
+        // LLM & AI Agents (split from AI/ML)
         if (this.matchesKeywords(name, description, topics, [
-            'machine-learning', 'artificial-intelligence', 'neural-network',
-            'deep-learning', 'tensorflow', 'pytorch', 'scikit-learn', 'keras',
-            'huggingface', 'transformers', 'llm', 'nlp', 'computer-vision'
-        ]) || this.matchesWordBoundary(name, description, topics, ['ai', 'ml'])) {
-            categories.push('AI/ML');
+            'llm', 'llms', 'rag', 'chatgpt', 'gpt', 'gpt-4', 'agents', 'agent',
+            'openai', 'chatbot', 'conversation', 'prompt', 'language-model',
+            'large-language-models', 'generative-ai', 'autonomous-agents'
+        ])) {
+            categories.push('LLM & AI Agents');
+        }
+
+        // Machine Learning
+        if (this.matchesKeywords(name, description, topics, [
+            'machine-learning', 'deep-learning', 'neural-network',
+            'tensorflow', 'pytorch', 'scikit-learn', 'keras', 'huggingface',
+            'transformers', 'mlops', 'model-training', 'training'
+        ]) || this.matchesWordBoundary(name, description, topics, ['ml'])) {
+            categories.push('Machine Learning');
+        }
+
+        // Computer Vision
+        if (this.matchesKeywords(name, description, topics, [
+            'computer-vision', 'image-processing', 'opencv', 'stable-diffusion',
+            'image-generation', 'image2image', 'text2image', 'diffusion',
+            'ai-art', 'upscaling', 'image-upscaling'
+        ])) {
+            categories.push('Computer Vision');
+        }
+
+        // Artificial Intelligence (general)
+        if (this.matchesKeywords(name, description, topics, [
+            'artificial-intelligence', 'nlp', 'natural-language-processing'
+        ]) || this.matchesWordBoundary(name, description, topics, ['ai'])) {
+            categories.push('Artificial Intelligence');
         }
 
         // Developer Tools
         if (this.matchesKeywords(name, description, topics, [
             'editor', 'vscode', 'extension', 'productivity', 'developer-tools',
-            'development', 'debugging', 'testing'
+            'development', 'debugging'
         ])) {
             categories.push('Developer Tools');
+        }
+
+        // Desktop Applications
+        if (this.matchesKeywords(name, description, topics, [
+            'desktop', 'desktop-app', 'gui', 'electron', 'tauri', 'flutter-desktop',
+            'application', 'app', 'cross-platform', 'native-app'
+        ])) {
+            categories.push('Desktop Applications');
         }
 
         // Libraries
@@ -597,11 +685,20 @@ class RepositoryCategorizer {
             categories.push('Libraries');
         }
 
-        // Templates
+        // System Tools
         if (this.matchesKeywords(name, description, topics, [
-            'template', 'boilerplate', 'starter', 'scaffold', 'generator'
+            'system', 'kernel', 'low-level', 'operating-system', 'linux',
+            'unix', 'system-administration', 'system-tools'
+        ]) || name === 'linux' || name.includes('kernel')) {
+            categories.push('System Tools');
+        }
+
+        // Version Management
+        if (this.matchesKeywords(name, description, topics, [
+            'version', 'version-management', 'pyenv', 'nvm', 'rbenv',
+            'version-control', 'package-manager', 'environment-management'
         ])) {
-            categories.push('Templates');
+            categories.push('Version Management');
         }
 
         // Security
@@ -615,19 +712,10 @@ class RepositoryCategorizer {
         // Testing
         if (this.matchesKeywords(name, description, topics, [
             'test', 'testing', 'jest', 'mocha', 'cypress', 'selenium',
-            'unit-test', 'e2e', 'integration-test'
+            'unit-test', 'e2e', 'integration-test', 'test-automation',
+            'testing-tools', 'playwright'
         ])) {
             categories.push('Testing');
-        }
-
-        // Interview & Algorithms
-        if (this.matchesKeywords(name, description, topics, [
-            'interview', 'interview-prep', 'interview-preparation', 'coding-interview',
-            'coding-interviews', 'algorithm', 'algorithms', 'data-structures',
-            'computer-science', 'programming-interviews', 'study-plan', 'leetcode',
-            'competitive-programming'
-        ])) {
-            categories.push('Interview & Algorithms');
         }
 
         // Data & Analytics
