@@ -86,16 +86,12 @@ jobs:
               categories.push('Databases');
             }
         
-            // AI/ML - be more specific to avoid false positives
+            // AI/ML
             if (this.matchesKeywords(name, description, topics, [
               'machine-learning', 'artificial-intelligence', 'neural-network',
-              'deep-learning', 'tensorflow', 'pytorch', 'scikit-learn',
-              'keras', 'huggingface', 'transformers', 'llm', 'gpt',
-              'computer-vision', 'nlp', 'natural-language'
-            ]) || (
-              this.matchesKeywords(name, description, topics, ['ai']) &&
-              !this.matchesKeywords(name, description, topics, ['graphics', '3d', 'game', 'animation'])
-            )) {
+              'deep-learning', 'tensorflow', 'pytorch', 'scikit-learn', 'keras',
+              'huggingface', 'transformers', 'llm', 'nlp', 'computer-vision'
+            ]) || this.matchesWordBoundary(name, description, topics, ['ai', 'ml'])) {
               categories.push('AI/ML');
             }
         
@@ -146,6 +142,14 @@ jobs:
           static matchesKeywords(name, description, topics, keywords) {
             const text = `${name} ${description} ${topics.join(' ')}`.toLowerCase();
             return keywords.some(keyword => text.includes(keyword));
+          }
+
+          static matchesWordBoundary(name, description, topics, keywords) {
+            const text = `${name} ${description} ${topics.join(' ')}`.toLowerCase();
+            return keywords.some(keyword => {
+              const regex = new RegExp(`\\\\b${keyword}\\\\b`, 'i');
+              return regex.test(text);
+            });
           }
         }
         
