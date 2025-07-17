@@ -1,12 +1,12 @@
 {
-  "generated": "2025-07-17T07:54:08.074Z",
-  "total": 259,
+  "generated": "2025-07-17T07:56:21.978Z",
+  "total": 288,
   "repositories": [
     {
       "name": "codecrafters-io/build-your-own-x",
       "description": "Master programming by recreating your favorite technologies from scratch.",
       "url": "https://github.com/codecrafters-io/build-your-own-x",
-      "stars": 400967,
+      "stars": 400968,
       "language": "Markdown",
       "topics": [
         "awesome-list",
@@ -19,7 +19,7 @@
       "categories": [
         "Learning Resources"
       ],
-      "lastUpdated": "2025-07-17T07:52:21Z",
+      "lastUpdated": "2025-07-17T07:54:48Z",
       "isArchived": false,
       "isFork": false
     },
@@ -102,7 +102,7 @@
       "categories": [
         "Interview & Algorithms"
       ],
-      "lastUpdated": "2025-07-17T07:35:25Z",
+      "lastUpdated": "2025-07-17T07:55:24Z",
       "isArchived": false,
       "isFork": false
     },
@@ -139,7 +139,7 @@
       "name": "vinta/awesome-python",
       "description": "An opinionated list of awesome Python frameworks, libraries, software and resources.",
       "url": "https://github.com/vinta/awesome-python",
-      "stars": 250560,
+      "stars": 250561,
       "language": "Python",
       "topics": [
         "awesome",
@@ -154,7 +154,7 @@
         "Awesome Lists",
         "Libraries"
       ],
-      "lastUpdated": "2025-07-17T07:50:24Z",
+      "lastUpdated": "2025-07-17T07:54:32Z",
       "isArchived": false,
       "isFork": false
     },
@@ -162,13 +162,13 @@
       "name": "torvalds/linux",
       "description": "Linux kernel source tree",
       "url": "https://github.com/torvalds/linux",
-      "stars": 197771,
+      "stars": 197772,
       "language": "C",
       "topics": [],
       "categories": [
         "Uncategorized"
       ],
-      "lastUpdated": "2025-07-17T07:37:35Z",
+      "lastUpdated": "2025-07-17T07:54:29Z",
       "isArchived": false,
       "isFork": false
     },
@@ -199,7 +199,7 @@
       "name": "trimstray/the-book-of-secret-knowledge",
       "description": "A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more.",
       "url": "https://github.com/trimstray/the-book-of-secret-knowledge",
-      "stars": 178406,
+      "stars": 178407,
       "language": null,
       "topics": [
         "awesome",
@@ -229,7 +229,7 @@
         "Security",
         "Testing"
       ],
-      "lastUpdated": "2025-07-17T07:37:15Z",
+      "lastUpdated": "2025-07-17T07:54:08Z",
       "isArchived": false,
       "isFork": false
     },
@@ -488,7 +488,7 @@
       "name": "langgenius/dify",
       "description": "Production-ready platform for agentic workflow development.",
       "url": "https://github.com/langgenius/dify",
-      "stars": 107347,
+      "stars": 107348,
       "language": "TypeScript",
       "topics": [
         "agent",
@@ -517,7 +517,7 @@
         "AI/ML",
         "Developer Tools"
       ],
-      "lastUpdated": "2025-07-17T07:53:40Z",
+      "lastUpdated": "2025-07-17T07:54:17Z",
       "isArchived": false,
       "isFork": false
     },
@@ -542,7 +542,7 @@
       "name": "open-webui/open-webui",
       "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
       "url": "https://github.com/open-webui/open-webui",
-      "stars": 102890,
+      "stars": 102891,
       "language": "JavaScript",
       "topics": [
         "ai",
@@ -564,7 +564,7 @@
       "categories": [
         "AI/ML"
       ],
-      "lastUpdated": "2025-07-17T07:51:59Z",
+      "lastUpdated": "2025-07-17T07:55:01Z",
       "isArchived": false,
       "isFork": false
     },
@@ -873,35 +873,14 @@
       "name": "x1xhlol/system-prompts-and-models-of-ai-tools",
       "description": "FULL v0, Cursor, Manus, Same.dev, Lovable, Devin, Replit Agent, Windsurf Agent, VSCode Agent, Dia Browser, Xcode, Trae AI & Cluely (And other Open Sourced) System Prompts, Tools & AI Models.",
       "url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
-      "stars": 68648,
+      "stars": 68649,
       "language": null,
-      "topics": [
-        "ai",
-        "bolt",
-        "cluely",
-        "copilot",
-        "cursor",
-        "cursorai",
-        "devin",
-        "github-copilot",
-        "lovable",
-        "open-source",
-        "perplexity",
-        "replit",
-        "system-prompts",
-        "trae",
-        "trae-ai",
-        "trae-ide",
-        "v0",
-        "vscode",
-        "windsurf",
-        "windsurf-ai"
-      ],
+      "topics": [],
       "categories": [
         "CLI Tools",
         "Developer Tools"
       ],
-      "lastUpdated": "2025-07-17T07:52:02Z",
+      "lastUpdated": "2025-07-17T07:55:39Z",
       "isArchived": false,
       "isFork": false
     },
@@ -961,7 +940,7 @@
       "name": "punkpeye/awesome-mcp-servers",
       "description": "A collection of MCP servers.",
       "url": "https://github.com/punkpeye/awesome-mcp-servers",
-      "stars": 62058,
+      "stars": 62059,
       "language": null,
       "topics": [
         "ai",
@@ -970,7 +949,7 @@
       "categories": [
         "Awesome Lists"
       ],
-      "lastUpdated": "2025-07-17T07:52:13Z",
+      "lastUpdated": "2025-07-17T07:55:27Z",
       "isArchived": false,
       "isFork": false
     },
@@ -989,7 +968,7 @@
       "categories": [
         "Libraries"
       ],
-      "lastUpdated": "2025-07-17T07:30:16Z",
+      "lastUpdated": "2025-07-17T07:56:15Z",
       "isArchived": false,
       "isFork": false
     },
@@ -997,7 +976,7 @@
       "name": "infiniflow/ragflow",
       "description": "RAGFlow is an open-source RAG (Retrieval-Augmented Generation) engine based on deep document understanding.",
       "url": "https://github.com/infiniflow/ragflow",
-      "stars": 60142,
+      "stars": 60143,
       "language": "Python",
       "topics": [
         "agent",
@@ -1025,7 +1004,7 @@
         "Learning Resources",
         "AI/ML"
       ],
-      "lastUpdated": "2025-07-17T07:51:50Z",
+      "lastUpdated": "2025-07-17T07:56:03Z",
       "isArchived": false,
       "isFork": false
     },
@@ -1033,13 +1012,13 @@
       "name": "modelcontextprotocol/servers",
       "description": "Model Context Protocol Servers",
       "url": "https://github.com/modelcontextprotocol/servers",
-      "stars": 60002,
+      "stars": 60004,
       "language": "TypeScript",
       "topics": [],
       "categories": [
         "Uncategorized"
       ],
-      "lastUpdated": "2025-07-17T07:34:11Z",
+      "lastUpdated": "2025-07-17T07:55:46Z",
       "isArchived": false,
       "isFork": false
     },
@@ -1542,20 +1521,7 @@
       "url": "https://github.com/mendableai/firecrawl",
       "stars": 43040,
       "language": "TypeScript",
-      "topics": [
-        "ai",
-        "ai-scraping",
-        "crawler",
-        "data",
-        "html-to-markdown",
-        "llm",
-        "markdown",
-        "rag",
-        "scraper",
-        "scraping",
-        "web-crawler",
-        "webscraping"
-      ],
+      "topics": [],
       "categories": [
         "AI/ML"
       ],
@@ -2081,7 +2047,7 @@
       "name": "huggingface/pytorch-image-models",
       "description": "The largest collection of PyTorch image encoders / backbones. Including train, eval, inference, export scripts, and pretrained weights -- ResNet, ResNeXT, EfficientNet, NFNet, Vision Transformer (ViT), MobileNetV4, MobileNet-V3 & V2, RegNet, DPN, CSPNet, Swin Transformer, MaxViT, CoAtNet, ConvNeXt, and more",
       "url": "https://github.com/huggingface/pytorch-image-models",
-      "stars": 34763,
+      "stars": 34764,
       "language": "Python",
       "topics": [
         "augmix",
@@ -2109,7 +2075,7 @@
         "Learning Resources",
         "AI/ML"
       ],
-      "lastUpdated": "2025-07-17T07:48:24Z",
+      "lastUpdated": "2025-07-17T07:54:26Z",
       "isArchived": false,
       "isFork": false
     },
@@ -2143,23 +2109,7 @@
       "url": "https://github.com/docling-project/docling",
       "stars": 34358,
       "language": "Python",
-      "topics": [
-        "ai",
-        "convert",
-        "document-parser",
-        "document-parsing",
-        "documents",
-        "docx",
-        "html",
-        "markdown",
-        "pdf",
-        "pdf-converter",
-        "pdf-to-json",
-        "pdf-to-text",
-        "pptx",
-        "tables",
-        "xlsx"
-      ],
+      "topics": [],
       "categories": [
         "CLI Tools"
       ],
@@ -2294,7 +2244,7 @@
       "name": "jqlang/jq",
       "description": "Command-line JSON processor",
       "url": "https://github.com/jqlang/jq",
-      "stars": 32192,
+      "stars": 32193,
       "language": "C",
       "topics": [
         "jq"
@@ -2302,7 +2252,7 @@
       "categories": [
         "CLI Tools"
       ],
-      "lastUpdated": "2025-07-17T07:33:06Z",
+      "lastUpdated": "2025-07-17T07:55:35Z",
       "isArchived": false,
       "isFork": false
     },
@@ -2633,17 +2583,11 @@
         "agents",
         "ai",
         "ai-agents",
-        "aiagents",
         "developer-tools",
-        "function-calling",
         "gpt-4",
-        "gpt-4o",
         "hacktoberfest",
-        "hacktoberfest2024",
         "javascript",
         "js",
-        "llm",
-        "llmops",
         "python",
         "typescript"
       ],
@@ -2739,6 +2683,262 @@
       "isFork": false
     },
     {
+      "name": "CodePhiliaX/Chat2DB",
+      "description": "🔥🔥🔥AI-driven database tool and SQL client, The hottest GUI client, supporting MySQL, Oracle, PostgreSQL, DB2, SQL Server, DB2, SQLite, H2, ClickHouse, and more.",
+      "url": "https://github.com/CodePhiliaX/Chat2DB",
+      "stars": 23659,
+      "language": "Java",
+      "topics": [
+        "ai",
+        "bi",
+        "chatgpt",
+        "clickhouse",
+        "clickhouse-client",
+        "database",
+        "datagrip",
+        "db2",
+        "dbeaver",
+        "gpt",
+        "hive",
+        "mysql",
+        "navicat",
+        "oracle",
+        "postgresql",
+        "redis",
+        "redis-client",
+        "sqlserver",
+        "text2sql"
+      ],
+      "categories": [
+        "CLI Tools",
+        "Databases",
+        "Testing"
+      ],
+      "lastUpdated": "2025-07-17T07:54:08Z",
+      "isArchived": false,
+      "isFork": false
+    },
+    {
+      "name": "assafelovic/gpt-researcher",
+      "description": "LLM based autonomous agent that conducts deep local and web research on any topic and generates a long report with citations.",
+      "url": "https://github.com/assafelovic/gpt-researcher",
+      "stars": 22362,
+      "language": "Python",
+      "topics": [
+        "agent",
+        "ai",
+        "automation",
+        "deepresearch",
+        "llms",
+        "mcp",
+        "mcp-server",
+        "python",
+        "research",
+        "search",
+        "webscraping"
+      ],
+      "categories": [
+        "AI/ML"
+      ],
+      "lastUpdated": "2025-07-17T07:54:14Z",
+      "isArchived": false,
+      "isFork": false
+    },
+    {
+      "name": "spmallick/learnopencv",
+      "description": "Learn OpenCV  : C++ and Python Examples",
+      "url": "https://github.com/spmallick/learnopencv",
+      "stars": 22054,
+      "language": "Jupyter Notebook",
+      "topics": [
+        "ai",
+        "computer-vision",
+        "computervision",
+        "deep-learning",
+        "deep-neural-networks",
+        "deeplearning",
+        "machine-learning",
+        "opencv",
+        "opencv-cpp",
+        "opencv-library",
+        "opencv-python",
+        "opencv-tutorial",
+        "opencv3"
+      ],
+      "categories": [
+        "Learning Resources",
+        "AI/ML",
+        "Libraries",
+        "Infrastructure & Cloud"
+      ],
+      "lastUpdated": "2025-07-17T07:54:18Z",
+      "isArchived": false,
+      "isFork": false
+    },
+    {
+      "name": "CopilotKit/CopilotKit",
+      "description": "React UI + elegant infrastructure for AI Copilots, AI chatbots, and in-app AI agents. The Agentic last-mile 🪁",
+      "url": "https://github.com/CopilotKit/CopilotKit",
+      "stars": 21961,
+      "language": "TypeScript",
+      "topics": [
+        "agent",
+        "agents",
+        "ai",
+        "ai-agent",
+        "ai-assistant",
+        "assistant",
+        "copilot",
+        "copilot-chat",
+        "hacktoberfest",
+        "langchain",
+        "langgraph",
+        "llm",
+        "nextjs",
+        "open-source",
+        "react",
+        "reactjs",
+        "ts",
+        "typescript"
+      ],
+      "categories": [
+        "Web Frameworks",
+        "DevOps",
+        "AI/ML"
+      ],
+      "lastUpdated": "2025-07-17T07:54:20Z",
+      "isArchived": false,
+      "isFork": false
+    },
+    {
+      "name": "wandb/openui",
+      "description": "OpenUI let's you describe UI using your imagination, then see it rendered live.",
+      "url": "https://github.com/wandb/openui",
+      "stars": 21594,
+      "language": "TypeScript",
+      "topics": [],
+      "categories": [
+        "Uncategorized"
+      ],
+      "lastUpdated": "2025-07-17T07:54:29Z",
+      "isArchived": false,
+      "isFork": false
+    },
+    {
+      "name": "deepset-ai/haystack",
+      "description": "AI orchestration framework to build customizable, production-ready LLM applications. Connect components (models, vector DBs, file converters) to pipelines or agents that can interact with your data. With advanced retrieval methods, it's best suited for building RAG, question answering, semantic search or conversational agent chatbots.",
+      "url": "https://github.com/deepset-ai/haystack",
+      "stars": 21553,
+      "language": "Python",
+      "topics": [
+        "agent",
+        "agents",
+        "ai",
+        "gemini",
+        "generative-ai",
+        "gpt-4",
+        "information-retrieval",
+        "large-language-models",
+        "llm",
+        "machine-learning",
+        "nlp",
+        "orchestration",
+        "python",
+        "pytorch",
+        "question-answering",
+        "rag",
+        "retrieval-augmented-generation",
+        "semantic-search",
+        "summarization",
+        "transformers"
+      ],
+      "categories": [
+        "Web Frameworks",
+        "Learning Resources",
+        "AI/ML"
+      ],
+      "lastUpdated": "2025-07-17T07:54:32Z",
+      "isArchived": false,
+      "isFork": false
+    },
+    {
+      "name": "mlflow/mlflow",
+      "description": "Open source platform for the machine learning lifecycle",
+      "url": "https://github.com/mlflow/mlflow",
+      "stars": 21250,
+      "language": "Python",
+      "topics": [
+        "ai",
+        "apache-spark",
+        "machine-learning",
+        "ml",
+        "mlflow",
+        "model-management"
+      ],
+      "categories": [
+        "Learning Resources",
+        "AI/ML"
+      ],
+      "lastUpdated": "2025-07-17T07:54:39Z",
+      "isArchived": false,
+      "isFork": false
+    },
+    {
+      "name": "daytonaio/daytona",
+      "description": "Daytona is a Secure and Elastic Infrastructure for Running AI-Generated Code",
+      "url": "https://github.com/daytonaio/daytona",
+      "stars": 20981,
+      "language": "TypeScript",
+      "topics": [
+        "agentic-workflow",
+        "ai",
+        "ai-agents",
+        "ai-runtime",
+        "ai-sandboxes",
+        "code-execution",
+        "code-interpreter",
+        "developer-tools"
+      ],
+      "categories": [
+        "CLI Tools",
+        "DevOps",
+        "Developer Tools"
+      ],
+      "lastUpdated": "2025-07-17T07:54:41Z",
+      "isArchived": false,
+      "isFork": false
+    },
+    {
+      "name": "sinaptik-ai/pandas-ai",
+      "description": "Chat with your database or your datalake (SQL, CSV, parquet). PandasAI makes data analysis conversational using LLMs and RAG.",
+      "url": "https://github.com/sinaptik-ai/pandas-ai",
+      "stars": 20950,
+      "language": "Python",
+      "topics": [
+        "ai",
+        "csv",
+        "data",
+        "data-analysis",
+        "data-science",
+        "data-visualization",
+        "database",
+        "datalake",
+        "gpt-4",
+        "llm",
+        "pandas",
+        "sql",
+        "text-to-sql"
+      ],
+      "categories": [
+        "Databases",
+        "AI/ML",
+        "Data & Analytics"
+      ],
+      "lastUpdated": "2025-07-17T07:54:43Z",
+      "isArchived": false,
+      "isFork": false
+    },
+    {
       "name": "elastic/kibana",
       "description": "Your window into the Elastic Stack",
       "url": "https://github.com/elastic/kibana",
@@ -2777,6 +2977,42 @@
       "isFork": false
     },
     {
+      "name": "recommenders-team/recommenders",
+      "description": "Best Practices on Recommendation Systems",
+      "url": "https://github.com/recommenders-team/recommenders",
+      "stars": 20478,
+      "language": "Python",
+      "topics": [
+        "ai",
+        "artificial-intelligence",
+        "data-science",
+        "deep-learning",
+        "jupyter-notebook",
+        "kubernetes",
+        "machine-learning",
+        "operationalization",
+        "python",
+        "ranking",
+        "rating",
+        "recommendation",
+        "recommendation-algorithm",
+        "recommendation-engine",
+        "recommendation-system",
+        "recommender",
+        "tutorial"
+      ],
+      "categories": [
+        "DevOps",
+        "Learning Resources",
+        "AI/ML",
+        "Interview & Algorithms",
+        "Data & Analytics"
+      ],
+      "lastUpdated": "2025-07-17T07:54:45Z",
+      "isArchived": false,
+      "isFork": false
+    },
+    {
       "name": "upstash/context7",
       "description": "Context7 MCP Server -- Up-to-date code documentation for LLMs and AI code editors",
       "url": "https://github.com/upstash/context7",
@@ -2793,6 +3029,48 @@
         "Developer Tools"
       ],
       "lastUpdated": "2025-07-17T07:48:18Z",
+      "isArchived": false,
+      "isFork": false
+    },
+    {
+      "name": "ScrapeGraphAI/Scrapegraph-ai",
+      "description": "Python scraper based on AI",
+      "url": "https://github.com/ScrapeGraphAI/Scrapegraph-ai",
+      "stars": 20311,
+      "language": "Python",
+      "topics": [
+        "ai",
+        "ai-scraping",
+        "automated-scraper",
+        "crawler",
+        "html-to-markdown",
+        "llm",
+        "markdown",
+        "rag",
+        "scraping",
+        "scraping-python",
+        "web-crawler",
+        "web-crawlers",
+        "web-scraping"
+      ],
+      "categories": [
+        "AI/ML"
+      ],
+      "lastUpdated": "2025-07-17T07:54:46Z",
+      "isArchived": false,
+      "isFork": false
+    },
+    {
+      "name": "Fosowl/agenticSeek",
+      "description": "Fully Local Manus AI. No APIs, No $200 monthly bills. Enjoy an autonomous agent that thinks, browses the web, and code for the sole cost of electricity. 🔔 Official updates only via twitter @Martin993886460 (Beware of fake account)",
+      "url": "https://github.com/Fosowl/agenticSeek",
+      "stars": 20113,
+      "language": "Python",
+      "topics": [],
+      "categories": [
+        "Uncategorized"
+      ],
+      "lastUpdated": "2025-07-17T07:54:47Z",
       "isArchived": false,
       "isFork": false
     },
@@ -2824,6 +3102,64 @@
         "DevOps"
       ],
       "lastUpdated": "2025-07-17T06:30:13Z",
+      "isArchived": false,
+      "isFork": false
+    },
+    {
+      "name": "e2b-dev/awesome-ai-agents",
+      "description": "A list of AI autonomous agents",
+      "url": "https://github.com/e2b-dev/awesome-ai-agents",
+      "stars": 19689,
+      "language": null,
+      "topics": [
+        "agent",
+        "ai",
+        "artificial-intelligence",
+        "autogpt",
+        "autonomous-agents",
+        "awesome",
+        "babyagi",
+        "copilot",
+        "gpt",
+        "gpt-4",
+        "gpt-engineer",
+        "openai",
+        "python"
+      ],
+      "categories": [
+        "Awesome Lists",
+        "AI/ML"
+      ],
+      "lastUpdated": "2025-07-17T07:54:49Z",
+      "isArchived": false,
+      "isFork": false
+    },
+    {
+      "name": "dailydotdev/daily",
+      "description": "daily.dev is a professional network for developers to learn, collaborate, and grow together 👩🏽‍💻 👨‍💻",
+      "url": "https://github.com/dailydotdev/daily",
+      "stars": 19531,
+      "language": null,
+      "topics": [
+        "ai",
+        "chrome-extension",
+        "community",
+        "developer-portal",
+        "developer-tools",
+        "edge-extension",
+        "firefox-addon",
+        "professional-networking",
+        "pwa",
+        "search-engine",
+        "social-network",
+        "webapp"
+      ],
+      "categories": [
+        "CLI Tools",
+        "Developer Tools",
+        "Infrastructure & Cloud"
+      ],
+      "lastUpdated": "2025-07-17T07:54:59Z",
       "isArchived": false,
       "isFork": false
     },
@@ -2864,6 +3200,59 @@
       "isFork": false
     },
     {
+      "name": "vanna-ai/vanna",
+      "description": "🤖 Chat with your SQL database 📊. Accurate Text-to-SQL Generation via LLMs using RAG 🔄.",
+      "url": "https://github.com/vanna-ai/vanna",
+      "stars": 19035,
+      "language": "Python",
+      "topics": [
+        "agent",
+        "ai",
+        "data-visualization",
+        "database",
+        "llm",
+        "rag",
+        "sql",
+        "text-to-sql"
+      ],
+      "categories": [
+        "Databases",
+        "AI/ML",
+        "Data & Analytics"
+      ],
+      "lastUpdated": "2025-07-17T07:55:01Z",
+      "isArchived": false,
+      "isFork": false
+    },
+    {
+      "name": "NirDiamant/RAG_Techniques",
+      "description": "This repository showcases various advanced techniques for Retrieval-Augmented Generation (RAG) systems. RAG systems combine information retrieval with generative models to provide accurate and contextually rich responses.",
+      "url": "https://github.com/NirDiamant/RAG_Techniques",
+      "stars": 18917,
+      "language": "Jupyter Notebook",
+      "topics": [],
+      "categories": [
+        "Uncategorized"
+      ],
+      "lastUpdated": "2025-07-17T07:55:02Z",
+      "isArchived": false,
+      "isFork": false
+    },
+    {
+      "name": "eyaltoledano/claude-task-master",
+      "description": "An AI-powered task-management system you can drop into Cursor, Lovable, Windsurf, Roo, and others.",
+      "url": "https://github.com/eyaltoledano/claude-task-master",
+      "stars": 18799,
+      "language": "JavaScript",
+      "topics": [],
+      "categories": [
+        "Uncategorized"
+      ],
+      "lastUpdated": "2025-07-17T07:55:04Z",
+      "isArchived": false,
+      "isFork": false
+    },
+    {
       "name": "brendangregg/FlameGraph",
       "description": "Stack trace visualizer",
       "url": "https://github.com/brendangregg/FlameGraph",
@@ -2874,6 +3263,81 @@
         "Uncategorized"
       ],
       "lastUpdated": "2025-07-17T03:00:21Z",
+      "isArchived": false,
+      "isFork": false
+    },
+    {
+      "name": "yamadashy/repomix",
+      "description": "📦 Repomix is a powerful tool that packs your entire repository into a single, AI-friendly file. Perfect for when you need to feed your codebase to Large Language Models (LLMs) or other AI tools like Claude, ChatGPT, DeepSeek, Perplexity, Gemini, Gemma, Llama, Grok, and more.",
+      "url": "https://github.com/yamadashy/repomix",
+      "stars": 17873,
+      "language": "TypeScript",
+      "topics": [],
+      "categories": [
+        "CLI Tools",
+        "AI/ML"
+      ],
+      "lastUpdated": "2025-07-17T07:55:08Z",
+      "isArchived": false,
+      "isFork": false
+    },
+    {
+      "name": "transitive-bullshit/agentic",
+      "description": "Agentic is RapidAPI for LLM Tools. Your API ⇒ Paid MCP. Instantly.",
+      "url": "https://github.com/transitive-bullshit/agentic",
+      "stars": 17797,
+      "language": "TypeScript",
+      "topics": [
+        "agents",
+        "ai",
+        "llms",
+        "openai"
+      ],
+      "categories": [
+        "CLI Tools",
+        "AI/ML"
+      ],
+      "lastUpdated": "2025-07-17T07:55:10Z",
+      "isArchived": false,
+      "isFork": false
+    },
+    {
+      "name": "meta-llama/llama-cookbook",
+      "description": "Welcome to the Llama Cookbook! This is your go to guide for Building with Llama: Getting started with Inference, Fine-Tuning, RAG. We also show you how to solve end to end problems using Llama model family and using them on various provider services  ",
+      "url": "https://github.com/meta-llama/llama-cookbook",
+      "stars": 17636,
+      "language": "Jupyter Notebook",
+      "topics": [
+        "ai",
+        "finetuning",
+        "langchain",
+        "llama",
+        "llama2",
+        "llm",
+        "machine-learning",
+        "python",
+        "pytorch",
+        "vllm"
+      ],
+      "categories": [
+        "Learning Resources",
+        "AI/ML"
+      ],
+      "lastUpdated": "2025-07-17T07:55:11Z",
+      "isArchived": false,
+      "isFork": false
+    },
+    {
+      "name": "nari-labs/dia",
+      "description": "A TTS model capable of generating ultra-realistic dialogue in one pass.",
+      "url": "https://github.com/nari-labs/dia",
+      "stars": 17511,
+      "language": "Python",
+      "topics": [],
+      "categories": [
+        "Uncategorized"
+      ],
+      "lastUpdated": "2025-07-17T07:55:15Z",
       "isArchived": false,
       "isFork": false
     },
@@ -2892,6 +3356,110 @@
         "Uncategorized"
       ],
       "lastUpdated": "2025-07-17T07:50:10Z",
+      "isArchived": false,
+      "isFork": false
+    },
+    {
+      "name": "letta-ai/letta",
+      "description": "Letta (formerly MemGPT) is the stateful agents framework with memory, reasoning, and context management.",
+      "url": "https://github.com/letta-ai/letta",
+      "stars": 17346,
+      "language": "Python",
+      "topics": [
+        "ai",
+        "ai-agents",
+        "llm",
+        "llm-agent"
+      ],
+      "categories": [
+        "Web Frameworks",
+        "AI/ML"
+      ],
+      "lastUpdated": "2025-07-17T07:55:18Z",
+      "isArchived": false,
+      "isFork": false
+    },
+    {
+      "name": "microsoft/AirSim",
+      "description": "Open source simulator for autonomous vehicles built on Unreal Engine / Unity, from Microsoft AI & Research",
+      "url": "https://github.com/microsoft/AirSim",
+      "stars": 17314,
+      "language": "C++",
+      "topics": [
+        "ai",
+        "airsim",
+        "artificial-intelligence",
+        "autonomous-quadcoptor",
+        "autonomous-vehicles",
+        "computer-vision",
+        "control-systems",
+        "cross-platform",
+        "deep-reinforcement-learning",
+        "deeplearning",
+        "drones",
+        "pixhawk",
+        "platform-independent",
+        "research",
+        "self-driving-car",
+        "simulator",
+        "unreal-engine"
+      ],
+      "categories": [
+        "Learning Resources",
+        "AI/ML"
+      ],
+      "lastUpdated": "2025-07-17T07:56:04Z",
+      "isArchived": false,
+      "isFork": false
+    },
+    {
+      "name": "dzhng/deep-research",
+      "description": "An AI-powered research assistant that performs iterative, deep research on any topic by combining search engines, web scraping, and large language models.  The goal of this repo is to provide the simplest implementation of a deep research agent - e.g. an agent that can refine its research direction overtime and deep dive into a topic.",
+      "url": "https://github.com/dzhng/deep-research",
+      "stars": 17047,
+      "language": "TypeScript",
+      "topics": [],
+      "categories": [
+        "Uncategorized"
+      ],
+      "lastUpdated": "2025-07-17T07:55:28Z",
+      "isArchived": false,
+      "isFork": false
+    },
+    {
+      "name": "vercel/ai-chatbot",
+      "description": "A full-featured, hackable Next.js AI chatbot built by Vercel",
+      "url": "https://github.com/vercel/ai-chatbot",
+      "stars": 17033,
+      "language": "TypeScript",
+      "topics": [
+        "ai",
+        "chatgpt",
+        "nextjs",
+        "react",
+        "redis",
+        "shadcn-ui",
+        "vercel"
+      ],
+      "categories": [
+        "Web Frameworks",
+        "Databases"
+      ],
+      "lastUpdated": "2025-07-17T07:55:29Z",
+      "isArchived": false,
+      "isFork": false
+    },
+    {
+      "name": "kortix-ai/suna",
+      "description": "Suna - Open Source Generalist AI Agent",
+      "url": "https://github.com/kortix-ai/suna",
+      "stars": 16753,
+      "language": "TypeScript",
+      "topics": [],
+      "categories": [
+        "Uncategorized"
+      ],
+      "lastUpdated": "2025-07-17T07:55:32Z",
       "isArchived": false,
       "isFork": false
     },
@@ -2918,6 +3486,51 @@
       "isFork": false
     },
     {
+      "name": "SWE-agent/SWE-agent",
+      "description": "SWE-agent takes a GitHub issue and tries to automatically fix it, using your LM of choice. It can also be employed for offensive cybersecurity or competitive coding challenges. [NeurIPS 2024] ",
+      "url": "https://github.com/SWE-agent/SWE-agent",
+      "stars": 16679,
+      "language": "Python",
+      "topics": [],
+      "categories": [
+        "Security"
+      ],
+      "lastUpdated": "2025-07-17T07:55:42Z",
+      "isArchived": false,
+      "isFork": false
+    },
+    {
+      "name": "TransformerOptimus/SuperAGI",
+      "description": "<⚡️> SuperAGI - A dev-first open source autonomous AI agent framework. Enabling developers to build, manage & run useful autonomous agents quickly and reliably.",
+      "url": "https://github.com/TransformerOptimus/SuperAGI",
+      "stars": 16538,
+      "language": "Python",
+      "topics": [
+        "agents",
+        "agi",
+        "ai",
+        "artificial-general-intelligence",
+        "artificial-intelligence",
+        "autonomous-agents",
+        "gpt-4",
+        "hacktoberfest",
+        "llm",
+        "llmops",
+        "nextjs",
+        "openai",
+        "pinecone",
+        "python",
+        "superagi"
+      ],
+      "categories": [
+        "Web Frameworks",
+        "AI/ML"
+      ],
+      "lastUpdated": "2025-07-17T07:55:45Z",
+      "isArchived": false,
+      "isFork": false
+    },
+    {
       "name": "anthropics/courses",
       "description": "Anthropic's educational courses",
       "url": "https://github.com/anthropics/courses",
@@ -2928,6 +3541,40 @@
         "Learning Resources"
       ],
       "lastUpdated": "2025-07-17T06:18:37Z",
+      "isArchived": false,
+      "isFork": false
+    },
+    {
+      "name": "arc53/DocsGPT",
+      "description": "DocsGPT is an open-source genAI tool that helps users get reliable answers from knowledge source, while avoiding hallucinations. It enables private and reliable information retrieval, with tooling and agentic system capability built in.",
+      "url": "https://github.com/arc53/DocsGPT",
+      "stars": 16215,
+      "language": "TypeScript",
+      "topics": [
+        "ai",
+        "chatgpt",
+        "docsgpt",
+        "hacktoberfest",
+        "information-retrieval",
+        "language-model",
+        "llm",
+        "machine-learning",
+        "natural-language-processing",
+        "python",
+        "pytorch",
+        "rag",
+        "react",
+        "semantic-search",
+        "transformers",
+        "web-app"
+      ],
+      "categories": [
+        "Web Frameworks",
+        "CLI Tools",
+        "Learning Resources",
+        "AI/ML"
+      ],
+      "lastUpdated": "2025-07-17T07:56:04Z",
       "isArchived": false,
       "isFork": false
     },
@@ -3827,20 +4474,14 @@
       "name": "googleapis/genai-toolbox",
       "description": "MCP Toolbox for Databases is an open source MCP server for databases.",
       "url": "https://github.com/googleapis/genai-toolbox",
-      "stars": 6946,
+      "stars": 6947,
       "language": "Go",
-      "topics": [
-        "databases",
-        "genai",
-        "llms",
-        "mcp"
-      ],
+      "topics": [],
       "categories": [
         "CLI Tools",
-        "Databases",
-        "AI/ML"
+        "Databases"
       ],
-      "lastUpdated": "2025-07-17T07:46:25Z",
+      "lastUpdated": "2025-07-17T07:54:58Z",
       "isArchived": false,
       "isFork": false
     },
@@ -3886,7 +4527,7 @@
       "name": "n4ze3m/page-assist",
       "description": "Use your locally running AI models to assist you in your web browsing",
       "url": "https://github.com/n4ze3m/page-assist",
-      "stars": 6861,
+      "stars": 6862,
       "language": "TypeScript",
       "topics": [
         "chat-application",
@@ -3899,7 +4540,7 @@
         "AI/ML",
         "Developer Tools"
       ],
-      "lastUpdated": "2025-07-17T04:22:38Z",
+      "lastUpdated": "2025-07-17T07:54:06Z",
       "isArchived": false,
       "isFork": false
     },
@@ -5406,13 +6047,7 @@
       "url": "https://github.com/mongodb-js/mongodb-mcp-server",
       "stars": 415,
       "language": "TypeScript",
-      "topics": [
-        "mcp",
-        "mcp-server",
-        "mongodb",
-        "mongodb-atlas",
-        "mongodb-database"
-      ],
+      "topics": [],
       "categories": [
         "Databases"
       ],
@@ -5684,20 +6319,9 @@
       "url": "https://github.com/theaiautomators/insights-lm-public",
       "stars": 211,
       "language": "TypeScript",
-      "topics": [
-        "loveable",
-        "n8n",
-        "notebooklm",
-        "rag",
-        "rag-chatbot",
-        "react",
-        "research-tool",
-        "semantic-search",
-        "supabase"
-      ],
+      "topics": [],
       "categories": [
         "Web Frameworks",
-        "CLI Tools",
         "Learning Resources"
       ],
       "lastUpdated": "2025-07-17T05:26:40Z",
@@ -5960,22 +6584,9 @@
       "url": "https://github.com/theaiautomators/insights-lm-local-package",
       "stars": 54,
       "language": "TypeScript",
-      "topics": [
-        "coqui-tts",
-        "local",
-        "n8n",
-        "notebooklm",
-        "ollama",
-        "private",
-        "rag",
-        "react",
-        "research-tool",
-        "supabase",
-        "whisper"
-      ],
+      "topics": [],
       "categories": [
         "Web Frameworks",
-        "CLI Tools",
         "Learning Resources",
         "Libraries"
       ],
@@ -6181,14 +6792,15 @@
   ],
   "analytics": {
     "byLanguage": {
-      "TypeScript": 31,
-      "JavaScript": 13,
+      "C++": 9,
+      "TypeScript": 40,
+      "Python": 65,
+      "Jupyter Notebook": 9,
+      "JavaScript": 14,
+      "Unknown": 23,
+      "Java": 2,
       "Rust": 16,
-      "Python": 53,
       "Go": 66,
-      "Jupyter Notebook": 6,
-      "C++": 8,
-      "Unknown": 21,
       "C": 6,
       "Groovy": 1,
       "HTML": 3,
@@ -6200,7 +6812,6 @@
       "Assembly": 1,
       "Ruby": 2,
       "Roff": 1,
-      "Java": 1,
       "Haskell": 1,
       "Mustache": 1,
       "Perl": 1,
@@ -6209,23 +6820,23 @@
       "D2": 1
     },
     "byCategory": {
-      "CLI Tools": 70,
-      "AI/ML": 54,
-      "Developer Tools": 24,
-      "Learning Resources": 34,
-      "Infrastructure & Cloud": 52,
-      "Libraries": 16,
-      "Data & Analytics": 20,
-      "Web Frameworks": 27,
-      "Security": 16,
-      "Databases": 23,
-      "Uncategorized": 44,
-      "DevOps": 76,
+      "Learning Resources": 41,
+      "AI/ML": 70,
+      "Web Frameworks": 33,
+      "CLI Tools": 74,
+      "Security": 17,
+      "Uncategorized": 51,
+      "Databases": 27,
+      "Data & Analytics": 23,
+      "Developer Tools": 26,
+      "Infrastructure & Cloud": 54,
+      "Awesome Lists": 12,
+      "DevOps": 79,
+      "Interview & Algorithms": 7,
+      "Libraries": 17,
+      "Testing": 9,
       "IoT & Hardware": 7,
-      "Testing": 8,
-      "Templates": 6,
-      "Interview & Algorithms": 6,
-      "Awesome Lists": 11
+      "Templates": 6
     }
   }
 }
