@@ -1,8 +1,6 @@
 <div align="center">
   <img src="assets/parsecio.png" alt="Parsecio" width="200" height="auto">
   
-  # Parsecio
-  
   **A modern, self-updating dashboard for your GitHub starred repositories**
   
   [![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Live-brightgreen)](https://parsecio.com)
