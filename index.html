@@ -28,6 +28,11 @@
             filter: drop-shadow(0 4px 20px rgba(88, 166, 255, 0.3));
         }
 
+        /* Use dark logo for light theme */
+        [data-theme="light"] .hero-logo {
+            content: url("assets/parsecio_dark.png");
+        }
+
         .hero h1 {
             font-size: 3rem;
             margin-bottom: 20px;
@@ -420,7 +425,6 @@
 <body>
     <nav class="nav-header">
         <a href="/" class="nav-logo">
-            <img src="assets/parsecio_icon.png" alt="Parsecio">
             <span>Parsecio</span>
         </a>
         <div class="nav-links">
