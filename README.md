@@ -7,7 +7,7 @@
   [![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-Automated-blue)](https://github.com/ejacobhayes/parsecio/actions)
   [![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-  [🌟 **Website**](https://parsecio.com) | [📚 **Documentation**](#features) | [🚀 **Quick Start**](#quick-start)
+  [🌟 **Website**](https://parsecio.com) | [📚 **Documentation**](#-features) | [🚀 **Quick Start**](#-quick-start)
 </div>
 
 ---
