@@ -1,12 +1,12 @@
 {
-  "generated": "2025-07-17T08:02:43.874Z",
+  "generated": "2025-07-17T08:22:20.000Z",
   "total": 336,
   "repositories": [
     {
       "name": "codecrafters-io/build-your-own-x",
       "description": "Master programming by recreating your favorite technologies from scratch.",
       "url": "https://github.com/codecrafters-io/build-your-own-x",
-      "stars": 400968,
+      "stars": 400970,
       "language": "Markdown",
       "topics": [
         "awesome-list",
@@ -19,7 +19,7 @@
       "categories": [
         "Learning Resources"
       ],
-      "lastUpdated": "2025-07-17T07:54:48Z",
+      "lastUpdated": "2025-07-17T08:19:56Z",
       "isArchived": false,
       "isFork": false
     },
@@ -27,7 +27,7 @@
       "name": "sindresorhus/awesome",
       "description": "😎 Awesome lists about all kinds of interesting topics",
       "url": "https://github.com/sindresorhus/awesome",
-      "stars": 382790,
+      "stars": 382800,
       "language": null,
       "topics": [
         "awesome",
@@ -39,7 +39,7 @@
       "categories": [
         "Uncategorized"
       ],
-      "lastUpdated": "2025-07-17T07:57:33Z",
+      "lastUpdated": "2025-07-17T08:22:02Z",
       "isArchived": false,
       "isFork": false
     },
@@ -47,7 +47,7 @@
       "name": "kamranahmedse/developer-roadmap",
       "description": "Interactive roadmaps, guides and other educational content to help developers grow in their careers.",
       "url": "https://github.com/kamranahmedse/developer-roadmap",
-      "stars": 331551,
+      "stars": 331555,
       "language": "TypeScript",
       "topics": [
         "angular-roadmap",
@@ -75,7 +75,7 @@
         "Learning Resources",
         "Interview & Algorithms"
       ],
-      "lastUpdated": "2025-07-17T07:51:08Z",
+      "lastUpdated": "2025-07-17T08:14:54Z",
       "isArchived": false,
       "isFork": false
     },
@@ -83,7 +83,7 @@
       "name": "jwasham/coding-interview-university",
       "description": "A complete computer science study plan to become a software engineer.",
       "url": "https://github.com/jwasham/coding-interview-university",
-      "stars": 322853,
+      "stars": 322854,
       "language": null,
       "topics": [
         "algorithm",
@@ -102,7 +102,7 @@
       "categories": [
         "Interview & Algorithms"
       ],
-      "lastUpdated": "2025-07-17T07:55:24Z",
+      "lastUpdated": "2025-07-17T08:04:25Z",
       "isArchived": false,
       "isFork": false
     },
@@ -139,7 +139,7 @@
       "name": "vinta/awesome-python",
       "description": "An opinionated list of awesome Python frameworks, libraries, software and resources.",
       "url": "https://github.com/vinta/awesome-python",
-      "stars": 250561,
+      "stars": 250563,
       "language": "Python",
       "topics": [
         "awesome",
@@ -154,7 +154,7 @@
         "Awesome Lists",
         "Libraries"
       ],
-      "lastUpdated": "2025-07-17T07:54:32Z",
+      "lastUpdated": "2025-07-17T08:20:58Z",
       "isArchived": false,
       "isFork": false
     },
@@ -162,13 +162,13 @@
       "name": "torvalds/linux",
       "description": "Linux kernel source tree",
       "url": "https://github.com/torvalds/linux",
-      "stars": 197772,
+      "stars": 197775,
       "language": "C",
       "topics": [],
       "categories": [
         "Uncategorized"
       ],
-      "lastUpdated": "2025-07-17T07:54:29Z",
+      "lastUpdated": "2025-07-17T08:20:09Z",
       "isArchived": false,
       "isFork": false
     },
@@ -199,7 +199,7 @@
       "name": "trimstray/the-book-of-secret-knowledge",
       "description": "A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more.",
       "url": "https://github.com/trimstray/the-book-of-secret-knowledge",
-      "stars": 178407,
+      "stars": 178408,
       "language": null,
       "topics": [
         "awesome",
@@ -229,7 +229,7 @@
         "Security",
         "Testing"
       ],
-      "lastUpdated": "2025-07-17T07:54:08Z",
+      "lastUpdated": "2025-07-17T08:03:07Z",
       "isArchived": false,
       "isFork": false
     },
@@ -237,7 +237,7 @@
       "name": "Significant-Gravitas/AutoGPT",
       "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
       "url": "https://github.com/Significant-Gravitas/AutoGPT",
-      "stars": 176973,
+      "stars": 176974,
       "language": "Python",
       "topics": [
         "ai",
@@ -252,7 +252,7 @@
         "CLI Tools",
         "AI/ML"
       ],
-      "lastUpdated": "2025-07-17T07:59:38Z",
+      "lastUpdated": "2025-07-17T08:08:25Z",
       "isArchived": false,
       "isFork": false
     },
@@ -280,7 +280,7 @@
       "name": "jlevy/the-art-of-command-line",
       "description": "Master the command line, in one page",
       "url": "https://github.com/jlevy/the-art-of-command-line",
-      "stars": 157094,
+      "stars": 157095,
       "language": null,
       "topics": [
         "bash",
@@ -293,7 +293,7 @@
       "categories": [
         "CLI Tools"
       ],
-      "lastUpdated": "2025-07-17T07:24:10Z",
+      "lastUpdated": "2025-07-17T08:12:03Z",
       "isArchived": false,
       "isFork": false
     },
@@ -348,7 +348,7 @@
         "Awesome Lists",
         "Libraries"
       ],
-      "lastUpdated": "2025-07-17T08:01:18Z",
+      "lastUpdated": "2025-07-17T08:10:43Z",
       "isArchived": false,
       "isFork": false
     },
@@ -356,7 +356,7 @@
       "name": "ollama/ollama",
       "description": "Get up and running with Llama 3.3, DeepSeek-R1, Phi-4, Gemma 3, Mistral Small 3.1 and other large language models.",
       "url": "https://github.com/ollama/ollama",
-      "stars": 146736,
+      "stars": 146737,
       "language": "Go",
       "topics": [
         "deepseek",
@@ -379,7 +379,7 @@
       "categories": [
         "AI/ML"
       ],
-      "lastUpdated": "2025-07-17T08:00:30Z",
+      "lastUpdated": "2025-07-17T08:14:00Z",
       "isArchived": false,
       "isFork": false
     },
@@ -409,7 +409,7 @@
       "name": "n8n-io/n8n",
       "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
       "url": "https://github.com/n8n-io/n8n",
-      "stars": 119188,
+      "stars": 119200,
       "language": "TypeScript",
       "topics": [
         "ai",
@@ -439,7 +439,7 @@
         "Developer Tools",
         "Infrastructure & Cloud"
       ],
-      "lastUpdated": "2025-07-17T07:58:10Z",
+      "lastUpdated": "2025-07-17T08:22:11Z",
       "isArchived": false,
       "isFork": false
     },
@@ -447,13 +447,13 @@
       "name": "langchain-ai/langchain",
       "description": "🦜🔗 Build context-aware reasoning applications",
       "url": "https://github.com/langchain-ai/langchain",
-      "stars": 111635,
+      "stars": 111636,
       "language": "Jupyter Notebook",
       "topics": [],
       "categories": [
         "Uncategorized"
       ],
-      "lastUpdated": "2025-07-17T07:49:09Z",
+      "lastUpdated": "2025-07-17T08:06:25Z",
       "isArchived": false,
       "isFork": false
     },
@@ -488,7 +488,7 @@
       "name": "langgenius/dify",
       "description": "Production-ready platform for agentic workflow development.",
       "url": "https://github.com/langgenius/dify",
-      "stars": 107349,
+      "stars": 107353,
       "language": "TypeScript",
       "topics": [
         "agent",
@@ -517,7 +517,7 @@
         "AI/ML",
         "Developer Tools"
       ],
-      "lastUpdated": "2025-07-17T08:02:18Z",
+      "lastUpdated": "2025-07-17T08:14:15Z",
       "isArchived": false,
       "isFork": false
     },
@@ -525,7 +525,7 @@
       "name": "ripienaar/free-for-dev",
       "description": "A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev",
       "url": "https://github.com/ripienaar/free-for-dev",
-      "stars": 106033,
+      "stars": 106037,
       "language": "HTML",
       "topics": [
         "awesome-list",
@@ -534,7 +534,7 @@
       "categories": [
         "DevOps"
       ],
-      "lastUpdated": "2025-07-17T08:01:00Z",
+      "lastUpdated": "2025-07-17T08:16:45Z",
       "isArchived": false,
       "isFork": false
     },
@@ -542,7 +542,7 @@
       "name": "open-webui/open-webui",
       "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
       "url": "https://github.com/open-webui/open-webui",
-      "stars": 102891,
+      "stars": 102896,
       "language": "JavaScript",
       "topics": [
         "ai",
@@ -564,7 +564,7 @@
       "categories": [
         "AI/ML"
       ],
-      "lastUpdated": "2025-07-17T07:55:01Z",
+      "lastUpdated": "2025-07-17T08:21:20Z",
       "isArchived": false,
       "isFork": false
     },
@@ -572,7 +572,7 @@
       "name": "rustdesk/rustdesk",
       "description": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
       "url": "https://github.com/rustdesk/rustdesk",
-      "stars": 93255,
+      "stars": 93261,
       "language": "Rust",
       "topics": [
         "anydesk",
@@ -599,7 +599,7 @@
       "categories": [
         "Learning Resources"
       ],
-      "lastUpdated": "2025-07-17T07:56:38Z",
+      "lastUpdated": "2025-07-17T08:18:51Z",
       "isArchived": false,
       "isFork": false
     },
@@ -637,7 +637,7 @@
       "name": "supabase/supabase",
       "description": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.",
       "url": "https://github.com/supabase/supabase",
-      "stars": 85771,
+      "stars": 85772,
       "language": "TypeScript",
       "topics": [
         "ai",
@@ -665,7 +665,7 @@
         "Developer Tools",
         "Security"
       ],
-      "lastUpdated": "2025-07-17T07:51:28Z",
+      "lastUpdated": "2025-07-17T08:14:10Z",
       "isArchived": false,
       "isFork": false
     },
@@ -711,7 +711,7 @@
       "name": "3b1b/manim",
       "description": "Animation engine for explanatory math videos",
       "url": "https://github.com/3b1b/manim",
-      "stars": 78899,
+      "stars": 78900,
       "language": "Python",
       "topics": [
         "3b1b-videos",
@@ -722,7 +722,7 @@
       "categories": [
         "Uncategorized"
       ],
-      "lastUpdated": "2025-07-17T05:51:15Z",
+      "lastUpdated": "2025-07-17T08:05:46Z",
       "isArchived": false,
       "isFork": false
     },
@@ -730,7 +730,7 @@
       "name": "netdata/netdata",
       "description": "The fastest path to AI-powered full stack observability, even for lean teams.",
       "url": "https://github.com/netdata/netdata",
-      "stars": 75115,
+      "stars": 75116,
       "language": "C",
       "topics": [
         "ai",
@@ -762,7 +762,7 @@
         "Testing",
         "Data & Analytics"
       ],
-      "lastUpdated": "2025-07-17T08:00:41Z",
+      "lastUpdated": "2025-07-17T08:06:35Z",
       "isArchived": false,
       "isFork": false
     },
@@ -770,7 +770,7 @@
       "name": "microsoft/playwright",
       "description": "Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API. ",
       "url": "https://github.com/microsoft/playwright",
-      "stars": 74877,
+      "stars": 74878,
       "language": "TypeScript",
       "topics": [
         "automation",
@@ -795,7 +795,7 @@
         "Developer Tools",
         "Testing"
       ],
-      "lastUpdated": "2025-07-17T07:47:45Z",
+      "lastUpdated": "2025-07-17T08:09:45Z",
       "isArchived": false,
       "isFork": false
     },
@@ -820,7 +820,7 @@
       "name": "sdmg15/Best-websites-a-programmer-should-visit",
       "description": ":link: Some useful websites for programmers.",
       "url": "https://github.com/sdmg15/Best-websites-a-programmer-should-visit",
-      "stars": 71676,
+      "stars": 71677,
       "language": null,
       "topics": [
         "books",
@@ -833,7 +833,7 @@
       "categories": [
         "Learning Resources"
       ],
-      "lastUpdated": "2025-07-17T07:47:13Z",
+      "lastUpdated": "2025-07-17T08:05:16Z",
       "isArchived": false,
       "isFork": false
     },
@@ -841,7 +841,7 @@
       "name": "immich-app/immich",
       "description": "High performance self-hosted photo and video management solution.",
       "url": "https://github.com/immich-app/immich",
-      "stars": 70554,
+      "stars": 70556,
       "language": "TypeScript",
       "topics": [
         "backup-tool",
@@ -865,7 +865,7 @@
         "Web Frameworks",
         "CLI Tools"
       ],
-      "lastUpdated": "2025-07-17T07:40:06Z",
+      "lastUpdated": "2025-07-17T08:13:01Z",
       "isArchived": false,
       "isFork": false
     },
@@ -873,7 +873,7 @@
       "name": "x1xhlol/system-prompts-and-models-of-ai-tools",
       "description": "FULL v0, Cursor, Manus, Same.dev, Lovable, Devin, Replit Agent, Windsurf Agent, VSCode Agent, Dia Browser, Xcode, Trae AI & Cluely (And other Open Sourced) System Prompts, Tools & AI Models.",
       "url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
-      "stars": 68653,
+      "stars": 68659,
       "language": null,
       "topics": [
         "ai",
@@ -901,7 +901,7 @@
         "CLI Tools",
         "Developer Tools"
       ],
-      "lastUpdated": "2025-07-17T08:01:34Z",
+      "lastUpdated": "2025-07-17T08:20:30Z",
       "isArchived": false,
       "isFork": false
     },
@@ -909,7 +909,7 @@
       "name": "ansible/ansible",
       "description": "Ansible is a radically simple IT automation platform that makes your applications and systems easier to deploy and maintain. Automate everything from code deployment to network configuration to cloud management, in a language that approaches plain English, using SSH, with no agents to install on remote systems. https://docs.ansible.com.",
       "url": "https://github.com/ansible/ansible",
-      "stars": 65631,
+      "stars": 65632,
       "language": "Python",
       "topics": [
         "ansible",
@@ -919,7 +919,7 @@
         "DevOps",
         "Infrastructure & Cloud"
       ],
-      "lastUpdated": "2025-07-17T06:43:53Z",
+      "lastUpdated": "2025-07-17T08:21:02Z",
       "isArchived": false,
       "isFork": false
     },
@@ -927,7 +927,7 @@
       "name": "lobehub/lobe-chat",
       "description": "🤯 Lobe Chat - an open-source, modern design AI chat framework. Supports multiple AI providers (OpenAI / Claude 4 / Gemini / DeepSeek / Ollama / Qwen), Knowledge Base (file upload / RAG ), one click install MCP Marketplace and Artifacts / Thinking. One-click FREE deployment of your private AI Agent application.",
       "url": "https://github.com/lobehub/lobe-chat",
-      "stars": 63537,
+      "stars": 63538,
       "language": "TypeScript",
       "topics": [
         "agent",
@@ -953,7 +953,7 @@
         "CLI Tools",
         "DevOps"
       ],
-      "lastUpdated": "2025-07-17T07:51:47Z",
+      "lastUpdated": "2025-07-17T08:20:06Z",
       "isArchived": false,
       "isFork": false
     },
@@ -961,7 +961,7 @@
       "name": "punkpeye/awesome-mcp-servers",
       "description": "A collection of MCP servers.",
       "url": "https://github.com/punkpeye/awesome-mcp-servers",
-      "stars": 62059,
+      "stars": 62063,
       "language": null,
       "topics": [
         "ai",
@@ -970,7 +970,7 @@
       "categories": [
         "Awesome Lists"
       ],
-      "lastUpdated": "2025-07-17T07:59:13Z",
+      "lastUpdated": "2025-07-17T08:19:55Z",
       "isArchived": false,
       "isFork": false
     },
@@ -997,7 +997,7 @@
       "name": "infiniflow/ragflow",
       "description": "RAGFlow is an open-source RAG (Retrieval-Augmented Generation) engine based on deep document understanding.",
       "url": "https://github.com/infiniflow/ragflow",
-      "stars": 60144,
+      "stars": 60147,
       "language": "Python",
       "topics": [
         "agent",
@@ -1025,7 +1025,7 @@
         "Learning Resources",
         "AI/ML"
       ],
-      "lastUpdated": "2025-07-17T07:57:02Z",
+      "lastUpdated": "2025-07-17T08:20:40Z",
       "isArchived": false,
       "isFork": false
     },
@@ -1033,13 +1033,13 @@
       "name": "modelcontextprotocol/servers",
       "description": "Model Context Protocol Servers",
       "url": "https://github.com/modelcontextprotocol/servers",
-      "stars": 60004,
+      "stars": 60010,
       "language": "TypeScript",
       "topics": [],
       "categories": [
         "Uncategorized"
       ],
-      "lastUpdated": "2025-07-17T07:55:46Z",
+      "lastUpdated": "2025-07-17T08:17:48Z",
       "isArchived": false,
       "isFork": false
     },
@@ -1047,7 +1047,7 @@
       "name": "prometheus/prometheus",
       "description": "The Prometheus monitoring system and time series database.",
       "url": "https://github.com/prometheus/prometheus",
-      "stars": 59493,
+      "stars": 59494,
       "language": "Go",
       "topics": [
         "alerting",
@@ -1062,7 +1062,7 @@
         "DevOps",
         "Databases"
       ],
-      "lastUpdated": "2025-07-17T07:57:42Z",
+      "lastUpdated": "2025-07-17T08:05:32Z",
       "isArchived": false,
       "isFork": false
     },
@@ -1070,7 +1070,7 @@
       "name": "rasbt/LLMs-from-scratch",
       "description": "Implement a ChatGPT-like LLM in PyTorch from scratch, step by step",
       "url": "https://github.com/rasbt/LLMs-from-scratch",
-      "stars": 59123,
+      "stars": 59124,
       "language": "Jupyter Notebook",
       "topics": [
         "ai",
@@ -1091,7 +1091,7 @@
         "Learning Resources",
         "AI/ML"
       ],
-      "lastUpdated": "2025-07-17T07:57:35Z",
+      "lastUpdated": "2025-07-17T08:17:24Z",
       "isArchived": false,
       "isFork": false
     },
@@ -1159,7 +1159,7 @@
       "name": "lencx/ChatGPT",
       "description": "🔮 ChatGPT Desktop Application (Mac, Windows and Linux)",
       "url": "https://github.com/lencx/ChatGPT",
-      "stars": 53894,
+      "stars": 53895,
       "language": "Rust",
       "topics": [
         "ai",
@@ -1181,7 +1181,7 @@
       "categories": [
         "Uncategorized"
       ],
-      "lastUpdated": "2025-07-17T07:51:59Z",
+      "lastUpdated": "2025-07-17T08:06:34Z",
       "isArchived": false,
       "isFork": false
     },
@@ -1189,7 +1189,7 @@
       "name": "BurntSushi/ripgrep",
       "description": "ripgrep recursively searches directories for a regex pattern while respecting your gitignore",
       "url": "https://github.com/BurntSushi/ripgrep",
-      "stars": 53780,
+      "stars": 53781,
       "language": "Rust",
       "topics": [
         "cli",
@@ -1206,7 +1206,7 @@
       "categories": [
         "CLI Tools"
       ],
-      "lastUpdated": "2025-07-17T07:28:19Z",
+      "lastUpdated": "2025-07-17T08:14:40Z",
       "isArchived": false,
       "isFork": false
     },
@@ -1214,7 +1214,7 @@
       "name": "sharkdp/bat",
       "description": "A cat(1) clone with wings.",
       "url": "https://github.com/sharkdp/bat",
-      "stars": 53473,
+      "stars": 53474,
       "language": "Rust",
       "topics": [
         "cli",
@@ -1229,7 +1229,7 @@
       "categories": [
         "CLI Tools"
       ],
-      "lastUpdated": "2025-07-17T08:00:20Z",
+      "lastUpdated": "2025-07-17T08:08:21Z",
       "isArchived": false,
       "isFork": false
     },
@@ -1237,7 +1237,7 @@
       "name": "vllm-project/vllm",
       "description": "A high-throughput and memory-efficient inference and serving engine for LLMs",
       "url": "https://github.com/vllm-project/vllm",
-      "stars": 52477,
+      "stars": 52482,
       "language": "Python",
       "topics": [
         "amd",
@@ -1265,7 +1265,7 @@
         "AI/ML",
         "Data & Analytics"
       ],
-      "lastUpdated": "2025-07-17T07:39:13Z",
+      "lastUpdated": "2025-07-17T08:21:20Z",
       "isArchived": false,
       "isFork": false
     },
@@ -1308,7 +1308,7 @@
       "name": "rclone/rclone",
       "description": "\"rsync for cloud storage\" - Google Drive, S3, Dropbox, Backblaze B2, One Drive, Swift, Hubic, Wasabi, Google Cloud Storage, Azure Blob, Azure Files, Yandex Files",
       "url": "https://github.com/rclone/rclone",
-      "stars": 51547,
+      "stars": 51548,
       "language": "Go",
       "topics": [
         "azure-blob",
@@ -1336,7 +1336,7 @@
         "Security",
         "Infrastructure & Cloud"
       ],
-      "lastUpdated": "2025-07-17T07:12:25Z",
+      "lastUpdated": "2025-07-17T08:03:26Z",
       "isArchived": false,
       "isFork": false
     },
@@ -1393,7 +1393,7 @@
       "name": "PowerShell/PowerShell",
       "description": "PowerShell for every system!",
       "url": "https://github.com/PowerShell/PowerShell",
-      "stars": 47999,
+      "stars": 48000,
       "language": "C#",
       "topics": [
         "command-line",
@@ -1408,7 +1408,7 @@
       "categories": [
         "CLI Tools"
       ],
-      "lastUpdated": "2025-07-17T06:12:49Z",
+      "lastUpdated": "2025-07-17T08:08:14Z",
       "isArchived": false,
       "isFork": false
     },
@@ -1416,13 +1416,13 @@
       "name": "cline/cline",
       "description": "Autonomous coding agent right in your IDE, capable of creating/editing files, executing commands, using the browser, and more with your permission every step of the way.",
       "url": "https://github.com/cline/cline",
-      "stars": 47684,
+      "stars": 47687,
       "language": "TypeScript",
       "topics": [],
       "categories": [
         "CLI Tools"
       ],
-      "lastUpdated": "2025-07-17T08:02:30Z",
+      "lastUpdated": "2025-07-17T08:16:38Z",
       "isArchived": false,
       "isFork": false
     },
@@ -1430,7 +1430,7 @@
       "name": "microsoft/autogen",
       "description": "A programming framework for agentic AI 🤖 PyPi: autogen-agentchat Discord: https://aka.ms/autogen-discord Office Hour: https://aka.ms/autogen-officehour",
       "url": "https://github.com/microsoft/autogen",
-      "stars": 47422,
+      "stars": 47425,
       "language": "Python",
       "topics": [
         "agentic",
@@ -1448,7 +1448,7 @@
         "Web Frameworks",
         "AI/ML"
       ],
-      "lastUpdated": "2025-07-17T07:52:05Z",
+      "lastUpdated": "2025-07-17T08:19:45Z",
       "isArchived": false,
       "isFork": false
     },
@@ -1456,7 +1456,7 @@
       "name": "kamranahmedse/design-patterns-for-humans",
       "description": "An ultra-simplified explanation to design patterns",
       "url": "https://github.com/kamranahmedse/design-patterns-for-humans",
-      "stars": 46644,
+      "stars": 46645,
       "language": null,
       "topics": [
         "architecture",
@@ -1469,7 +1469,7 @@
       "categories": [
         "Interview & Algorithms"
       ],
-      "lastUpdated": "2025-07-17T07:33:44Z",
+      "lastUpdated": "2025-07-17T08:11:52Z",
       "isArchived": false,
       "isFork": false
     },
@@ -1477,7 +1477,7 @@
       "name": "hashicorp/terraform",
       "description": "Terraform enables you to safely and predictably create, change, and improve infrastructure. It is a source-available tool that codifies APIs into declarative configuration files that can be shared amongst team members, treated as code, edited, reviewed, and versioned.",
       "url": "https://github.com/hashicorp/terraform",
-      "stars": 45870,
+      "stars": 45871,
       "language": "Go",
       "topics": [
         "cloud",
@@ -1491,7 +1491,7 @@
         "DevOps",
         "Infrastructure & Cloud"
       ],
-      "lastUpdated": "2025-07-17T01:20:58Z",
+      "lastUpdated": "2025-07-17T08:07:37Z",
       "isArchived": false,
       "isFork": false
     },
@@ -1499,13 +1499,13 @@
       "name": "kelseyhightower/kubernetes-the-hard-way",
       "description": "Bootstrap Kubernetes the hard way. No scripts.",
       "url": "https://github.com/kelseyhightower/kubernetes-the-hard-way",
-      "stars": 45091,
+      "stars": 45092,
       "language": null,
       "topics": [],
       "categories": [
         "DevOps"
       ],
-      "lastUpdated": "2025-07-17T07:51:44Z",
+      "lastUpdated": "2025-07-17T08:03:11Z",
       "isArchived": false,
       "isFork": false
     },
@@ -1540,7 +1540,7 @@
       "name": "mendableai/firecrawl",
       "description": "🔥 Turn entire websites into LLM-ready markdown or structured data. Scrape, crawl and extract with a single API.",
       "url": "https://github.com/mendableai/firecrawl",
-      "stars": 43040,
+      "stars": 43041,
       "language": "TypeScript",
       "topics": [
         "ai",
@@ -1559,7 +1559,37 @@
       "categories": [
         "AI/ML"
       ],
-      "lastUpdated": "2025-07-17T07:52:12Z",
+      "lastUpdated": "2025-07-17T08:19:20Z",
+      "isArchived": false,
+      "isFork": false
+    },
+    {
+      "name": "OpenBB-finance/OpenBB",
+      "description": "Investment Research for Everyone, Everywhere.",
+      "url": "https://github.com/OpenBB-finance/OpenBB",
+      "stars": 42974,
+      "language": "Python",
+      "topics": [
+        "ai",
+        "crypto",
+        "derivatives",
+        "economics",
+        "equity",
+        "finance",
+        "fixed-income",
+        "machine-learning",
+        "openbb",
+        "options",
+        "python",
+        "quantitative-finance",
+        "stocks"
+      ],
+      "categories": [
+        "Learning Resources",
+        "AI/ML",
+        "Security"
+      ],
+      "lastUpdated": "2025-07-17T08:20:49Z",
       "isArchived": false,
       "isFork": false
     },
@@ -1604,40 +1634,10 @@
       "isFork": false
     },
     {
-      "name": "OpenBB-finance/OpenBB",
-      "description": "Investment Research for Everyone, Everywhere.",
-      "url": "https://github.com/OpenBB-finance/OpenBB",
-      "stars": 42970,
-      "language": "Python",
-      "topics": [
-        "ai",
-        "crypto",
-        "derivatives",
-        "economics",
-        "equity",
-        "finance",
-        "fixed-income",
-        "machine-learning",
-        "openbb",
-        "options",
-        "python",
-        "quantitative-finance",
-        "stocks"
-      ],
-      "categories": [
-        "Learning Resources",
-        "AI/ML",
-        "Security"
-      ],
-      "lastUpdated": "2025-07-17T07:59:36Z",
-      "isArchived": false,
-      "isFork": false
-    },
-    {
       "name": "usememos/memos",
       "description": "A modern, open-source, self-hosted knowledge management and note-taking platform designed for privacy-conscious users and organizations.",
       "url": "https://github.com/usememos/memos",
-      "stars": 42874,
+      "stars": 42879,
       "language": "Go",
       "topics": [
         "docker",
@@ -1658,7 +1658,7 @@
         "Databases",
         "Infrastructure & Cloud"
       ],
-      "lastUpdated": "2025-07-17T07:48:33Z",
+      "lastUpdated": "2025-07-17T08:15:15Z",
       "isArchived": false,
       "isFork": false
     },
@@ -1683,7 +1683,7 @@
       "name": "unslothai/unsloth",
       "description": "Fine-tuning & Reinforcement Learning for LLMs. 🦥 Train Qwen3, Llama 4, DeepSeek-R1, Gemma 3, TTS 2x faster with 70% less VRAM.",
       "url": "https://github.com/unslothai/unsloth",
-      "stars": 42190,
+      "stars": 42191,
       "language": "Python",
       "topics": [
         "agent",
@@ -1711,7 +1711,7 @@
         "Learning Resources",
         "AI/ML"
       ],
-      "lastUpdated": "2025-07-17T08:01:42Z",
+      "lastUpdated": "2025-07-17T08:19:16Z",
       "isArchived": false,
       "isFork": false
     },
@@ -1755,7 +1755,7 @@
       "name": "hpcaitech/ColossalAI",
       "description": "Making large AI models cheaper, faster and more accessible",
       "url": "https://github.com/hpcaitech/ColossalAI",
-      "stars": 41042,
+      "stars": 41043,
       "language": "Python",
       "topics": [
         "ai",
@@ -1775,7 +1775,7 @@
         "Learning Resources",
         "AI/ML"
       ],
-      "lastUpdated": "2025-07-17T07:52:24Z",
+      "lastUpdated": "2025-07-17T08:18:52Z",
       "isArchived": false,
       "isFork": false
     },
@@ -1783,7 +1783,7 @@
       "name": "AykutSarac/jsoncrack.com",
       "description": "✨ Innovative and open-source visualization application that transforms various data formats, such as JSON, YAML, XML, CSV and more, into interactive graphs.",
       "url": "https://github.com/AykutSarac/jsoncrack.com",
-      "stars": 40059,
+      "stars": 40061,
       "language": "TypeScript",
       "topics": [
         "csv",
@@ -1801,7 +1801,7 @@
         "CLI Tools",
         "Data & Analytics"
       ],
-      "lastUpdated": "2025-07-17T07:41:57Z",
+      "lastUpdated": "2025-07-17T08:07:26Z",
       "isArchived": false,
       "isFork": false
     },
@@ -1901,7 +1901,7 @@
       "name": "upscayl/upscayl",
       "description": "🆙 Upscayl - #1 Free and Open Source AI Image Upscaler for Linux, MacOS and Windows.",
       "url": "https://github.com/upscayl/upscayl",
-      "stars": 37979,
+      "stars": 37980,
       "language": "TypeScript",
       "topics": [
         "ai",
@@ -1919,7 +1919,7 @@
       "categories": [
         "Uncategorized"
       ],
-      "lastUpdated": "2025-07-17T07:52:38Z",
+      "lastUpdated": "2025-07-17T08:15:04Z",
       "isArchived": false,
       "isFork": false
     },
@@ -1927,7 +1927,7 @@
       "name": "photoprism/photoprism",
       "description": "AI-Powered Photos App for the Decentralized Web 🌈💎✨",
       "url": "https://github.com/photoprism/photoprism",
-      "stars": 37890,
+      "stars": 37891,
       "language": "Go",
       "topics": [
         "ai",
@@ -1944,7 +1944,7 @@
         "AI/ML",
         "Infrastructure & Cloud"
       ],
-      "lastUpdated": "2025-07-17T07:52:42Z",
+      "lastUpdated": "2025-07-17T08:13:06Z",
       "isArchived": false,
       "isFork": false
     },
@@ -1952,7 +1952,7 @@
       "name": "LAION-AI/Open-Assistant",
       "description": "OpenAssistant is a chat-based assistant that understands tasks, can interact with third-party systems, and retrieve information dynamically to do so.",
       "url": "https://github.com/LAION-AI/Open-Assistant",
-      "stars": 37420,
+      "stars": 37421,
       "language": "Python",
       "topics": [
         "ai",
@@ -1969,7 +1969,7 @@
         "Learning Resources",
         "AI/ML"
       ],
-      "lastUpdated": "2025-07-17T07:52:45Z",
+      "lastUpdated": "2025-07-17T08:06:59Z",
       "isArchived": false,
       "isFork": false
     },
@@ -1977,7 +1977,7 @@
       "name": "mem0ai/mem0",
       "description": "Universal memory layer for AI Agents; Announcing OpenMemory MCP - local and secure memory management.",
       "url": "https://github.com/mem0ai/mem0",
-      "stars": 36939,
+      "stars": 36940,
       "language": "Python",
       "topics": [
         "agent",
@@ -2000,7 +2000,7 @@
         "Databases",
         "AI/ML"
       ],
-      "lastUpdated": "2025-07-17T07:57:13Z",
+      "lastUpdated": "2025-07-17T08:11:21Z",
       "isArchived": false,
       "isFork": false
     },
@@ -2008,7 +2008,7 @@
       "name": "httpie/cli",
       "description": "🥧 HTTPie CLI  — modern, user-friendly command-line HTTP client for the API era. JSON support, colors, sessions, downloads, plugins & more.",
       "url": "https://github.com/httpie/cli",
-      "stars": 36083,
+      "stars": 36084,
       "language": "Python",
       "topics": [
         "api",
@@ -2038,7 +2038,7 @@
         "Developer Tools",
         "Testing"
       ],
-      "lastUpdated": "2025-07-17T07:37:47Z",
+      "lastUpdated": "2025-07-17T08:11:12Z",
       "isArchived": false,
       "isFork": false
     },
@@ -2046,7 +2046,7 @@
       "name": "milvus-io/milvus",
       "description": "Milvus is a high-performance, cloud-native vector database built for scalable vector ANN search",
       "url": "https://github.com/milvus-io/milvus",
-      "stars": 36018,
+      "stars": 36022,
       "language": "Go",
       "topics": [
         "anns",
@@ -2073,7 +2073,7 @@
         "AI/ML",
         "Infrastructure & Cloud"
       ],
-      "lastUpdated": "2025-07-17T06:26:56Z",
+      "lastUpdated": "2025-07-17T08:18:53Z",
       "isArchived": false,
       "isFork": false
     },
@@ -2117,7 +2117,7 @@
       "name": "mindsdb/mindsdb",
       "description": "AI's query engine - Platform for building AI that can answer questions over large scale federated data. - The only MCP Server you'll ever need",
       "url": "https://github.com/mindsdb/mindsdb",
-      "stars": 34527,
+      "stars": 34528,
       "language": "Python",
       "topics": [
         "agents",
@@ -2133,7 +2133,7 @@
         "Databases",
         "AI/ML"
       ],
-      "lastUpdated": "2025-07-17T08:02:19Z",
+      "lastUpdated": "2025-07-17T08:03:01Z",
       "isArchived": false,
       "isFork": false
     },
@@ -2185,7 +2185,7 @@
         "AI/ML",
         "Security"
       ],
-      "lastUpdated": "2025-07-17T07:53:08Z",
+      "lastUpdated": "2025-07-17T08:08:25Z",
       "isArchived": false,
       "isFork": false
     },
@@ -2230,7 +2230,7 @@
       "name": "Pythagora-io/gpt-pilot",
       "description": "The first real AI developer",
       "url": "https://github.com/Pythagora-io/gpt-pilot",
-      "stars": 33190,
+      "stars": 33191,
       "language": "Python",
       "topics": [
         "ai",
@@ -2244,7 +2244,7 @@
         "CLI Tools",
         "Developer Tools"
       ],
-      "lastUpdated": "2025-07-17T07:53:17Z",
+      "lastUpdated": "2025-07-17T08:04:53Z",
       "isArchived": false,
       "isFork": false
     },
@@ -2429,7 +2429,7 @@
       "name": "k3s-io/k3s",
       "description": "Lightweight Kubernetes",
       "url": "https://github.com/k3s-io/k3s",
-      "stars": 30230,
+      "stars": 30231,
       "language": "Go",
       "topics": [
         "k8s",
@@ -2438,7 +2438,7 @@
       "categories": [
         "DevOps"
       ],
-      "lastUpdated": "2025-07-17T07:51:21Z",
+      "lastUpdated": "2025-07-17T08:05:44Z",
       "isArchived": false,
       "isFork": false
     },
@@ -2474,7 +2474,7 @@
       "name": "GyulyVGC/sniffnet",
       "description": "Comfortably monitor your Internet traffic 🕵️‍♂️",
       "url": "https://github.com/GyulyVGC/sniffnet",
-      "stars": 28630,
+      "stars": 28632,
       "language": "Rust",
       "topics": [
         "application",
@@ -2504,7 +2504,7 @@
         "Security",
         "Infrastructure & Cloud"
       ],
-      "lastUpdated": "2025-07-17T07:51:12Z",
+      "lastUpdated": "2025-07-17T08:21:20Z",
       "isArchived": false,
       "isFork": false
     },
@@ -2577,7 +2577,7 @@
       "name": "sxyazi/yazi",
       "description": "💥 Blazing fast terminal file manager written in Rust, based on async I/O.",
       "url": "https://github.com/sxyazi/yazi",
-      "stars": 26751,
+      "stars": 26752,
       "language": "Rust",
       "topics": [
         "android",
@@ -2604,7 +2604,7 @@
         "CLI Tools",
         "Developer Tools"
       ],
-      "lastUpdated": "2025-07-17T07:38:16Z",
+      "lastUpdated": "2025-07-17T08:18:34Z",
       "isArchived": false,
       "isFork": false
     },
@@ -2652,7 +2652,7 @@
         "AI/ML",
         "Developer Tools"
       ],
-      "lastUpdated": "2025-07-17T07:53:49Z",
+      "lastUpdated": "2025-07-17T08:21:58Z",
       "isArchived": false,
       "isFork": false
     },
@@ -2728,13 +2728,13 @@
       "name": "anthropics/claude-code",
       "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
       "url": "https://github.com/anthropics/claude-code",
-      "stars": 23925,
+      "stars": 23944,
       "language": "PowerShell",
       "topics": [],
       "categories": [
         "CLI Tools"
       ],
-      "lastUpdated": "2025-07-17T08:02:22Z",
+      "lastUpdated": "2025-07-17T08:21:13Z",
       "isArchived": false,
       "isFork": false
     },
@@ -2742,7 +2742,7 @@
       "name": "CodePhiliaX/Chat2DB",
       "description": "🔥🔥🔥AI-driven database tool and SQL client, The hottest GUI client, supporting MySQL, Oracle, PostgreSQL, DB2, SQL Server, DB2, SQLite, H2, ClickHouse, and more.",
       "url": "https://github.com/CodePhiliaX/Chat2DB",
-      "stars": 23659,
+      "stars": 23661,
       "language": "Java",
       "topics": [
         "ai",
@@ -2770,7 +2770,7 @@
         "Databases",
         "Testing"
       ],
-      "lastUpdated": "2025-07-17T07:54:08Z",
+      "lastUpdated": "2025-07-17T08:18:57Z",
       "isArchived": false,
       "isFork": false
     },
@@ -2778,7 +2778,7 @@
       "name": "assafelovic/gpt-researcher",
       "description": "LLM based autonomous agent that conducts deep local and web research on any topic and generates a long report with citations.",
       "url": "https://github.com/assafelovic/gpt-researcher",
-      "stars": 22362,
+      "stars": 22363,
       "language": "Python",
       "topics": [
         "agent",
@@ -2796,7 +2796,7 @@
       "categories": [
         "AI/ML"
       ],
-      "lastUpdated": "2025-07-17T07:54:14Z",
+      "lastUpdated": "2025-07-17T08:18:59Z",
       "isArchived": false,
       "isFork": false
     },
@@ -2965,7 +2965,7 @@
         "DevOps",
         "Developer Tools"
       ],
-      "lastUpdated": "2025-07-17T07:54:41Z",
+      "lastUpdated": "2025-07-17T08:21:53Z",
       "isArchived": false,
       "isFork": false
     },
@@ -3026,14 +3026,14 @@
       "name": "microsoft/BitNet",
       "description": "Official inference framework for 1-bit LLMs",
       "url": "https://github.com/microsoft/BitNet",
-      "stars": 20537,
+      "stars": 20538,
       "language": "Python",
       "topics": [],
       "categories": [
         "Web Frameworks",
         "AI/ML"
       ],
-      "lastUpdated": "2025-07-17T07:51:00Z",
+      "lastUpdated": "2025-07-17T08:08:14Z",
       "isArchived": false,
       "isFork": false
     },
@@ -3077,7 +3077,7 @@
       "name": "upstash/context7",
       "description": "Context7 MCP Server -- Up-to-date code documentation for LLMs and AI code editors",
       "url": "https://github.com/upstash/context7",
-      "stars": 20445,
+      "stars": 20447,
       "language": "JavaScript",
       "topics": [
         "llm",
@@ -3089,7 +3089,7 @@
         "AI/ML",
         "Developer Tools"
       ],
-      "lastUpdated": "2025-07-17T08:00:04Z",
+      "lastUpdated": "2025-07-17T08:09:23Z",
       "isArchived": false,
       "isFork": false
     },
@@ -3125,13 +3125,13 @@
       "name": "Fosowl/agenticSeek",
       "description": "Fully Local Manus AI. No APIs, No $200 monthly bills. Enjoy an autonomous agent that thinks, browses the web, and code for the sole cost of electricity. 🔔 Official updates only via twitter @Martin993886460 (Beware of fake account)",
       "url": "https://github.com/Fosowl/agenticSeek",
-      "stars": 20113,
+      "stars": 20116,
       "language": "Python",
       "topics": [],
       "categories": [
         "Uncategorized"
       ],
-      "lastUpdated": "2025-07-17T07:54:47Z",
+      "lastUpdated": "2025-07-17T08:21:40Z",
       "isArchived": false,
       "isFork": false
     },
@@ -3170,7 +3170,7 @@
       "name": "e2b-dev/awesome-ai-agents",
       "description": "A list of AI autonomous agents",
       "url": "https://github.com/e2b-dev/awesome-ai-agents",
-      "stars": 19689,
+      "stars": 19690,
       "language": null,
       "topics": [
         "agent",
@@ -3191,7 +3191,7 @@
         "Awesome Lists",
         "AI/ML"
       ],
-      "lastUpdated": "2025-07-17T07:54:49Z",
+      "lastUpdated": "2025-07-17T08:04:26Z",
       "isArchived": false,
       "isFork": false
     },
@@ -3199,7 +3199,7 @@
       "name": "dailydotdev/daily",
       "description": "daily.dev is a professional network for developers to learn, collaborate, and grow together 👩🏽‍💻 👨‍💻",
       "url": "https://github.com/dailydotdev/daily",
-      "stars": 19531,
+      "stars": 19532,
       "language": null,
       "topics": [
         "ai",
@@ -3220,7 +3220,7 @@
         "Developer Tools",
         "Infrastructure & Cloud"
       ],
-      "lastUpdated": "2025-07-17T07:54:59Z",
+      "lastUpdated": "2025-07-17T08:05:04Z",
       "isArchived": false,
       "isFork": false
     },
@@ -3228,7 +3228,7 @@
       "name": "GraphiteEditor/Graphite",
       "description": "An open source graphics editor for 2025: comprehensive 2D content creation tool suite for graphic design, digital art, and interactive real-time motion graphics — featuring node-based procedural editing",
       "url": "https://github.com/GraphiteEditor/Graphite",
-      "stars": 19379,
+      "stars": 19380,
       "language": "Rust",
       "topics": [
         "2d-graphics",
@@ -3256,7 +3256,7 @@
         "CLI Tools",
         "Developer Tools"
       ],
-      "lastUpdated": "2025-07-17T07:53:50Z",
+      "lastUpdated": "2025-07-17T08:14:03Z",
       "isArchived": false,
       "isFork": false
     },
@@ -3264,7 +3264,7 @@
       "name": "vanna-ai/vanna",
       "description": "🤖 Chat with your SQL database 📊. Accurate Text-to-SQL Generation via LLMs using RAG 🔄.",
       "url": "https://github.com/vanna-ai/vanna",
-      "stars": 19036,
+      "stars": 19039,
       "language": "Python",
       "topics": [
         "agent",
@@ -3281,7 +3281,7 @@
         "AI/ML",
         "Data & Analytics"
       ],
-      "lastUpdated": "2025-07-17T08:01:59Z",
+      "lastUpdated": "2025-07-17T08:20:59Z",
       "isArchived": false,
       "isFork": false
     },
@@ -3289,7 +3289,7 @@
       "name": "NirDiamant/RAG_Techniques",
       "description": "This repository showcases various advanced techniques for Retrieval-Augmented Generation (RAG) systems. RAG systems combine information retrieval with generative models to provide accurate and contextually rich responses.",
       "url": "https://github.com/NirDiamant/RAG_Techniques",
-      "stars": 18918,
+      "stars": 18919,
       "language": "Jupyter Notebook",
       "topics": [
         "ai",
@@ -3306,7 +3306,7 @@
         "Learning Resources",
         "AI/ML"
       ],
-      "lastUpdated": "2025-07-17T08:01:10Z",
+      "lastUpdated": "2025-07-17T08:08:59Z",
       "isArchived": false,
       "isFork": false
     },
@@ -3314,13 +3314,13 @@
       "name": "eyaltoledano/claude-task-master",
       "description": "An AI-powered task-management system you can drop into Cursor, Lovable, Windsurf, Roo, and others.",
       "url": "https://github.com/eyaltoledano/claude-task-master",
-      "stars": 18799,
+      "stars": 18804,
       "language": "JavaScript",
       "topics": [],
       "categories": [
         "Uncategorized"
       ],
-      "lastUpdated": "2025-07-17T07:55:04Z",
+      "lastUpdated": "2025-07-17T08:21:03Z",
       "isArchived": false,
       "isFork": false
     },
@@ -3379,7 +3379,7 @@
       "name": "transitive-bullshit/agentic",
       "description": "Agentic is RapidAPI for LLM Tools. Your API ⇒ Paid MCP. Instantly.",
       "url": "https://github.com/transitive-bullshit/agentic",
-      "stars": 17797,
+      "stars": 17798,
       "language": "TypeScript",
       "topics": [
         "agents",
@@ -3391,7 +3391,7 @@
         "CLI Tools",
         "AI/ML"
       ],
-      "lastUpdated": "2025-07-17T07:55:10Z",
+      "lastUpdated": "2025-07-17T08:10:58Z",
       "isArchived": false,
       "isFork": false
     },
@@ -3399,7 +3399,7 @@
       "name": "meta-llama/llama-cookbook",
       "description": "Welcome to the Llama Cookbook! This is your go to guide for Building with Llama: Getting started with Inference, Fine-Tuning, RAG. We also show you how to solve end to end problems using Llama model family and using them on various provider services  ",
       "url": "https://github.com/meta-llama/llama-cookbook",
-      "stars": 17636,
+      "stars": 17637,
       "language": "Jupyter Notebook",
       "topics": [
         "ai",
@@ -3417,7 +3417,7 @@
         "Learning Resources",
         "AI/ML"
       ],
-      "lastUpdated": "2025-07-17T07:55:11Z",
+      "lastUpdated": "2025-07-17T08:03:04Z",
       "isArchived": false,
       "isFork": false
     },
@@ -3587,7 +3587,7 @@
       "name": "SWE-agent/SWE-agent",
       "description": "SWE-agent takes a GitHub issue and tries to automatically fix it, using your LM of choice. It can also be employed for offensive cybersecurity or competitive coding challenges. [NeurIPS 2024] ",
       "url": "https://github.com/SWE-agent/SWE-agent",
-      "stars": 16679,
+      "stars": 16681,
       "language": "Python",
       "topics": [
         "agent",
@@ -3604,7 +3604,7 @@
         "Developer Tools",
         "Security"
       ],
-      "lastUpdated": "2025-07-17T07:55:42Z",
+      "lastUpdated": "2025-07-17T08:19:31Z",
       "isArchived": false,
       "isFork": false
     },
@@ -3657,7 +3657,7 @@
       "name": "arc53/DocsGPT",
       "description": "DocsGPT is an open-source genAI tool that helps users get reliable answers from knowledge source, while avoiding hallucinations. It enables private and reliable information retrieval, with tooling and agentic system capability built in.",
       "url": "https://github.com/arc53/DocsGPT",
-      "stars": 16215,
+      "stars": 16226,
       "language": "TypeScript",
       "topics": [
         "ai",
@@ -3683,7 +3683,7 @@
         "Learning Resources",
         "AI/ML"
       ],
-      "lastUpdated": "2025-07-17T07:56:04Z",
+      "lastUpdated": "2025-07-17T08:20:45Z",
       "isArchived": false,
       "isFork": false
     },
@@ -3711,7 +3711,7 @@
       "name": "microsoft/IoT-For-Beginners",
       "description": "12 Weeks, 24 Lessons, IoT for All!",
       "url": "https://github.com/microsoft/IoT-For-Beginners",
-      "stars": 16198,
+      "stars": 16199,
       "language": "C++",
       "topics": [
         "cpp",
@@ -3728,7 +3728,7 @@
       "categories": [
         "IoT & Hardware"
       ],
-      "lastUpdated": "2025-07-17T07:48:53Z",
+      "lastUpdated": "2025-07-17T08:07:02Z",
       "isArchived": false,
       "isFork": false
     },
@@ -3736,7 +3736,7 @@
       "name": "SillyTavern/SillyTavern",
       "description": "LLM Frontend for Power Users.",
       "url": "https://github.com/SillyTavern/SillyTavern",
-      "stars": 16151,
+      "stars": 16152,
       "language": "JavaScript",
       "topics": [
         "ai",
@@ -3747,7 +3747,7 @@
         "Web Frameworks",
         "AI/ML"
       ],
-      "lastUpdated": "2025-07-17T07:56:38Z",
+      "lastUpdated": "2025-07-17T08:16:00Z",
       "isArchived": false,
       "isFork": false
     },
@@ -3792,14 +3792,14 @@
       "name": "bytedance/deer-flow",
       "description": "DeerFlow is a community-driven Deep Research framework, combining language models with tools like web search, crawling, and Python execution, while contributing back to the open-source community.",
       "url": "https://github.com/bytedance/deer-flow",
-      "stars": 15302,
+      "stars": 15303,
       "language": "Python",
       "topics": [],
       "categories": [
         "Web Frameworks",
         "CLI Tools"
       ],
-      "lastUpdated": "2025-07-17T07:56:47Z",
+      "lastUpdated": "2025-07-17T08:16:25Z",
       "isArchived": false,
       "isFork": false
     },
@@ -3905,7 +3905,7 @@
       "name": "NirDiamant/GenAI_Agents",
       "description": "This repository provides tutorials and implementations for various Generative AI Agent techniques, from basic to advanced. It serves as a comprehensive guide for building intelligent, interactive AI systems.",
       "url": "https://github.com/NirDiamant/GenAI_Agents",
-      "stars": 14610,
+      "stars": 14611,
       "language": "Jupyter Notebook",
       "topics": [
         "agents",
@@ -3922,7 +3922,7 @@
         "Learning Resources",
         "AI/ML"
       ],
-      "lastUpdated": "2025-07-17T07:57:00Z",
+      "lastUpdated": "2025-07-17T08:04:32Z",
       "isArchived": false,
       "isFork": false
     },
@@ -4002,7 +4002,7 @@
       "name": "browserbase/stagehand",
       "description": "The AI Browser Automation Framework",
       "url": "https://github.com/browserbase/stagehand",
-      "stars": 14285,
+      "stars": 14286,
       "language": "TypeScript",
       "topics": [
         "agents",
@@ -4017,7 +4017,7 @@
         "AI/ML",
         "Testing"
       ],
-      "lastUpdated": "2025-07-17T07:57:10Z",
+      "lastUpdated": "2025-07-17T08:21:19Z",
       "isArchived": false,
       "isFork": false
     },
@@ -4053,7 +4053,7 @@
       "name": "patchy631/ai-engineering-hub",
       "description": "In-depth tutorials on LLMs, RAGs and real-world AI agent applications.",
       "url": "https://github.com/patchy631/ai-engineering-hub",
-      "stars": 14222,
+      "stars": 14225,
       "language": "Jupyter Notebook",
       "topics": [
         "agents",
@@ -4067,7 +4067,7 @@
         "Learning Resources",
         "AI/ML"
       ],
-      "lastUpdated": "2025-07-17T07:57:15Z",
+      "lastUpdated": "2025-07-17T08:20:24Z",
       "isArchived": false,
       "isFork": false
     },
@@ -4125,7 +4125,7 @@
       "name": "apache/doris",
       "description": "Apache Doris is an easy-to-use, high performance and unified analytics database.",
       "url": "https://github.com/apache/doris",
-      "stars": 13961,
+      "stars": 13962,
       "language": "Groovy",
       "topics": [
         "agent",
@@ -4151,7 +4151,7 @@
         "Databases",
         "Data & Analytics"
       ],
-      "lastUpdated": "2025-07-17T07:51:17Z",
+      "lastUpdated": "2025-07-17T08:13:02Z",
       "isArchived": false,
       "isFork": false
     },
@@ -4159,7 +4159,7 @@
       "name": "weaviate/weaviate",
       "description": "Weaviate is an open-source vector database that stores both objects and vectors, allowing for the combination of vector search with structured filtering with the fault tolerance and scalability of a cloud-native database​.",
       "url": "https://github.com/weaviate/weaviate",
-      "stars": 13940,
+      "stars": 13941,
       "language": "Go",
       "topics": [
         "approximate-nearest-neighbor-search",
@@ -4188,7 +4188,7 @@
         "Data & Analytics",
         "Infrastructure & Cloud"
       ],
-      "lastUpdated": "2025-07-17T07:48:45Z",
+      "lastUpdated": "2025-07-17T08:10:59Z",
       "isArchived": false,
       "isFork": false
     },
@@ -4223,7 +4223,7 @@
       "name": "GoogleCloudPlatform/terraformer",
       "description": "CLI tool to generate terraform files from existing infrastructure (reverse Terraform). Infrastructure to Code",
       "url": "https://github.com/GoogleCloudPlatform/terraformer",
-      "stars": 13832,
+      "stars": 13833,
       "language": "Go",
       "topics": [
         "aws",
@@ -4242,7 +4242,7 @@
         "DevOps",
         "Infrastructure & Cloud"
       ],
-      "lastUpdated": "2025-07-16T14:46:31Z",
+      "lastUpdated": "2025-07-17T08:15:44Z",
       "isArchived": false,
       "isFork": false
     },
@@ -4426,7 +4426,7 @@
       "name": "owainlewis/awesome-artificial-intelligence",
       "description": "A curated list of Artificial Intelligence (AI) courses, books, video lectures and papers.",
       "url": "https://github.com/owainlewis/awesome-artificial-intelligence",
-      "stars": 12073,
+      "stars": 12074,
       "language": null,
       "topics": [
         "ai",
@@ -4447,7 +4447,7 @@
         "AI/ML",
         "Infrastructure & Cloud"
       ],
-      "lastUpdated": "2025-07-17T07:58:14Z",
+      "lastUpdated": "2025-07-17T08:06:44Z",
       "isArchived": false,
       "isFork": false
     },
@@ -4592,7 +4592,7 @@
       "name": "hadolint/hadolint",
       "description": "Dockerfile linter, validate inline bash, written in Haskell",
       "url": "https://github.com/hadolint/hadolint",
-      "stars": 11351,
+      "stars": 11352,
       "language": "Haskell",
       "topics": [
         "docker",
@@ -4606,7 +4606,7 @@
       "categories": [
         "DevOps"
       ],
-      "lastUpdated": "2025-07-17T06:27:34Z",
+      "lastUpdated": "2025-07-17T08:14:40Z",
       "isArchived": false,
       "isFork": false
     },
@@ -4652,7 +4652,7 @@
       "name": "frdel/agent-zero",
       "description": "Agent Zero AI framework",
       "url": "https://github.com/frdel/agent-zero",
-      "stars": 11075,
+      "stars": 11076,
       "language": "Python",
       "topics": [
         "agent",
@@ -4665,7 +4665,7 @@
       "categories": [
         "Web Frameworks"
       ],
-      "lastUpdated": "2025-07-17T07:17:09Z",
+      "lastUpdated": "2025-07-17T08:17:22Z",
       "isArchived": false,
       "isFork": false
     },
@@ -4767,7 +4767,7 @@
       "name": "codota/TabNine",
       "description": "AI Code Completions",
       "url": "https://github.com/codota/TabNine",
-      "stars": 10788,
+      "stars": 10789,
       "language": "Shell",
       "topics": [
         "ai",
@@ -4796,7 +4796,7 @@
         "Developer Tools",
         "Libraries"
       ],
-      "lastUpdated": "2025-07-17T07:58:36Z",
+      "lastUpdated": "2025-07-17T08:06:24Z",
       "isArchived": false,
       "isFork": false
     },
@@ -4840,7 +4840,7 @@
         "CLI Tools",
         "Templates"
       ],
-      "lastUpdated": "2025-07-17T07:58:40Z",
+      "lastUpdated": "2025-07-17T08:11:26Z",
       "isArchived": false,
       "isFork": false
     },
@@ -5170,13 +5170,13 @@
       "name": "humanlayer/12-factor-agents",
       "description": "What are the principles we can use to build LLM-powered software that is actually good enough to put in the hands of production customers?",
       "url": "https://github.com/humanlayer/12-factor-agents",
-      "stars": 9208,
+      "stars": 9212,
       "language": "TypeScript",
       "topics": [],
       "categories": [
         "AI/ML"
       ],
-      "lastUpdated": "2025-07-17T08:01:08Z",
+      "lastUpdated": "2025-07-17T08:17:07Z",
       "isArchived": false,
       "isFork": false
     },
@@ -5214,7 +5214,7 @@
       "name": "Netflix/metaflow",
       "description": "Build, Manage and Deploy AI/ML Systems",
       "url": "https://github.com/Netflix/metaflow",
-      "stars": 9038,
+      "stars": 9046,
       "language": "Python",
       "topics": [
         "agents",
@@ -5244,7 +5244,7 @@
         "Data & Analytics",
         "Infrastructure & Cloud"
       ],
-      "lastUpdated": "2025-07-17T07:56:28Z",
+      "lastUpdated": "2025-07-17T08:21:12Z",
       "isArchived": false,
       "isFork": false
     },
@@ -5289,7 +5289,7 @@
       "name": "simonw/llm",
       "description": "Access large language models from the command-line",
       "url": "https://github.com/simonw/llm",
-      "stars": 8971,
+      "stars": 8970,
       "language": "Python",
       "topics": [
         "ai",
@@ -5300,7 +5300,7 @@
         "CLI Tools",
         "AI/ML"
       ],
-      "lastUpdated": "2025-07-17T08:01:16Z",
+      "lastUpdated": "2025-07-17T08:14:14Z",
       "isArchived": false,
       "isFork": false
     },
@@ -5504,7 +5504,7 @@
         "Learning Resources",
         "AI/ML"
       ],
-      "lastUpdated": "2025-07-17T08:01:40Z",
+      "lastUpdated": "2025-07-17T08:20:50Z",
       "isArchived": false,
       "isFork": false
     },
@@ -5512,7 +5512,7 @@
       "name": "databendlabs/databend",
       "description": "𝗗𝗮𝘁𝗮, 𝗔𝗻𝗮𝗹𝘆𝘁𝗶𝗰𝘀 & 𝗔𝗜. Modern alternative to Snowflake. Cost-effective and simple for massive-scale analytics. https://databend.com",
       "url": "https://github.com/databendlabs/databend",
-      "stars": 8568,
+      "stars": 8569,
       "language": "Rust",
       "topics": [
         "ai",
@@ -5529,7 +5529,7 @@
         "Databases",
         "Data & Analytics"
       ],
-      "lastUpdated": "2025-07-17T08:01:45Z",
+      "lastUpdated": "2025-07-17T08:03:59Z",
       "isArchived": false,
       "isFork": false
     },
@@ -5788,7 +5788,7 @@
       "name": "googleapis/genai-toolbox",
       "description": "MCP Toolbox for Databases is an open source MCP server for databases.",
       "url": "https://github.com/googleapis/genai-toolbox",
-      "stars": 6947,
+      "stars": 6952,
       "language": "Go",
       "topics": [
         "databases",
@@ -5801,7 +5801,7 @@
         "Databases",
         "AI/ML"
       ],
-      "lastUpdated": "2025-07-17T07:54:58Z",
+      "lastUpdated": "2025-07-17T08:21:18Z",
       "isArchived": false,
       "isFork": false
     },
@@ -5948,7 +5948,7 @@
       "name": "GoogleCloudPlatform/kubectl-ai",
       "description": "AI powered Kubernetes Assistant",
       "url": "https://github.com/GoogleCloudPlatform/kubectl-ai",
-      "stars": 6431,
+      "stars": 6430,
       "language": "Go",
       "topics": [
         "ai",
@@ -5960,7 +5960,7 @@
         "CLI Tools",
         "DevOps"
       ],
-      "lastUpdated": "2025-07-17T06:31:18Z",
+      "lastUpdated": "2025-07-17T08:06:06Z",
       "isArchived": false,
       "isFork": false
     },
@@ -6226,7 +6226,7 @@
       "name": "oraios/serena",
       "description": "A powerful coding agent toolkit providing semantic retrieval and editing capabilities (MCP server & Agno integration)",
       "url": "https://github.com/oraios/serena",
-      "stars": 3959,
+      "stars": 3960,
       "language": "Python",
       "topics": [
         "agent",
@@ -6242,7 +6242,7 @@
         "CLI Tools",
         "AI/ML"
       ],
-      "lastUpdated": "2025-07-17T08:01:52Z",
+      "lastUpdated": "2025-07-17T08:10:44Z",
       "isArchived": false,
       "isFork": false
     },
@@ -6432,7 +6432,7 @@
       "name": "endoflife-date/endoflife.date",
       "description": "Informative site with EoL dates of everything",
       "url": "https://github.com/endoflife-date/endoflife.date",
-      "stars": 2876,
+      "stars": 2877,
       "language": "Ruby",
       "topics": [
         "alpine",
@@ -6459,7 +6459,7 @@
       "categories": [
         "Databases"
       ],
-      "lastUpdated": "2025-07-17T03:44:58Z",
+      "lastUpdated": "2025-07-17T08:15:31Z",
       "isArchived": false,
       "isFork": false
     },
@@ -6933,13 +6933,13 @@
       "name": "rizethereum/claude-code-requirements-builder",
       "description": null,
       "url": "https://github.com/rizethereum/claude-code-requirements-builder",
-      "stars": 1202,
+      "stars": 1203,
       "language": null,
       "topics": [],
       "categories": [
         "Uncategorized"
       ],
-      "lastUpdated": "2025-07-17T07:34:56Z",
+      "lastUpdated": "2025-07-17T08:20:59Z",
       "isArchived": false,
       "isFork": false
     },
@@ -7436,7 +7436,7 @@
       "name": "elastic/mcp-server-elasticsearch",
       "description": null,
       "url": "https://github.com/elastic/mcp-server-elasticsearch",
-      "stars": 351,
+      "stars": 352,
       "language": "Rust",
       "topics": [
         "elasticsearch",
@@ -7447,7 +7447,7 @@
       "categories": [
         "Databases"
       ],
-      "lastUpdated": "2025-07-17T00:18:01Z",
+      "lastUpdated": "2025-07-17T08:17:36Z",
       "isArchived": false,
       "isFork": false
     },
@@ -7546,7 +7546,7 @@
     },
     {
       "name": "superlinear-ai/substrate",
-      "description": "🌱 Substrate is a modern Copier template for scaffolding Python packages and apps",
+      "description": "��� Substrate is a modern Copier template for scaffolding Python packages and apps",
       "url": "https://github.com/superlinear-ai/substrate",
       "stars": 311,
       "language": "Jinja",
