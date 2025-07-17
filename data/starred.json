@@ -1,12 +1,12 @@
 {
-  "generated": "2025-07-17T00:24:25.474Z",
-  "total": 201,
+  "generated": "2025-07-17T07:50:39.859Z",
+  "total": 225,
   "repositories": [
     {
       "name": "codecrafters-io/build-your-own-x",
       "description": "Master programming by recreating your favorite technologies from scratch.",
       "url": "https://github.com/codecrafters-io/build-your-own-x",
-      "stars": 400877,
+      "stars": 400965,
       "language": "Markdown",
       "topics": [
         "awesome-list",
@@ -19,7 +19,7 @@
       "categories": [
         "Learning Resources"
       ],
-      "lastUpdated": "2025-07-17T00:23:21Z",
+      "lastUpdated": "2025-07-17T07:50:33Z",
       "isArchived": false,
       "isFork": false
     },
@@ -27,7 +27,7 @@
       "name": "sindresorhus/awesome",
       "description": "😎 Awesome lists about all kinds of interesting topics",
       "url": "https://github.com/sindresorhus/awesome",
-      "stars": 382645,
+      "stars": 382786,
       "language": null,
       "topics": [
         "awesome",
@@ -39,7 +39,7 @@
       "categories": [
         "Uncategorized"
       ],
-      "lastUpdated": "2025-07-17T00:22:33Z",
+      "lastUpdated": "2025-07-17T07:44:43Z",
       "isArchived": false,
       "isFork": false
     },
@@ -47,7 +47,7 @@
       "name": "kamranahmedse/developer-roadmap",
       "description": "Interactive roadmaps, guides and other educational content to help developers grow in their careers.",
       "url": "https://github.com/kamranahmedse/developer-roadmap",
-      "stars": 331519,
+      "stars": 331551,
       "language": "TypeScript",
       "topics": [
         "angular-roadmap",
@@ -75,7 +75,7 @@
         "Learning Resources",
         "Interview & Algorithms"
       ],
-      "lastUpdated": "2025-07-16T23:56:41Z",
+      "lastUpdated": "2025-07-17T07:50:24Z",
       "isArchived": false,
       "isFork": false
     },
@@ -83,7 +83,7 @@
       "name": "jwasham/coding-interview-university",
       "description": "A complete computer science study plan to become a software engineer.",
       "url": "https://github.com/jwasham/coding-interview-university",
-      "stars": 322824,
+      "stars": 322853,
       "language": null,
       "topics": [
         "algorithm",
@@ -102,7 +102,7 @@
       "categories": [
         "Interview & Algorithms"
       ],
-      "lastUpdated": "2025-07-16T23:47:51Z",
+      "lastUpdated": "2025-07-17T07:35:25Z",
       "isArchived": false,
       "isFork": false
     },
@@ -110,7 +110,7 @@
       "name": "donnemartin/system-design-primer",
       "description": "Learn how to design large-scale systems. Prep for the system design interview.  Includes Anki flashcards.",
       "url": "https://github.com/donnemartin/system-design-primer",
-      "stars": 311394,
+      "stars": 311441,
       "language": "Python",
       "topics": [
         "design",
@@ -131,7 +131,30 @@
         "Developer Tools",
         "Interview & Algorithms"
       ],
-      "lastUpdated": "2025-07-17T00:22:09Z",
+      "lastUpdated": "2025-07-17T07:25:04Z",
+      "isArchived": false,
+      "isFork": false
+    },
+    {
+      "name": "vinta/awesome-python",
+      "description": "An opinionated list of awesome Python frameworks, libraries, software and resources.",
+      "url": "https://github.com/vinta/awesome-python",
+      "stars": 250560,
+      "language": "Python",
+      "topics": [
+        "awesome",
+        "collections",
+        "python",
+        "python-framework",
+        "python-library",
+        "python-resources"
+      ],
+      "categories": [
+        "Web Frameworks",
+        "Awesome Lists",
+        "Libraries"
+      ],
+      "lastUpdated": "2025-07-17T07:50:24Z",
       "isArchived": false,
       "isFork": false
     },
@@ -139,13 +162,36 @@
       "name": "torvalds/linux",
       "description": "Linux kernel source tree",
       "url": "https://github.com/torvalds/linux",
-      "stars": 197757,
+      "stars": 197771,
       "language": "C",
       "topics": [],
       "categories": [
         "Uncategorized"
       ],
-      "lastUpdated": "2025-07-17T00:20:24Z",
+      "lastUpdated": "2025-07-17T07:37:35Z",
+      "isArchived": false,
+      "isFork": false
+    },
+    {
+      "name": "trekhleb/javascript-algorithms",
+      "description": "📝 Algorithms and data structures implemented in JavaScript with explanations and links to further readings",
+      "url": "https://github.com/trekhleb/javascript-algorithms",
+      "stars": 192196,
+      "language": "JavaScript",
+      "topics": [
+        "algorithm",
+        "algorithms",
+        "computer-science",
+        "data-structures",
+        "interview",
+        "interview-preparation",
+        "javascript",
+        "javascript-algorithms"
+      ],
+      "categories": [
+        "Interview & Algorithms"
+      ],
+      "lastUpdated": "2025-07-17T07:47:25Z",
       "isArchived": false,
       "isFork": false
     },
@@ -153,7 +199,7 @@
       "name": "trimstray/the-book-of-secret-knowledge",
       "description": "A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more.",
       "url": "https://github.com/trimstray/the-book-of-secret-knowledge",
-      "stars": 178331,
+      "stars": 178406,
       "language": null,
       "topics": [
         "awesome",
@@ -183,7 +229,7 @@
         "Security",
         "Testing"
       ],
-      "lastUpdated": "2025-07-17T00:09:35Z",
+      "lastUpdated": "2025-07-17T07:37:15Z",
       "isArchived": false,
       "isFork": false
     },
@@ -191,7 +237,7 @@
       "name": "microsoft/vscode",
       "description": "Visual Studio Code",
       "url": "https://github.com/microsoft/vscode",
-      "stars": 174613,
+      "stars": 174633,
       "language": "TypeScript",
       "topics": [
         "editor",
@@ -203,7 +249,7 @@
       "categories": [
         "Developer Tools"
       ],
-      "lastUpdated": "2025-07-16T23:48:21Z",
+      "lastUpdated": "2025-07-17T07:34:02Z",
       "isArchived": false,
       "isFork": false
     },
@@ -211,7 +257,7 @@
       "name": "jlevy/the-art-of-command-line",
       "description": "Master the command line, in one page",
       "url": "https://github.com/jlevy/the-art-of-command-line",
-      "stars": 157091,
+      "stars": 157094,
       "language": null,
       "topics": [
         "bash",
@@ -224,7 +270,7 @@
       "categories": [
         "CLI Tools"
       ],
-      "lastUpdated": "2025-07-16T23:59:57Z",
+      "lastUpdated": "2025-07-17T07:24:10Z",
       "isArchived": false,
       "isFork": false
     },
@@ -232,7 +278,7 @@
       "name": "avelino/awesome-go",
       "description": "A curated list of awesome Go frameworks, libraries and software",
       "url": "https://github.com/avelino/awesome-go",
-      "stars": 147503,
+      "stars": 147534,
       "language": "Go",
       "topics": [
         "awesome",
@@ -247,7 +293,7 @@
         "Awesome Lists",
         "Libraries"
       ],
-      "lastUpdated": "2025-07-17T00:14:20Z",
+      "lastUpdated": "2025-07-17T07:45:25Z",
       "isArchived": false,
       "isFork": false
     },
@@ -255,7 +301,7 @@
       "name": "ollama/ollama",
       "description": "Get up and running with Llama 3.3, DeepSeek-R1, Phi-4, Gemma 3, Mistral Small 3.1 and other large language models.",
       "url": "https://github.com/ollama/ollama",
-      "stars": 146710,
+      "stars": 146734,
       "language": "Go",
       "topics": [
         "deepseek",
@@ -278,7 +324,7 @@
       "categories": [
         "AI/ML"
       ],
-      "lastUpdated": "2025-07-17T00:05:30Z",
+      "lastUpdated": "2025-07-17T07:48:52Z",
       "isArchived": false,
       "isFork": false
     },
@@ -286,7 +332,7 @@
       "name": "f/awesome-chatgpt-prompts",
       "description": "This repo includes ChatGPT prompt curation to use ChatGPT and other LLM tools better.",
       "url": "https://github.com/f/awesome-chatgpt-prompts",
-      "stars": 130732,
+      "stars": 130754,
       "language": "JavaScript",
       "topics": [
         "bots",
@@ -300,7 +346,7 @@
         "Awesome Lists",
         "AI/ML"
       ],
-      "lastUpdated": "2025-07-16T23:52:20Z",
+      "lastUpdated": "2025-07-17T07:32:19Z",
       "isArchived": false,
       "isFork": false
     },
@@ -308,13 +354,13 @@
       "name": "langchain-ai/langchain",
       "description": "🦜🔗 Build context-aware reasoning applications",
       "url": "https://github.com/langchain-ai/langchain",
-      "stars": 111611,
+      "stars": 111635,
       "language": "Jupyter Notebook",
       "topics": [],
       "categories": [
         "Uncategorized"
       ],
-      "lastUpdated": "2025-07-16T23:55:14Z",
+      "lastUpdated": "2025-07-17T07:49:09Z",
       "isArchived": false,
       "isFork": false
     },
@@ -322,7 +368,7 @@
       "name": "mrdoob/three.js",
       "description": "JavaScript 3D Library.",
       "url": "https://github.com/mrdoob/three.js",
-      "stars": 107647,
+      "stars": 107652,
       "language": "JavaScript",
       "topics": [
         "3d",
@@ -341,7 +387,24 @@
       "categories": [
         "Libraries"
       ],
-      "lastUpdated": "2025-07-16T20:38:45Z",
+      "lastUpdated": "2025-07-17T07:22:38Z",
+      "isArchived": false,
+      "isFork": false
+    },
+    {
+      "name": "ripienaar/free-for-dev",
+      "description": "A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev",
+      "url": "https://github.com/ripienaar/free-for-dev",
+      "stars": 106031,
+      "language": "HTML",
+      "topics": [
+        "awesome-list",
+        "free-for-developers"
+      ],
+      "categories": [
+        "DevOps"
+      ],
+      "lastUpdated": "2025-07-17T07:48:02Z",
       "isArchived": false,
       "isFork": false
     },
@@ -349,7 +412,7 @@
       "name": "open-webui/open-webui",
       "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
       "url": "https://github.com/open-webui/open-webui",
-      "stars": 102849,
+      "stars": 102889,
       "language": "JavaScript",
       "topics": [
         "ai",
@@ -371,7 +434,57 @@
       "categories": [
         "AI/ML"
       ],
-      "lastUpdated": "2025-07-17T00:05:02Z",
+      "lastUpdated": "2025-07-17T07:49:20Z",
+      "isArchived": false,
+      "isFork": false
+    },
+    {
+      "name": "rustdesk/rustdesk",
+      "description": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
+      "url": "https://github.com/rustdesk/rustdesk",
+      "stars": 93252,
+      "language": "Rust",
+      "topics": [
+        "anydesk",
+        "dart",
+        "flutter",
+        "flutter-apps",
+        "flutter-desktop",
+        "flutter-examples",
+        "flutter-mobile",
+        "flutter-ui",
+        "flutter-web",
+        "hacktoberfest",
+        "linux",
+        "p2p",
+        "rdp",
+        "remote-control",
+        "remote-desktop",
+        "rust",
+        "rust-lang",
+        "teamviewer",
+        "vnc",
+        "wayland"
+      ],
+      "categories": [
+        "Learning Resources"
+      ],
+      "lastUpdated": "2025-07-17T07:48:50Z",
+      "isArchived": false,
+      "isFork": false
+    },
+    {
+      "name": "gothinkster/realworld",
+      "description": "\"The mother of all demo apps\" — Exemplary fullstack Medium.com clone powered by React, Angular, Node, Django, and many more",
+      "url": "https://github.com/gothinkster/realworld",
+      "stars": 81964,
+      "language": "TypeScript",
+      "topics": [],
+      "categories": [
+        "Web Frameworks",
+        "Learning Resources"
+      ],
+      "lastUpdated": "2025-07-17T07:47:44Z",
       "isArchived": false,
       "isFork": false
     },
@@ -379,7 +492,7 @@
       "name": "home-assistant/core",
       "description": ":house_with_garden: Open source home automation that puts local control and privacy first.",
       "url": "https://github.com/home-assistant/core",
-      "stars": 80198,
+      "stars": 80203,
       "language": "Python",
       "topics": [
         "asyncio",
@@ -394,7 +507,7 @@
       "categories": [
         "IoT & Hardware"
       ],
-      "lastUpdated": "2025-07-17T00:12:43Z",
+      "lastUpdated": "2025-07-17T07:48:07Z",
       "isArchived": false,
       "isFork": false
     },
@@ -402,7 +515,7 @@
       "name": "3b1b/manim",
       "description": "Animation engine for explanatory math videos",
       "url": "https://github.com/3b1b/manim",
-      "stars": 78893,
+      "stars": 78899,
       "language": "Python",
       "topics": [
         "3b1b-videos",
@@ -413,7 +526,40 @@
       "categories": [
         "Uncategorized"
       ],
-      "lastUpdated": "2025-07-17T00:07:31Z",
+      "lastUpdated": "2025-07-17T05:51:15Z",
+      "isArchived": false,
+      "isFork": false
+    },
+    {
+      "name": "microsoft/playwright",
+      "description": "Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API. ",
+      "url": "https://github.com/microsoft/playwright",
+      "stars": 74877,
+      "language": "TypeScript",
+      "topics": [
+        "automation",
+        "chrome",
+        "chromium",
+        "e2e-testing",
+        "electron",
+        "end-to-end-testing",
+        "firefox",
+        "javascript",
+        "playwright",
+        "test",
+        "test-automation",
+        "testing",
+        "testing-tools",
+        "web",
+        "webkit"
+      ],
+      "categories": [
+        "Web Frameworks",
+        "CLI Tools",
+        "Developer Tools",
+        "Testing"
+      ],
+      "lastUpdated": "2025-07-17T07:47:45Z",
       "isArchived": false,
       "isFork": false
     },
@@ -421,7 +567,7 @@
       "name": "nomic-ai/gpt4all",
       "description": "GPT4All: Run Local LLMs on Any Device. Open-source and available for commercial use.",
       "url": "https://github.com/nomic-ai/gpt4all",
-      "stars": 73825,
+      "stars": 73826,
       "language": "C++",
       "topics": [
         "ai-chat",
@@ -430,7 +576,28 @@
       "categories": [
         "AI/ML"
       ],
-      "lastUpdated": "2025-07-16T22:31:03Z",
+      "lastUpdated": "2025-07-17T04:10:53Z",
+      "isArchived": false,
+      "isFork": false
+    },
+    {
+      "name": "sdmg15/Best-websites-a-programmer-should-visit",
+      "description": ":link: Some useful websites for programmers.",
+      "url": "https://github.com/sdmg15/Best-websites-a-programmer-should-visit",
+      "stars": 71676,
+      "language": null,
+      "topics": [
+        "books",
+        "cs",
+        "hacktoberfest",
+        "links",
+        "programmer",
+        "sites"
+      ],
+      "categories": [
+        "Learning Resources"
+      ],
+      "lastUpdated": "2025-07-17T07:47:13Z",
       "isArchived": false,
       "isFork": false
     },
@@ -438,7 +605,7 @@
       "name": "immich-app/immich",
       "description": "High performance self-hosted photo and video management solution.",
       "url": "https://github.com/immich-app/immich",
-      "stars": 70530,
+      "stars": 70554,
       "language": "TypeScript",
       "topics": [
         "backup-tool",
@@ -462,7 +629,7 @@
         "Web Frameworks",
         "CLI Tools"
       ],
-      "lastUpdated": "2025-07-17T00:12:54Z",
+      "lastUpdated": "2025-07-17T07:40:06Z",
       "isArchived": false,
       "isFork": false
     },
@@ -470,7 +637,7 @@
       "name": "ansible/ansible",
       "description": "Ansible is a radically simple IT automation platform that makes your applications and systems easier to deploy and maintain. Automate everything from code deployment to network configuration to cloud management, in a language that approaches plain English, using SSH, with no agents to install on remote systems. https://docs.ansible.com.",
       "url": "https://github.com/ansible/ansible",
-      "stars": 65626,
+      "stars": 65631,
       "language": "Python",
       "topics": [
         "ansible",
@@ -480,7 +647,7 @@
         "DevOps",
         "Infrastructure & Cloud"
       ],
-      "lastUpdated": "2025-07-16T17:53:30Z",
+      "lastUpdated": "2025-07-17T06:43:53Z",
       "isArchived": false,
       "isFork": false
     },
@@ -488,7 +655,7 @@
       "name": "punkpeye/awesome-mcp-servers",
       "description": "A collection of MCP servers.",
       "url": "https://github.com/punkpeye/awesome-mcp-servers",
-      "stars": 61994,
+      "stars": 62057,
       "language": null,
       "topics": [
         "ai",
@@ -497,7 +664,7 @@
       "categories": [
         "Awesome Lists"
       ],
-      "lastUpdated": "2025-07-16T23:53:10Z",
+      "lastUpdated": "2025-07-17T07:44:34Z",
       "isArchived": false,
       "isFork": false
     },
@@ -505,7 +672,7 @@
       "name": "astral-sh/uv",
       "description": "An extremely fast Python package and project manager, written in Rust.",
       "url": "https://github.com/astral-sh/uv",
-      "stars": 61605,
+      "stars": 61646,
       "language": "Rust",
       "topics": [
         "packaging",
@@ -516,7 +683,7 @@
       "categories": [
         "Libraries"
       ],
-      "lastUpdated": "2025-07-17T00:17:09Z",
+      "lastUpdated": "2025-07-17T07:30:16Z",
       "isArchived": false,
       "isFork": false
     },
@@ -524,13 +691,13 @@
       "name": "modelcontextprotocol/servers",
       "description": "Model Context Protocol Servers",
       "url": "https://github.com/modelcontextprotocol/servers",
-      "stars": 59925,
+      "stars": 60002,
       "language": "TypeScript",
       "topics": [],
       "categories": [
         "Uncategorized"
       ],
-      "lastUpdated": "2025-07-17T00:17:12Z",
+      "lastUpdated": "2025-07-17T07:34:11Z",
       "isArchived": false,
       "isFork": false
     },
@@ -538,7 +705,7 @@
       "name": "prometheus/prometheus",
       "description": "The Prometheus monitoring system and time series database.",
       "url": "https://github.com/prometheus/prometheus",
-      "stars": 59484,
+      "stars": 59492,
       "language": "Go",
       "topics": [
         "alerting",
@@ -553,7 +720,7 @@
         "DevOps",
         "Databases"
       ],
-      "lastUpdated": "2025-07-16T21:07:44Z",
+      "lastUpdated": "2025-07-17T07:46:38Z",
       "isArchived": false,
       "isFork": false
     },
@@ -561,7 +728,7 @@
       "name": "BurntSushi/ripgrep",
       "description": "ripgrep recursively searches directories for a regex pattern while respecting your gitignore",
       "url": "https://github.com/BurntSushi/ripgrep",
-      "stars": 53770,
+      "stars": 53780,
       "language": "Rust",
       "topics": [
         "cli",
@@ -578,7 +745,7 @@
       "categories": [
         "CLI Tools"
       ],
-      "lastUpdated": "2025-07-16T23:59:06Z",
+      "lastUpdated": "2025-07-17T07:28:19Z",
       "isArchived": false,
       "isFork": false
     },
@@ -586,7 +753,7 @@
       "name": "sharkdp/bat",
       "description": "A cat(1) clone with wings.",
       "url": "https://github.com/sharkdp/bat",
-      "stars": 53467,
+      "stars": 53471,
       "language": "Rust",
       "topics": [
         "cli",
@@ -601,7 +768,7 @@
       "categories": [
         "CLI Tools"
       ],
-      "lastUpdated": "2025-07-16T22:34:32Z",
+      "lastUpdated": "2025-07-17T02:40:22Z",
       "isArchived": false,
       "isFork": false
     },
@@ -609,7 +776,7 @@
       "name": "vllm-project/vllm",
       "description": "A high-throughput and memory-efficient inference and serving engine for LLMs",
       "url": "https://github.com/vllm-project/vllm",
-      "stars": 52442,
+      "stars": 52477,
       "language": "Python",
       "topics": [
         "amd",
@@ -637,7 +804,7 @@
         "AI/ML",
         "Data & Analytics"
       ],
-      "lastUpdated": "2025-07-17T00:18:35Z",
+      "lastUpdated": "2025-07-17T07:39:13Z",
       "isArchived": false,
       "isFork": false
     },
@@ -645,7 +812,7 @@
       "name": "rclone/rclone",
       "description": "\"rsync for cloud storage\" - Google Drive, S3, Dropbox, Backblaze B2, One Drive, Swift, Hubic, Wasabi, Google Cloud Storage, Azure Blob, Azure Files, Yandex Files",
       "url": "https://github.com/rclone/rclone",
-      "stars": 51544,
+      "stars": 51547,
       "language": "Go",
       "topics": [
         "azure-blob",
@@ -673,7 +840,7 @@
         "Security",
         "Infrastructure & Cloud"
       ],
-      "lastUpdated": "2025-07-16T21:24:02Z",
+      "lastUpdated": "2025-07-17T07:12:25Z",
       "isArchived": false,
       "isFork": false
     },
@@ -681,7 +848,7 @@
       "name": "wagoodman/dive",
       "description": "A tool for exploring each layer in a docker image",
       "url": "https://github.com/wagoodman/dive",
-      "stars": 51417,
+      "stars": 51420,
       "language": "Go",
       "topics": [
         "cli",
@@ -695,7 +862,7 @@
         "CLI Tools",
         "DevOps"
       ],
-      "lastUpdated": "2025-07-16T22:02:33Z",
+      "lastUpdated": "2025-07-17T06:41:08Z",
       "isArchived": false,
       "isFork": false
     },
@@ -703,7 +870,7 @@
       "name": "starship/starship",
       "description": "☄🌌️  The minimal, blazing-fast, and infinitely customizable prompt for any shell!",
       "url": "https://github.com/starship/starship",
-      "stars": 49959,
+      "stars": 49966,
       "language": "Rust",
       "topics": [
         "bash",
@@ -722,7 +889,7 @@
       "categories": [
         "Uncategorized"
       ],
-      "lastUpdated": "2025-07-16T23:37:43Z",
+      "lastUpdated": "2025-07-17T07:37:28Z",
       "isArchived": false,
       "isFork": false
     },
@@ -730,7 +897,7 @@
       "name": "PowerShell/PowerShell",
       "description": "PowerShell for every system!",
       "url": "https://github.com/PowerShell/PowerShell",
-      "stars": 47997,
+      "stars": 47999,
       "language": "C#",
       "topics": [
         "command-line",
@@ -745,7 +912,7 @@
       "categories": [
         "CLI Tools"
       ],
-      "lastUpdated": "2025-07-16T20:32:56Z",
+      "lastUpdated": "2025-07-17T06:12:49Z",
       "isArchived": false,
       "isFork": false
     },
@@ -753,13 +920,13 @@
       "name": "cline/cline",
       "description": "Autonomous coding agent right in your IDE, capable of creating/editing files, executing commands, using the browser, and more with your permission every step of the way.",
       "url": "https://github.com/cline/cline",
-      "stars": 47659,
+      "stars": 47683,
       "language": "TypeScript",
       "topics": [],
       "categories": [
         "CLI Tools"
       ],
-      "lastUpdated": "2025-07-17T00:21:27Z",
+      "lastUpdated": "2025-07-17T07:41:36Z",
       "isArchived": false,
       "isFork": false
     },
@@ -767,7 +934,7 @@
       "name": "kamranahmedse/design-patterns-for-humans",
       "description": "An ultra-simplified explanation to design patterns",
       "url": "https://github.com/kamranahmedse/design-patterns-for-humans",
-      "stars": 46641,
+      "stars": 46644,
       "language": null,
       "topics": [
         "architecture",
@@ -780,7 +947,7 @@
       "categories": [
         "Interview & Algorithms"
       ],
-      "lastUpdated": "2025-07-16T15:22:59Z",
+      "lastUpdated": "2025-07-17T07:33:44Z",
       "isArchived": false,
       "isFork": false
     },
@@ -788,7 +955,7 @@
       "name": "hashicorp/terraform",
       "description": "Terraform enables you to safely and predictably create, change, and improve infrastructure. It is a source-available tool that codifies APIs into declarative configuration files that can be shared amongst team members, treated as code, edited, reviewed, and versioned.",
       "url": "https://github.com/hashicorp/terraform",
-      "stars": 45869,
+      "stars": 45870,
       "language": "Go",
       "topics": [
         "cloud",
@@ -802,7 +969,7 @@
         "DevOps",
         "Infrastructure & Cloud"
       ],
-      "lastUpdated": "2025-07-16T18:18:39Z",
+      "lastUpdated": "2025-07-17T01:20:58Z",
       "isArchived": false,
       "isFork": false
     },
@@ -810,13 +977,13 @@
       "name": "kelseyhightower/kubernetes-the-hard-way",
       "description": "Bootstrap Kubernetes the hard way. No scripts.",
       "url": "https://github.com/kelseyhightower/kubernetes-the-hard-way",
-      "stars": 45087,
+      "stars": 45090,
       "language": null,
       "topics": [],
       "categories": [
         "DevOps"
       ],
-      "lastUpdated": "2025-07-17T00:00:42Z",
+      "lastUpdated": "2025-07-17T07:47:54Z",
       "isArchived": false,
       "isFork": false
     },
@@ -824,7 +991,7 @@
       "name": "run-llama/llama_index",
       "description": "LlamaIndex is the leading framework for building LLM-powered agents over your data.",
       "url": "https://github.com/run-llama/llama_index",
-      "stars": 43138,
+      "stars": 43151,
       "language": "Python",
       "topics": [
         "agents",
@@ -843,7 +1010,7 @@
         "Databases",
         "AI/ML"
       ],
-      "lastUpdated": "2025-07-17T00:03:31Z",
+      "lastUpdated": "2025-07-17T07:42:04Z",
       "isArchived": false,
       "isFork": false
     },
@@ -883,7 +1050,66 @@
         "Databases",
         "Developer Tools"
       ],
-      "lastUpdated": "2025-07-16T14:45:49Z",
+      "lastUpdated": "2025-07-17T06:23:33Z",
+      "isArchived": false,
+      "isFork": false
+    },
+    {
+      "name": "OpenBB-finance/OpenBB",
+      "description": "Investment Research for Everyone, Everywhere.",
+      "url": "https://github.com/OpenBB-finance/OpenBB",
+      "stars": 42969,
+      "language": "Python",
+      "topics": [
+        "ai",
+        "crypto",
+        "derivatives",
+        "economics",
+        "equity",
+        "finance",
+        "fixed-income",
+        "machine-learning",
+        "openbb",
+        "options",
+        "python",
+        "quantitative-finance",
+        "stocks"
+      ],
+      "categories": [
+        "Learning Resources",
+        "AI/ML",
+        "Security"
+      ],
+      "lastUpdated": "2025-07-17T07:50:14Z",
+      "isArchived": false,
+      "isFork": false
+    },
+    {
+      "name": "usememos/memos",
+      "description": "A modern, open-source, self-hosted knowledge management and note-taking platform designed for privacy-conscious users and organizations.",
+      "url": "https://github.com/usememos/memos",
+      "stars": 42874,
+      "language": "Go",
+      "topics": [
+        "docker",
+        "go",
+        "markdown",
+        "memo",
+        "microblog",
+        "note-taking",
+        "notecard",
+        "react",
+        "self-hosted",
+        "social-network",
+        "sqlite"
+      ],
+      "categories": [
+        "Web Frameworks",
+        "DevOps",
+        "Databases",
+        "Infrastructure & Cloud"
+      ],
+      "lastUpdated": "2025-07-17T07:48:33Z",
       "isArchived": false,
       "isFork": false
     },
@@ -891,7 +1117,7 @@
       "name": "pyenv/pyenv",
       "description": "Simple Python version management",
       "url": "https://github.com/pyenv/pyenv",
-      "stars": 42627,
+      "stars": 42633,
       "language": "Roff",
       "topics": [
         "python",
@@ -900,7 +1126,7 @@
       "categories": [
         "Uncategorized"
       ],
-      "lastUpdated": "2025-07-16T23:51:40Z",
+      "lastUpdated": "2025-07-17T04:50:56Z",
       "isArchived": false,
       "isFork": false
     },
@@ -908,7 +1134,7 @@
       "name": "unslothai/unsloth",
       "description": "Fine-tuning & Reinforcement Learning for LLMs. 🦥 Train Qwen3, Llama 4, DeepSeek-R1, Gemma 3, TTS 2x faster with 70% less VRAM.",
       "url": "https://github.com/unslothai/unsloth",
-      "stars": 42168,
+      "stars": 42186,
       "language": "Python",
       "topics": [
         "agent",
@@ -936,7 +1162,33 @@
         "Learning Resources",
         "AI/ML"
       ],
-      "lastUpdated": "2025-07-16T23:48:22Z",
+      "lastUpdated": "2025-07-17T07:36:51Z",
+      "isArchived": false,
+      "isFork": false
+    },
+    {
+      "name": "AykutSarac/jsoncrack.com",
+      "description": "✨ Innovative and open-source visualization application that transforms various data formats, such as JSON, YAML, XML, CSV and more, into interactive graphs.",
+      "url": "https://github.com/AykutSarac/jsoncrack.com",
+      "stars": 40059,
+      "language": "TypeScript",
+      "topics": [
+        "csv",
+        "diagrams",
+        "graph",
+        "json",
+        "nextjs",
+        "react",
+        "tool",
+        "visualization",
+        "yaml"
+      ],
+      "categories": [
+        "Web Frameworks",
+        "CLI Tools",
+        "Data & Analytics"
+      ],
+      "lastUpdated": "2025-07-17T07:41:57Z",
       "isArchived": false,
       "isFork": false
     },
@@ -944,7 +1196,7 @@
       "name": "dylanaraps/pure-bash-bible",
       "description": "📖 A collection of pure bash alternatives to external processes.",
       "url": "https://github.com/dylanaraps/pure-bash-bible",
-      "stars": 39616,
+      "stars": 39617,
       "language": "Shell",
       "topics": [
         "bash",
@@ -963,7 +1215,7 @@
       "categories": [
         "Learning Resources"
       ],
-      "lastUpdated": "2025-07-16T20:58:00Z",
+      "lastUpdated": "2025-07-17T05:39:51Z",
       "isArchived": true,
       "isFork": false
     },
@@ -971,7 +1223,7 @@
       "name": "httpie/cli",
       "description": "🥧 HTTPie CLI  — modern, user-friendly command-line HTTP client for the API era. JSON support, colors, sessions, downloads, plugins & more.",
       "url": "https://github.com/httpie/cli",
-      "stars": 36082,
+      "stars": 36083,
       "language": "Python",
       "topics": [
         "api",
@@ -1001,7 +1253,7 @@
         "Developer Tools",
         "Testing"
       ],
-      "lastUpdated": "2025-07-16T23:27:39Z",
+      "lastUpdated": "2025-07-17T07:37:47Z",
       "isArchived": false,
       "isFork": false
     },
@@ -1009,7 +1261,7 @@
       "name": "milvus-io/milvus",
       "description": "Milvus is a high-performance, cloud-native vector database built for scalable vector ANN search",
       "url": "https://github.com/milvus-io/milvus",
-      "stars": 36010,
+      "stars": 36018,
       "language": "Go",
       "topics": [
         "anns",
@@ -1036,7 +1288,67 @@
         "AI/ML",
         "Infrastructure & Cloud"
       ],
-      "lastUpdated": "2025-07-16T21:06:25Z",
+      "lastUpdated": "2025-07-17T06:26:56Z",
+      "isArchived": false,
+      "isFork": false
+    },
+    {
+      "name": "huggingface/pytorch-image-models",
+      "description": "The largest collection of PyTorch image encoders / backbones. Including train, eval, inference, export scripts, and pretrained weights -- ResNet, ResNeXT, EfficientNet, NFNet, Vision Transformer (ViT), MobileNetV4, MobileNet-V3 & V2, RegNet, DPN, CSPNet, Swin Transformer, MaxViT, CoAtNet, ConvNeXt, and more",
+      "url": "https://github.com/huggingface/pytorch-image-models",
+      "stars": 34763,
+      "language": "Python",
+      "topics": [
+        "augmix",
+        "convnext",
+        "distributed-training",
+        "efficientnet",
+        "image-classification",
+        "imagenet",
+        "maxvit",
+        "mixnet",
+        "mobile-deep-learning",
+        "mobilenet-v2",
+        "mobilenetv3",
+        "nfnets",
+        "normalization-free-training",
+        "optimizer",
+        "pretrained-models",
+        "pretrained-weights",
+        "pytorch",
+        "randaugment",
+        "resnet",
+        "vision-transformer-models"
+      ],
+      "categories": [
+        "Learning Resources",
+        "AI/ML"
+      ],
+      "lastUpdated": "2025-07-17T07:48:24Z",
+      "isArchived": false,
+      "isFork": false
+    },
+    {
+      "name": "mindsdb/mindsdb",
+      "description": "AI's query engine - Platform for building AI that can answer questions over large scale federated data. - The only MCP Server you'll ever need",
+      "url": "https://github.com/mindsdb/mindsdb",
+      "stars": 34526,
+      "language": "Python",
+      "topics": [
+        "agents",
+        "agi",
+        "ai",
+        "artificial-inteligence",
+        "databases",
+        "llms",
+        "mcp",
+        "rag"
+      ],
+      "categories": [
+        "Databases",
+        "AI/ML"
+      ],
+      "lastUpdated": "2025-07-17T07:48:10Z",
       "isArchived": false,
       "isFork": false
     },
@@ -1044,7 +1356,7 @@
       "name": "mudler/LocalAI",
       "description": ":robot: The free, Open Source alternative to OpenAI, Claude and others. Self-hosted and local-first. Drop-in replacement for OpenAI,  running on consumer-grade hardware. No GPU required. Runs gguf, transformers, diffusers and many more models architectures. Features: Generate Text, Audio, Video, Images, Voice Cloning, Distributed, P2P inference",
       "url": "https://github.com/mudler/LocalAI",
-      "stars": 33901,
+      "stars": 33907,
       "language": "Go",
       "topics": [
         "ai",
@@ -1073,7 +1385,7 @@
         "AI/ML",
         "IoT & Hardware"
       ],
-      "lastUpdated": "2025-07-17T00:22:51Z",
+      "lastUpdated": "2025-07-17T07:38:16Z",
       "isArchived": false,
       "isFork": false
     },
@@ -1095,7 +1407,7 @@
         "CLI Tools",
         "Infrastructure & Cloud"
       ],
-      "lastUpdated": "2025-07-16T21:33:46Z",
+      "lastUpdated": "2025-07-17T05:04:09Z",
       "isArchived": false,
       "isFork": false
     },
@@ -1103,7 +1415,7 @@
       "name": "jqlang/jq",
       "description": "Command-line JSON processor",
       "url": "https://github.com/jqlang/jq",
-      "stars": 32191,
+      "stars": 32192,
       "language": "C",
       "topics": [
         "jq"
@@ -1111,7 +1423,7 @@
       "categories": [
         "CLI Tools"
       ],
-      "lastUpdated": "2025-07-16T22:15:01Z",
+      "lastUpdated": "2025-07-17T07:33:06Z",
       "isArchived": false,
       "isFork": false
     },
@@ -1119,7 +1431,7 @@
       "name": "derailed/k9s",
       "description": "🐶 Kubernetes CLI To Manage Your Clusters In Style!",
       "url": "https://github.com/derailed/k9s",
-      "stars": 30393,
+      "stars": 30394,
       "language": "Go",
       "topics": [
         "go",
@@ -1135,7 +1447,7 @@
         "CLI Tools",
         "DevOps"
       ],
-      "lastUpdated": "2025-07-16T22:35:07Z",
+      "lastUpdated": "2025-07-17T05:04:35Z",
       "isArchived": false,
       "isFork": false
     },
@@ -1143,7 +1455,7 @@
       "name": "k3s-io/k3s",
       "description": "Lightweight Kubernetes",
       "url": "https://github.com/k3s-io/k3s",
-      "stars": 30228,
+      "stars": 30229,
       "language": "Go",
       "topics": [
         "k8s",
@@ -1152,7 +1464,35 @@
       "categories": [
         "DevOps"
       ],
-      "lastUpdated": "2025-07-16T23:55:50Z",
+      "lastUpdated": "2025-07-17T06:35:29Z",
+      "isArchived": false,
+      "isFork": false
+    },
+    {
+      "name": "DioxusLabs/dioxus",
+      "description": "Fullstack app framework for web, desktop, and mobile.",
+      "url": "https://github.com/DioxusLabs/dioxus",
+      "stars": 29565,
+      "language": "Rust",
+      "topics": [
+        "android",
+        "css",
+        "desktop",
+        "html",
+        "ios",
+        "native",
+        "react",
+        "rust",
+        "ssr",
+        "ui",
+        "virtualdom",
+        "wasm",
+        "web"
+      ],
+      "categories": [
+        "Web Frameworks"
+      ],
+      "lastUpdated": "2025-07-17T07:47:31Z",
       "isArchived": false,
       "isFork": false
     },
@@ -1160,7 +1500,7 @@
       "name": "GyulyVGC/sniffnet",
       "description": "Comfortably monitor your Internet traffic 🕵️‍♂️",
       "url": "https://github.com/GyulyVGC/sniffnet",
-      "stars": 28597,
+      "stars": 28631,
       "language": "Rust",
       "topics": [
         "application",
@@ -1190,7 +1530,42 @@
         "Security",
         "Infrastructure & Cloud"
       ],
-      "lastUpdated": "2025-07-17T00:08:18Z",
+      "lastUpdated": "2025-07-17T07:43:06Z",
+      "isArchived": false,
+      "isFork": false
+    },
+    {
+      "name": "microsoft/qlib",
+      "description": "Qlib is an AI-oriented Quant investment platform that aims to use AI tech to empower Quant Research, from exploring ideas to implementing productions. Qlib supports diverse ML modeling paradigms, including supervised learning, market dynamics modeling, and RL, and is now equipped with https://github.com/microsoft/RD-Agent to automate R&D process.",
+      "url": "https://github.com/microsoft/qlib",
+      "stars": 27194,
+      "language": "Python",
+      "topics": [
+        "algorithmic-trading",
+        "auto-quant",
+        "deep-learning",
+        "finance",
+        "fintech",
+        "investment",
+        "machine-learning",
+        "paper",
+        "platform",
+        "python",
+        "quant",
+        "quant-dataset",
+        "quant-models",
+        "quantitative-finance",
+        "quantitative-trading",
+        "research",
+        "research-paper",
+        "stock-data"
+      ],
+      "categories": [
+        "Learning Resources",
+        "AI/ML",
+        "Interview & Algorithms"
+      ],
+      "lastUpdated": "2025-07-17T07:49:36Z",
       "isArchived": false,
       "isFork": false
     },
@@ -1198,7 +1573,7 @@
       "name": "sxyazi/yazi",
       "description": "💥 Blazing fast terminal file manager written in Rust, based on async I/O.",
       "url": "https://github.com/sxyazi/yazi",
-      "stars": 26739,
+      "stars": 26751,
       "language": "Rust",
       "topics": [
         "android",
@@ -1225,7 +1600,7 @@
         "CLI Tools",
         "Developer Tools"
       ],
-      "lastUpdated": "2025-07-17T00:13:41Z",
+      "lastUpdated": "2025-07-17T07:38:16Z",
       "isArchived": false,
       "isFork": false
     },
@@ -1248,7 +1623,7 @@
       "name": "microsoft/semantic-kernel",
       "description": "Integrate cutting-edge LLM technology quickly and easily into your apps",
       "url": "https://github.com/microsoft/semantic-kernel",
-      "stars": 25448,
+      "stars": 25453,
       "language": "C#",
       "topics": [
         "ai",
@@ -1260,7 +1635,29 @@
       "categories": [
         "AI/ML"
       ],
-      "lastUpdated": "2025-07-17T00:15:15Z",
+      "lastUpdated": "2025-07-17T07:29:13Z",
+      "isArchived": false,
+      "isFork": false
+    },
+    {
+      "name": "binwiederhier/ntfy",
+      "description": "Send push notifications to your phone or desktop using PUT/POST",
+      "url": "https://github.com/binwiederhier/ntfy",
+      "stars": 25129,
+      "language": "Go",
+      "topics": [
+        "curl",
+        "notifications",
+        "ntfy",
+        "ntfysh",
+        "pubsub",
+        "push-notifications",
+        "rest-api"
+      ],
+      "categories": [
+        "Uncategorized"
+      ],
+      "lastUpdated": "2025-07-17T07:47:04Z",
       "isArchived": false,
       "isFork": false
     },
@@ -1268,7 +1665,7 @@
       "name": "pydantic/pydantic",
       "description": "Data validation using Python type hints",
       "url": "https://github.com/pydantic/pydantic",
-      "stars": 24541,
+      "stars": 24549,
       "language": "Python",
       "topics": [
         "hints",
@@ -1286,7 +1683,7 @@
       "categories": [
         "Uncategorized"
       ],
-      "lastUpdated": "2025-07-16T23:38:36Z",
+      "lastUpdated": "2025-07-17T07:49:34Z",
       "isArchived": false,
       "isFork": false
     },
@@ -1294,13 +1691,13 @@
       "name": "anthropics/claude-code",
       "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
       "url": "https://github.com/anthropics/claude-code",
-      "stars": 23707,
+      "stars": 23920,
       "language": "PowerShell",
       "topics": [],
       "categories": [
         "CLI Tools"
       ],
-      "lastUpdated": "2025-07-17T00:22:42Z",
+      "lastUpdated": "2025-07-17T07:43:18Z",
       "isArchived": false,
       "isFork": false
     },
@@ -1323,7 +1720,7 @@
         "Databases",
         "Data & Analytics"
       ],
-      "lastUpdated": "2025-07-16T23:49:10Z",
+      "lastUpdated": "2025-07-17T07:23:48Z",
       "isArchived": false,
       "isFork": false
     },
@@ -1331,14 +1728,14 @@
       "name": "microsoft/BitNet",
       "description": "Official inference framework for 1-bit LLMs",
       "url": "https://github.com/microsoft/BitNet",
-      "stars": 20533,
+      "stars": 20536,
       "language": "Python",
       "topics": [],
       "categories": [
         "Web Frameworks",
         "AI/ML"
       ],
-      "lastUpdated": "2025-07-16T16:02:44Z",
+      "lastUpdated": "2025-07-17T05:50:03Z",
       "isArchived": false,
       "isFork": false
     },
@@ -1346,7 +1743,7 @@
       "name": "upstash/context7",
       "description": "Context7 MCP Server -- Up-to-date code documentation for LLMs and AI code editors",
       "url": "https://github.com/upstash/context7",
-      "stars": 20375,
+      "stars": 20444,
       "language": "JavaScript",
       "topics": [
         "llm",
@@ -1358,7 +1755,7 @@
         "AI/ML",
         "Developer Tools"
       ],
-      "lastUpdated": "2025-07-17T00:22:19Z",
+      "lastUpdated": "2025-07-17T07:48:18Z",
       "isArchived": false,
       "isFork": false
     },
@@ -1389,7 +1786,43 @@
       "categories": [
         "DevOps"
       ],
-      "lastUpdated": "2025-07-16T19:13:17Z",
+      "lastUpdated": "2025-07-17T06:30:13Z",
+      "isArchived": false,
+      "isFork": false
+    },
+    {
+      "name": "GraphiteEditor/Graphite",
+      "description": "An open source graphics editor for 2025: comprehensive 2D content creation tool suite for graphic design, digital art, and interactive real-time motion graphics — featuring node-based procedural editing",
+      "url": "https://github.com/GraphiteEditor/Graphite",
+      "stars": 19378,
+      "language": "Rust",
+      "topics": [
+        "2d-graphics",
+        "art",
+        "compositor",
+        "design",
+        "graphic-design",
+        "graphics-editor",
+        "image-generation",
+        "image-manipulation",
+        "image-processing",
+        "motion-design",
+        "motion-graphics",
+        "node-editor",
+        "node-graph",
+        "photo-editing",
+        "photo-editor",
+        "procedural",
+        "procedural-art",
+        "procedural-drawing",
+        "svg-editor",
+        "vector-graphics"
+      ],
+      "categories": [
+        "CLI Tools",
+        "Developer Tools"
+      ],
+      "lastUpdated": "2025-07-17T07:46:33Z",
       "isArchived": false,
       "isFork": false
     },
@@ -1397,13 +1830,13 @@
       "name": "brendangregg/FlameGraph",
       "description": "Stack trace visualizer",
       "url": "https://github.com/brendangregg/FlameGraph",
-      "stars": 18489,
+      "stars": 18491,
       "language": "Perl",
       "topics": [],
       "categories": [
         "Uncategorized"
       ],
-      "lastUpdated": "2025-07-16T23:12:41Z",
+      "lastUpdated": "2025-07-17T03:00:21Z",
       "isArchived": false,
       "isFork": false
     },
@@ -1411,7 +1844,7 @@
       "name": "github/github-mcp-server",
       "description": "GitHub's official MCP Server",
       "url": "https://github.com/github/github-mcp-server",
-      "stars": 17439,
+      "stars": 17455,
       "language": "Go",
       "topics": [
         "github",
@@ -1421,7 +1854,7 @@
       "categories": [
         "Uncategorized"
       ],
-      "lastUpdated": "2025-07-16T23:31:35Z",
+      "lastUpdated": "2025-07-17T07:50:10Z",
       "isArchived": false,
       "isFork": false
     },
@@ -1443,7 +1876,7 @@
       "categories": [
         "DevOps"
       ],
-      "lastUpdated": "2025-07-16T13:53:40Z",
+      "lastUpdated": "2025-07-17T00:32:45Z",
       "isArchived": false,
       "isFork": false
     },
@@ -1451,13 +1884,13 @@
       "name": "anthropics/courses",
       "description": "Anthropic's educational courses",
       "url": "https://github.com/anthropics/courses",
-      "stars": 16522,
+      "stars": 16525,
       "language": "Jupyter Notebook",
       "topics": [],
       "categories": [
         "Learning Resources"
       ],
-      "lastUpdated": "2025-07-16T20:56:17Z",
+      "lastUpdated": "2025-07-17T06:18:37Z",
       "isArchived": false,
       "isFork": false
     },
@@ -1465,7 +1898,7 @@
       "name": "aws/aws-cli",
       "description": "Universal Command Line Interface for Amazon Web Services",
       "url": "https://github.com/aws/aws-cli",
-      "stars": 16210,
+      "stars": 16213,
       "language": "Python",
       "topics": [
         "aws",
@@ -1477,7 +1910,32 @@
         "CLI Tools",
         "Infrastructure & Cloud"
       ],
-      "lastUpdated": "2025-07-16T19:38:29Z",
+      "lastUpdated": "2025-07-17T03:24:30Z",
+      "isArchived": false,
+      "isFork": false
+    },
+    {
+      "name": "microsoft/IoT-For-Beginners",
+      "description": "12 Weeks, 24 Lessons, IoT for All!",
+      "url": "https://github.com/microsoft/IoT-For-Beginners",
+      "stars": 16198,
+      "language": "C++",
+      "topics": [
+        "cpp",
+        "hacktoberfest",
+        "iot",
+        "iot-device",
+        "iot-edge",
+        "microcontroller",
+        "microsoft-for-beginners",
+        "python",
+        "raspberry-pi",
+        "rpi"
+      ],
+      "categories": [
+        "IoT & Hardware"
+      ],
+      "lastUpdated": "2025-07-17T07:48:53Z",
       "isArchived": false,
       "isFork": false
     },
@@ -1485,7 +1943,7 @@
       "name": "openobserve/openobserve",
       "description": "🚀 10x easier, 🚀 140x lower storage cost, 🚀 high performance,  🚀 petabyte scale - Elasticsearch/Splunk/Datadog alternative for 🚀 (logs, metrics, traces, RUM, Error tracking, Session replay).",
       "url": "https://github.com/openobserve/openobserve",
-      "stars": 15812,
+      "stars": 15813,
       "language": "Rust",
       "topics": [
         "analytics",
@@ -1514,7 +1972,7 @@
         "Databases",
         "Data & Analytics"
       ],
-      "lastUpdated": "2025-07-16T23:50:50Z",
+      "lastUpdated": "2025-07-17T06:52:22Z",
       "isArchived": false,
       "isFork": false
     },
@@ -1522,7 +1980,7 @@
       "name": "microsoft/playwright-mcp",
       "description": "Playwright MCP server",
       "url": "https://github.com/microsoft/playwright-mcp",
-      "stars": 14820,
+      "stars": 14841,
       "language": "TypeScript",
       "topics": [
         "mcp",
@@ -1531,7 +1989,7 @@
       "categories": [
         "Uncategorized"
       ],
-      "lastUpdated": "2025-07-16T23:59:07Z",
+      "lastUpdated": "2025-07-17T07:46:30Z",
       "isArchived": false,
       "isFork": false
     },
@@ -1549,6 +2007,77 @@
         "CLI Tools"
       ],
       "lastUpdated": "2025-07-16T21:48:31Z",
+      "isArchived": false,
+      "isFork": false
+    },
+    {
+      "name": "apache/doris",
+      "description": "Apache Doris is an easy-to-use, high performance and unified analytics database.",
+      "url": "https://github.com/apache/doris",
+      "stars": 13961,
+      "language": "Groovy",
+      "topics": [
+        "agent",
+        "ai",
+        "bigquery",
+        "database",
+        "dbt",
+        "delta-lake",
+        "elt",
+        "hudi",
+        "iceberg",
+        "lakehouse",
+        "olap",
+        "paimon",
+        "query-engine",
+        "real-time",
+        "redshift",
+        "snowflake",
+        "spark",
+        "sql"
+      ],
+      "categories": [
+        "Databases",
+        "Data & Analytics"
+      ],
+      "lastUpdated": "2025-07-17T07:50:08Z",
+      "isArchived": false,
+      "isFork": false
+    },
+    {
+      "name": "weaviate/weaviate",
+      "description": "Weaviate is an open-source vector database that stores both objects and vectors, allowing for the combination of vector search with structured filtering with the fault tolerance and scalability of a cloud-native database​.",
+      "url": "https://github.com/weaviate/weaviate",
+      "stars": 13940,
+      "language": "Go",
+      "topics": [
+        "approximate-nearest-neighbor-search",
+        "generative-search",
+        "grpc",
+        "hnsw",
+        "hybrid-search",
+        "image-search",
+        "information-retrieval",
+        "mlops",
+        "nearest-neighbor-search",
+        "neural-search",
+        "recommender-system",
+        "search-engine",
+        "semantic-search",
+        "semantic-search-engine",
+        "similarity-search",
+        "vector-database",
+        "vector-search",
+        "vector-search-engine",
+        "vectors",
+        "weaviate"
+      ],
+      "categories": [
+        "Databases",
+        "Data & Analytics",
+        "Infrastructure & Cloud"
+      ],
+      "lastUpdated": "2025-07-17T07:48:45Z",
       "isArchived": false,
       "isFork": false
     },
@@ -1583,7 +2112,7 @@
       "name": "joelparkerhenderson/architecture-decision-record",
       "description": "Architecture decision record (ADR) examples for software planning, IT leadership, and template documentation",
       "url": "https://github.com/joelparkerhenderson/architecture-decision-record",
-      "stars": 13649,
+      "stars": 13651,
       "language": null,
       "topics": [
         "adr",
@@ -1599,7 +2128,30 @@
         "Learning Resources",
         "Templates"
       ],
-      "lastUpdated": "2025-07-17T00:23:44Z",
+      "lastUpdated": "2025-07-17T06:45:03Z",
+      "isArchived": false,
+      "isFork": false
+    },
+    {
+      "name": "dail8859/NotepadNext",
+      "description": "A cross-platform, reimplementation of Notepad++",
+      "url": "https://github.com/dail8859/NotepadNext",
+      "stars": 11807,
+      "language": "C++",
+      "topics": [
+        "desktop",
+        "editor",
+        "linux",
+        "macos",
+        "notepad",
+        "notepad-plus-plus",
+        "qt",
+        "qt6"
+      ],
+      "categories": [
+        "Developer Tools"
+      ],
+      "lastUpdated": "2025-07-17T07:47:22Z",
       "isArchived": false,
       "isFork": false
     },
@@ -1638,7 +2190,7 @@
       "name": "kubernetes-sigs/kustomize",
       "description": "Customization of kubernetes YAML configurations",
       "url": "https://github.com/kubernetes-sigs/kustomize",
-      "stars": 11573,
+      "stars": 11574,
       "language": "Go",
       "topics": [
         "hacktoberfest",
@@ -1648,7 +2200,7 @@
         "CLI Tools",
         "DevOps"
       ],
-      "lastUpdated": "2025-07-16T14:30:46Z",
+      "lastUpdated": "2025-07-17T02:11:58Z",
       "isArchived": false,
       "isFork": false
     },
@@ -1656,13 +2208,13 @@
       "name": "actions/runner-images",
       "description": "GitHub Actions runner images",
       "url": "https://github.com/actions/runner-images",
-      "stars": 11464,
+      "stars": 11466,
       "language": "PowerShell",
       "topics": [],
       "categories": [
         "Uncategorized"
       ],
-      "lastUpdated": "2025-07-16T23:48:01Z",
+      "lastUpdated": "2025-07-17T07:42:04Z",
       "isArchived": false,
       "isFork": false
     },
@@ -1670,7 +2222,7 @@
       "name": "hadolint/hadolint",
       "description": "Dockerfile linter, validate inline bash, written in Haskell",
       "url": "https://github.com/hadolint/hadolint",
-      "stars": 11349,
+      "stars": 11351,
       "language": "Haskell",
       "topics": [
         "docker",
@@ -1684,7 +2236,7 @@
       "categories": [
         "DevOps"
       ],
-      "lastUpdated": "2025-07-16T17:52:12Z",
+      "lastUpdated": "2025-07-17T06:27:34Z",
       "isArchived": false,
       "isFork": false
     },
@@ -1692,7 +2244,7 @@
       "name": "frdel/agent-zero",
       "description": "Agent Zero AI framework",
       "url": "https://github.com/frdel/agent-zero",
-      "stars": 11061,
+      "stars": 11075,
       "language": "Python",
       "topics": [
         "agent",
@@ -1705,7 +2257,7 @@
       "categories": [
         "Web Frameworks"
       ],
-      "lastUpdated": "2025-07-16T23:28:20Z",
+      "lastUpdated": "2025-07-17T07:17:09Z",
       "isArchived": false,
       "isFork": false
     },
@@ -1713,7 +2265,7 @@
       "name": "The-Pocket/PocketFlow-Tutorial-Codebase-Knowledge",
       "description": "Pocket Flow: Codebase to Tutorial",
       "url": "https://github.com/The-Pocket/PocketFlow-Tutorial-Codebase-Knowledge",
-      "stars": 10873,
+      "stars": 10879,
       "language": "Python",
       "topics": [
         "coding",
@@ -1735,7 +2287,7 @@
         "Learning Resources",
         "AI/ML"
       ],
-      "lastUpdated": "2025-07-16T21:59:20Z",
+      "lastUpdated": "2025-07-17T07:13:24Z",
       "isArchived": false,
       "isFork": false
     },
@@ -1769,13 +2321,13 @@
       "name": "brendangregg/perf-tools",
       "description": "Performance analysis tools based on Linux perf_events (aka perf) and ftrace",
       "url": "https://github.com/brendangregg/perf-tools",
-      "stars": 10200,
+      "stars": 10201,
       "language": "Shell",
       "topics": [],
       "categories": [
         "CLI Tools"
       ],
-      "lastUpdated": "2025-07-16T07:19:19Z",
+      "lastUpdated": "2025-07-17T02:25:44Z",
       "isArchived": false,
       "isFork": false
     },
@@ -1783,7 +2335,7 @@
       "name": "webpro/awesome-dotfiles",
       "description": "A curated list of dotfiles resources.",
       "url": "https://github.com/webpro/awesome-dotfiles",
-      "stars": 9864,
+      "stars": 9865,
       "language": null,
       "topics": [
         "awesome",
@@ -1801,7 +2353,29 @@
         "CLI Tools",
         "Awesome Lists"
       ],
-      "lastUpdated": "2025-07-16T17:22:24Z",
+      "lastUpdated": "2025-07-17T04:13:40Z",
+      "isArchived": false,
+      "isFork": false
+    },
+    {
+      "name": "microsoft/fluentui-system-icons",
+      "description": "Fluent System Icons are a collection of familiar, friendly and modern icons from Microsoft.",
+      "url": "https://github.com/microsoft/fluentui-system-icons",
+      "stars": 9674,
+      "language": "HTML",
+      "topics": [
+        "android",
+        "design",
+        "fluent",
+        "flutter",
+        "icons",
+        "ios",
+        "react"
+      ],
+      "categories": [
+        "Web Frameworks"
+      ],
+      "lastUpdated": "2025-07-17T07:47:06Z",
       "isArchived": false,
       "isFork": false
     },
@@ -1809,7 +2383,7 @@
       "name": "rhasspy/piper",
       "description": "A fast, local neural text to speech system",
       "url": "https://github.com/rhasspy/piper",
-      "stars": 9647,
+      "stars": 9650,
       "language": "C++",
       "topics": [
         "speech-synthesis",
@@ -1819,7 +2393,7 @@
       "categories": [
         "Uncategorized"
       ],
-      "lastUpdated": "2025-07-16T19:48:11Z",
+      "lastUpdated": "2025-07-17T07:33:32Z",
       "isArchived": false,
       "isFork": false
     },
@@ -1827,7 +2401,7 @@
       "name": "nicolaka/netshoot",
       "description": "a Docker + Kubernetes network trouble-shooting swiss-army container",
       "url": "https://github.com/nicolaka/netshoot",
-      "stars": 9602,
+      "stars": 9603,
       "language": "Shell",
       "topics": [
         "containers",
@@ -1841,7 +2415,7 @@
         "DevOps",
         "Infrastructure & Cloud"
       ],
-      "lastUpdated": "2025-07-17T00:20:18Z",
+      "lastUpdated": "2025-07-17T07:40:26Z",
       "isArchived": false,
       "isFork": false
     },
@@ -1849,7 +2423,7 @@
       "name": "bpftrace/bpftrace",
       "description": "High-level tracing language for Linux",
       "url": "https://github.com/bpftrace/bpftrace",
-      "stars": 9395,
+      "stars": 9396,
       "language": "C++",
       "topics": [
         "bcc",
@@ -1864,7 +2438,7 @@
       "categories": [
         "Uncategorized"
       ],
-      "lastUpdated": "2025-07-16T18:20:45Z",
+      "lastUpdated": "2025-07-17T07:00:14Z",
       "isArchived": false,
       "isFork": false
     },
@@ -1872,7 +2446,7 @@
       "name": "Syllo/nvtop",
       "description": "GPU & Accelerator process monitoring for AMD, Apple, Huawei, Intel, NVIDIA and Qualcomm",
       "url": "https://github.com/Syllo/nvtop",
-      "stars": 9322,
+      "stars": 9323,
       "language": "C",
       "topics": [
         "adreno",
@@ -1892,7 +2466,34 @@
         "CLI Tools",
         "DevOps"
       ],
-      "lastUpdated": "2025-07-16T22:09:00Z",
+      "lastUpdated": "2025-07-17T07:33:29Z",
+      "isArchived": false,
+      "isFork": false
+    },
+    {
+      "name": "moby/buildkit",
+      "description": "concurrent, cache-efficient, and Dockerfile-agnostic builder toolkit",
+      "url": "https://github.com/moby/buildkit",
+      "stars": 9225,
+      "language": "Go",
+      "topics": [
+        "builder",
+        "buildkit",
+        "cloud-native",
+        "containers",
+        "docker",
+        "dockerfile",
+        "go",
+        "golang",
+        "oci",
+        "oci-image"
+      ],
+      "categories": [
+        "CLI Tools",
+        "DevOps",
+        "Infrastructure & Cloud"
+      ],
+      "lastUpdated": "2025-07-17T07:47:40Z",
       "isArchived": false,
       "isFork": false
     },
@@ -1916,7 +2517,7 @@
       "name": "Netflix/metaflow",
       "description": "Build, Manage and Deploy AI/ML Systems",
       "url": "https://github.com/Netflix/metaflow",
-      "stars": 8976,
+      "stars": 9035,
       "language": "Python",
       "topics": [
         "agents",
@@ -1946,7 +2547,7 @@
         "Data & Analytics",
         "Infrastructure & Cloud"
       ],
-      "lastUpdated": "2025-07-16T20:39:39Z",
+      "lastUpdated": "2025-07-17T07:50:14Z",
       "isArchived": false,
       "isFork": false
     },
@@ -1954,7 +2555,7 @@
       "name": "stakater/Reloader",
       "description": "A Kubernetes controller to watch changes in ConfigMap and Secrets and do rolling upgrades on Pods with their associated Deployment, StatefulSet, DaemonSet and DeploymentConfig – [✩Star] if you're using it!",
       "url": "https://github.com/stakater/Reloader",
-      "stars": 8789,
+      "stars": 8791,
       "language": "Go",
       "topics": [
         "configmap",
@@ -1972,7 +2573,7 @@
       "categories": [
         "DevOps"
       ],
-      "lastUpdated": "2025-07-16T20:52:39Z",
+      "lastUpdated": "2025-07-17T06:52:39Z",
       "isArchived": false,
       "isFork": false
     },
@@ -1980,7 +2581,7 @@
       "name": "tilt-dev/tilt",
       "description": "Define your dev environment as code. For microservice apps on Kubernetes.",
       "url": "https://github.com/tilt-dev/tilt",
-      "stars": 8783,
+      "stars": 8785,
       "language": "Go",
       "topics": [
         "development-environment",
@@ -1990,7 +2591,31 @@
         "DevOps",
         "Developer Tools"
       ],
-      "lastUpdated": "2025-07-16T15:28:21Z",
+      "lastUpdated": "2025-07-17T06:42:01Z",
+      "isArchived": false,
+      "isFork": false
+    },
+    {
+      "name": "NVIDIA/cutlass",
+      "description": "CUDA Templates for Linear Algebra Subroutines",
+      "url": "https://github.com/NVIDIA/cutlass",
+      "stars": 8069,
+      "language": "C++",
+      "topics": [
+        "cpp",
+        "cuda",
+        "deep-learning",
+        "deep-learning-library",
+        "gpu",
+        "nvidia"
+      ],
+      "categories": [
+        "Learning Resources",
+        "AI/ML",
+        "Libraries",
+        "Templates"
+      ],
+      "lastUpdated": "2025-07-17T07:50:01Z",
       "isArchived": false,
       "isFork": false
     },
@@ -1998,13 +2623,13 @@
       "name": "langchain-ai/local-deep-researcher",
       "description": "Fully local web research and report writing assistant",
       "url": "https://github.com/langchain-ai/local-deep-researcher",
-      "stars": 7803,
+      "stars": 7806,
       "language": "Python",
       "topics": [],
       "categories": [
         "Uncategorized"
       ],
-      "lastUpdated": "2025-07-16T08:30:54Z",
+      "lastUpdated": "2025-07-17T07:18:16Z",
       "isArchived": false,
       "isFork": false
     },
@@ -2034,7 +2659,7 @@
       "name": "bridgecrewio/checkov",
       "description": "Prevent cloud misconfigurations and find vulnerabilities during build-time in infrastructure as code, container images and open source packages with Checkov by Bridgecrew.",
       "url": "https://github.com/bridgecrewio/checkov",
-      "stars": 7740,
+      "stars": 7741,
       "language": "Python",
       "topics": [
         "aws",
@@ -2057,7 +2682,7 @@
         "Security",
         "Infrastructure & Cloud"
       ],
-      "lastUpdated": "2025-07-16T21:12:14Z",
+      "lastUpdated": "2025-07-17T01:07:04Z",
       "isArchived": false,
       "isFork": false
     },
@@ -2162,10 +2787,31 @@
       "isFork": false
     },
     {
+      "name": "googleapis/genai-toolbox",
+      "description": "MCP Toolbox for Databases is an open source MCP server for databases.",
+      "url": "https://github.com/googleapis/genai-toolbox",
+      "stars": 6946,
+      "language": "Go",
+      "topics": [
+        "databases",
+        "genai",
+        "llms",
+        "mcp"
+      ],
+      "categories": [
+        "CLI Tools",
+        "Databases",
+        "AI/ML"
+      ],
+      "lastUpdated": "2025-07-17T07:46:25Z",
+      "isArchived": false,
+      "isFork": false
+    },
+    {
       "name": "HariSekhon/DevOps-Bash-tools",
       "description": "1000+ DevOps Bash Scripts - AWS, GCP, Kubernetes, Docker, CI/CD, APIs, SQL, PostgreSQL, MySQL, Hive, Impala, Kafka, Hadoop, Jenkins, GitHub, GitLab, BitBucket, Azure DevOps, TeamCity, Spotify, MP3, LDAP, Code/Build Linting, pkg mgmt for Linux, Mac, Python, Perl, Ruby, NodeJS, Golang, Advanced dotfiles: .bashrc, .vimrc, .gitconfig, .screenrc, tmux..",
       "url": "https://github.com/HariSekhon/DevOps-Bash-tools",
-      "stars": 6912,
+      "stars": 6913,
       "language": "Shell",
       "topics": [
         "api",
@@ -2195,7 +2841,7 @@
         "Databases",
         "Infrastructure & Cloud"
       ],
-      "lastUpdated": "2025-07-16T16:31:39Z",
+      "lastUpdated": "2025-07-17T02:34:03Z",
       "isArchived": false,
       "isFork": false
     },
@@ -2203,7 +2849,7 @@
       "name": "n4ze3m/page-assist",
       "description": "Use your locally running AI models to assist you in your web browsing",
       "url": "https://github.com/n4ze3m/page-assist",
-      "stars": 6860,
+      "stars": 6861,
       "language": "TypeScript",
       "topics": [
         "chat-application",
@@ -2216,7 +2862,7 @@
         "AI/ML",
         "Developer Tools"
       ],
-      "lastUpdated": "2025-07-16T19:52:04Z",
+      "lastUpdated": "2025-07-17T04:22:38Z",
       "isArchived": false,
       "isFork": false
     },
@@ -2289,14 +2935,14 @@
       "name": "mark3labs/mcp-go",
       "description": "A Go implementation of the Model Context Protocol (MCP), enabling seamless integration between LLM applications and external data sources and tools.",
       "url": "https://github.com/mark3labs/mcp-go",
-      "stars": 6436,
+      "stars": 6447,
       "language": "Go",
       "topics": [],
       "categories": [
         "CLI Tools",
         "AI/ML"
       ],
-      "lastUpdated": "2025-07-16T22:07:36Z",
+      "lastUpdated": "2025-07-17T07:39:31Z",
       "isArchived": false,
       "isFork": false
     },
@@ -2304,7 +2950,7 @@
       "name": "GoogleCloudPlatform/kubectl-ai",
       "description": "AI powered Kubernetes Assistant",
       "url": "https://github.com/GoogleCloudPlatform/kubectl-ai",
-      "stars": 6430,
+      "stars": 6431,
       "language": "Go",
       "topics": [
         "ai",
@@ -2316,7 +2962,7 @@
         "CLI Tools",
         "DevOps"
       ],
-      "lastUpdated": "2025-07-16T23:54:18Z",
+      "lastUpdated": "2025-07-17T06:31:18Z",
       "isArchived": false,
       "isFork": false
     },
@@ -2340,7 +2986,7 @@
       "name": "AgentDeskAI/browser-tools-mcp",
       "description": "Monitor browser logs directly from Cursor and other MCP compatible IDEs.",
       "url": "https://github.com/AgentDeskAI/browser-tools-mcp",
-      "stars": 5816,
+      "stars": 5820,
       "language": "JavaScript",
       "topics": [
         "ai",
@@ -2352,7 +2998,7 @@
       "categories": [
         "CLI Tools"
       ],
-      "lastUpdated": "2025-07-17T00:01:03Z",
+      "lastUpdated": "2025-07-17T07:18:52Z",
       "isArchived": false,
       "isFork": false
     },
@@ -2373,7 +3019,7 @@
         "DevOps",
         "Data & Analytics"
       ],
-      "lastUpdated": "2025-07-16T23:41:31Z",
+      "lastUpdated": "2025-07-17T04:45:23Z",
       "isArchived": false,
       "isFork": false
     },
@@ -2441,7 +3087,7 @@
       "name": "awslabs/mcp",
       "description": "AWS MCP Servers — helping you get the most out of AWS, wherever you use MCP.",
       "url": "https://github.com/awslabs/mcp",
-      "stars": 4721,
+      "stars": 4734,
       "language": "Python",
       "topics": [
         "aws",
@@ -2458,7 +3104,7 @@
         "CLI Tools",
         "Infrastructure & Cloud"
       ],
-      "lastUpdated": "2025-07-16T23:40:24Z",
+      "lastUpdated": "2025-07-17T07:19:27Z",
       "isArchived": false,
       "isFork": false
     },
@@ -2498,7 +3144,7 @@
       "categories": [
         "Data & Analytics"
       ],
-      "lastUpdated": "2025-07-16T18:31:41Z",
+      "lastUpdated": "2025-07-17T06:29:23Z",
       "isArchived": false,
       "isFork": false
     },
@@ -2582,7 +3228,7 @@
       "name": "oraios/serena",
       "description": "A powerful coding agent toolkit providing semantic retrieval and editing capabilities (MCP server & Agno integration)",
       "url": "https://github.com/oraios/serena",
-      "stars": 3943,
+      "stars": 3957,
       "language": "Python",
       "topics": [
         "agent",
@@ -2598,7 +3244,7 @@
         "CLI Tools",
         "AI/ML"
       ],
-      "lastUpdated": "2025-07-17T00:23:53Z",
+      "lastUpdated": "2025-07-17T07:40:35Z",
       "isArchived": false,
       "isFork": false
     },
@@ -2606,7 +3252,7 @@
       "name": "kubernetes-sigs/cluster-api",
       "description": "Home for Cluster API, a subproject of sig-cluster-lifecycle",
       "url": "https://github.com/kubernetes-sigs/cluster-api",
-      "stars": 3870,
+      "stars": 3871,
       "language": "Go",
       "topics": [
         "k8s-sig-cluster-lifecycle"
@@ -2614,7 +3260,7 @@
       "categories": [
         "DevOps"
       ],
-      "lastUpdated": "2025-07-16T17:34:29Z",
+      "lastUpdated": "2025-07-17T07:21:34Z",
       "isArchived": false,
       "isFork": false
     },
@@ -2757,7 +3403,7 @@
         "DevOps",
         "Infrastructure & Cloud"
       ],
-      "lastUpdated": "2025-07-16T13:42:30Z",
+      "lastUpdated": "2025-07-17T07:25:22Z",
       "isArchived": false,
       "isFork": false
     },
@@ -2815,7 +3461,7 @@
       "categories": [
         "Databases"
       ],
-      "lastUpdated": "2025-07-16T16:47:18Z",
+      "lastUpdated": "2025-07-17T03:44:58Z",
       "isArchived": false,
       "isFork": false
     },
@@ -2888,7 +3534,7 @@
       "name": "FairwindsOps/pluto",
       "description": "A cli tool to help discover deprecated apiVersions in Kubernetes",
       "url": "https://github.com/FairwindsOps/pluto",
-      "stars": 2328,
+      "stars": 2329,
       "language": "Go",
       "topics": [
         "fairwinds-official",
@@ -2900,7 +3546,7 @@
         "CLI Tools",
         "DevOps"
       ],
-      "lastUpdated": "2025-07-16T17:13:58Z",
+      "lastUpdated": "2025-07-17T05:26:46Z",
       "isArchived": false,
       "isFork": false
     },
@@ -2908,7 +3554,7 @@
       "name": "grafana/alloy",
       "description": "OpenTelemetry Collector distribution with programmable pipelines",
       "url": "https://github.com/grafana/alloy",
-      "stars": 2263,
+      "stars": 2264,
       "language": "Go",
       "topics": [
         "collector",
@@ -2924,7 +3570,7 @@
         "DevOps",
         "Data & Analytics"
       ],
-      "lastUpdated": "2025-07-17T00:16:15Z",
+      "lastUpdated": "2025-07-17T07:07:11Z",
       "isArchived": false,
       "isFork": false
     },
@@ -3005,6 +3651,27 @@
       "isFork": false
     },
     {
+      "name": "antvis/mcp-server-chart",
+      "description": "🤖 A visualization mcp contains 25+ visual charts using @antvis. Using for chart generation and data analysis.",
+      "url": "https://github.com/antvis/mcp-server-chart",
+      "stars": 1966,
+      "language": "TypeScript",
+      "topics": [
+        "antv",
+        "llm",
+        "mcp",
+        "mcp-server",
+        "visualization"
+      ],
+      "categories": [
+        "AI/ML",
+        "Data & Analytics"
+      ],
+      "lastUpdated": "2025-07-17T05:06:50Z",
+      "isArchived": false,
+      "isFork": false
+    },
+    {
       "name": "konstructio/kubefirst",
       "description": "The Kubefirst Open Source Platform",
       "url": "https://github.com/konstructio/kubefirst",
@@ -3030,27 +3697,6 @@
         "Infrastructure & Cloud"
       ],
       "lastUpdated": "2025-07-12T12:46:24Z",
-      "isArchived": false,
-      "isFork": false
-    },
-    {
-      "name": "antvis/mcp-server-chart",
-      "description": "���� A visualization mcp contains 25+ visual charts using @antvis. Using for chart generation and data analysis.",
-      "url": "https://github.com/antvis/mcp-server-chart",
-      "stars": 1961,
-      "language": "TypeScript",
-      "topics": [
-        "antv",
-        "llm",
-        "mcp",
-        "mcp-server",
-        "visualization"
-      ],
-      "categories": [
-        "AI/ML",
-        "Data & Analytics"
-      ],
-      "lastUpdated": "2025-07-16T23:35:43Z",
       "isArchived": false,
       "isFork": false
     },
@@ -3246,7 +3892,7 @@
       "name": "da-luce/astroterm",
       "description": "A planetarium for your terminal! Explore stars, planets, constellations, and more, all rendered right in the command line—no telescope required. ✨🪐",
       "url": "https://github.com/da-luce/astroterm",
-      "stars": 1255,
+      "stars": 1256,
       "language": "C",
       "topics": [
         "ascii",
@@ -3267,7 +3913,7 @@
       "categories": [
         "CLI Tools"
       ],
-      "lastUpdated": "2025-07-16T19:08:08Z",
+      "lastUpdated": "2025-07-17T00:54:55Z",
       "isArchived": false,
       "isFork": false
     },
@@ -3289,13 +3935,13 @@
       "name": "rizethereum/claude-code-requirements-builder",
       "description": null,
       "url": "https://github.com/rizethereum/claude-code-requirements-builder",
-      "stars": 1200,
+      "stars": 1202,
       "language": null,
       "topics": [],
       "categories": [
         "Uncategorized"
       ],
-      "lastUpdated": "2025-07-16T22:44:09Z",
+      "lastUpdated": "2025-07-17T07:34:56Z",
       "isArchived": false,
       "isFork": false
     },
@@ -3303,13 +3949,13 @@
       "name": "grafana/mcp-grafana",
       "description": "MCP server for Grafana",
       "url": "https://github.com/grafana/mcp-grafana",
-      "stars": 1170,
+      "stars": 1171,
       "language": "Go",
       "topics": [],
       "categories": [
         "Uncategorized"
       ],
-      "lastUpdated": "2025-07-16T20:12:59Z",
+      "lastUpdated": "2025-07-17T02:24:03Z",
       "isArchived": false,
       "isFork": false
     },
@@ -3317,13 +3963,13 @@
       "name": "kubernetes-sigs/karpenter",
       "description": "Karpenter is a Kubernetes Node Autoscaler built for flexibility, performance, and simplicity.",
       "url": "https://github.com/kubernetes-sigs/karpenter",
-      "stars": 1160,
+      "stars": 1163,
       "language": "Go",
       "topics": [],
       "categories": [
         "DevOps"
       ],
-      "lastUpdated": "2025-07-16T23:38:27Z",
+      "lastUpdated": "2025-07-17T04:39:05Z",
       "isArchived": false,
       "isFork": false
     },
@@ -3410,7 +4056,7 @@
       "name": "democratic-csi/democratic-csi",
       "description": "csi storage for container orchestration systems",
       "url": "https://github.com/democratic-csi/democratic-csi",
-      "stars": 1073,
+      "stars": 1074,
       "language": "JavaScript",
       "topics": [
         "centos",
@@ -3434,7 +4080,21 @@
         "DevOps",
         "Learning Resources"
       ],
-      "lastUpdated": "2025-07-16T20:22:59Z",
+      "lastUpdated": "2025-07-17T02:49:56Z",
+      "isArchived": false,
+      "isFork": false
+    },
+    {
+      "name": "Azure/azure-mcp",
+      "description": "The Azure MCP Server, bringing the power of Azure to your agents.",
+      "url": "https://github.com/Azure/azure-mcp",
+      "stars": 951,
+      "language": "C#",
+      "topics": [],
+      "categories": [
+        "Infrastructure & Cloud"
+      ],
+      "lastUpdated": "2025-07-17T02:01:15Z",
       "isArchived": false,
       "isFork": false
     },
@@ -3461,20 +4121,6 @@
         "Uncategorized"
       ],
       "lastUpdated": "2025-07-06T18:14:16Z",
-      "isArchived": false,
-      "isFork": false
-    },
-    {
-      "name": "Azure/azure-mcp",
-      "description": "The Azure MCP Server, bringing the power of Azure to your agents.",
-      "url": "https://github.com/Azure/azure-mcp",
-      "stars": 950,
-      "language": "C#",
-      "topics": [],
-      "categories": [
-        "Infrastructure & Cloud"
-      ],
-      "lastUpdated": "2025-07-16T23:47:06Z",
       "isArchived": false,
       "isFork": false
     },
@@ -3536,7 +4182,7 @@
       "name": "NPC-Worldwide/npcpy",
       "description": "The AI toolkit for the AI developer",
       "url": "https://github.com/NPC-Worldwide/npcpy",
-      "stars": 810,
+      "stars": 811,
       "language": "Python",
       "topics": [
         "agents",
@@ -3559,7 +4205,7 @@
         "Databases",
         "AI/ML"
       ],
-      "lastUpdated": "2025-07-16T15:07:30Z",
+      "lastUpdated": "2025-07-17T01:16:24Z",
       "isArchived": false,
       "isFork": false
     },
@@ -3567,7 +4213,7 @@
       "name": "ekristen/aws-nuke",
       "description": "Remove all the resources from an AWS account",
       "url": "https://github.com/ekristen/aws-nuke",
-      "stars": 772,
+      "stars": 773,
       "language": "Go",
       "topics": [
         "aws",
@@ -3583,7 +4229,7 @@
         "CLI Tools",
         "Infrastructure & Cloud"
       ],
-      "lastUpdated": "2025-07-16T15:04:15Z",
+      "lastUpdated": "2025-07-17T00:45:42Z",
       "isArchived": false,
       "isFork": false
     },
@@ -3591,7 +4237,7 @@
       "name": "hashicorp/terraform-mcp-server",
       "description": "The Terraform MCP Server provides seamless integration with Terraform ecosystem, enabling advanced automation and interaction capabilities for Infrastructure as Code (IaC) development.",
       "url": "https://github.com/hashicorp/terraform-mcp-server",
-      "stars": 735,
+      "stars": 737,
       "language": "Go",
       "topics": [],
       "categories": [
@@ -3599,7 +4245,7 @@
         "Developer Tools",
         "Infrastructure & Cloud"
       ],
-      "lastUpdated": "2025-07-16T22:25:22Z",
+      "lastUpdated": "2025-07-17T07:38:17Z",
       "isArchived": false,
       "isFork": false
     },
@@ -3627,13 +4273,13 @@
       "name": "MicrosoftDocs/mcp",
       "description": null,
       "url": "https://github.com/MicrosoftDocs/mcp",
-      "stars": 688,
+      "stars": 694,
       "language": null,
       "topics": [],
       "categories": [
         "Uncategorized"
       ],
-      "lastUpdated": "2025-07-16T18:50:50Z",
+      "lastUpdated": "2025-07-17T07:50:25Z",
       "isArchived": false,
       "isFork": false
     },
@@ -3721,7 +4367,7 @@
       "name": "mongodb-js/mongodb-mcp-server",
       "description": "A Model Context Protocol server to connect to MongoDB databases and MongoDB Atlas Clusters.",
       "url": "https://github.com/mongodb-js/mongodb-mcp-server",
-      "stars": 414,
+      "stars": 415,
       "language": "TypeScript",
       "topics": [
         "mcp",
@@ -3733,7 +4379,7 @@
       "categories": [
         "Databases"
       ],
-      "lastUpdated": "2025-07-16T23:22:37Z",
+      "lastUpdated": "2025-07-17T07:05:27Z",
       "isArchived": false,
       "isFork": false
     },
@@ -3872,7 +4518,7 @@
       "name": "aws-samples/well-architected-iac-analyzer",
       "description": "Generative AI tool for evaluating Infrastructure as Code and architecture diagrams against AWS Well-Architected best practices.",
       "url": "https://github.com/aws-samples/well-architected-iac-analyzer",
-      "stars": 319,
+      "stars": 320,
       "language": "TypeScript",
       "topics": [
         "amazon-bedrock",
@@ -3896,7 +4542,7 @@
         "DevOps",
         "Infrastructure & Cloud"
       ],
-      "lastUpdated": "2025-07-14T15:10:42Z",
+      "lastUpdated": "2025-07-17T05:25:24Z",
       "isArchived": false,
       "isFork": false
     },
@@ -3999,7 +4645,7 @@
       "name": "theaiautomators/insights-lm-public",
       "description": "Open-source, self-hosted alternative to NotebookLM. Chat with your documents, generate audio summaries, and ground AI in your own sources—built with Supabase and N8N on a React frontend.",
       "url": "https://github.com/theaiautomators/insights-lm-public",
-      "stars": 210,
+      "stars": 211,
       "language": "TypeScript",
       "topics": [
         "loveable",
@@ -4017,7 +4663,7 @@
         "CLI Tools",
         "Learning Resources"
       ],
-      "lastUpdated": "2025-07-16T19:28:11Z",
+      "lastUpdated": "2025-07-17T05:26:40Z",
       "isArchived": false,
       "isFork": false
     },
@@ -4499,15 +5145,17 @@
   ],
   "analytics": {
     "byLanguage": {
+      "Groovy": 1,
+      "C++": 7,
+      "Go": 65,
+      "Python": 39,
+      "HTML": 3,
+      "TypeScript": 23,
+      "Rust": 13,
+      "JavaScript": 11,
+      "Unknown": 20,
       "Jupyter Notebook": 3,
-      "Python": 34,
-      "TypeScript": 20,
-      "Go": 60,
-      "Unknown": 19,
       "C#": 3,
-      "Rust": 10,
-      "JavaScript": 10,
-      "C++": 4,
       "C": 5,
       "Makefile": 2,
       "Shell": 15,
@@ -4522,27 +5170,26 @@
       "Perl": 1,
       "Markdown": 1,
       "Jinja": 1,
-      "D2": 1,
-      "HTML": 1
+      "D2": 1
     },
     "byCategory": {
-      "Learning Resources": 17,
-      "AI/ML": 26,
-      "Infrastructure & Cloud": 43,
-      "Web Frameworks": 13,
-      "Libraries": 13,
-      "CLI Tools": 54,
-      "Databases": 12,
-      "Uncategorized": 41,
-      "DevOps": 70,
-      "Developer Tools": 13,
-      "Security": 12,
-      "Data & Analytics": 14,
-      "Awesome Lists": 10,
-      "IoT & Hardware": 5,
-      "Templates": 5,
-      "Testing": 6,
-      "Interview & Algorithms": 4
+      "Databases": 17,
+      "Data & Analytics": 17,
+      "Learning Resources": 24,
+      "AI/ML": 32,
+      "Libraries": 15,
+      "Templates": 6,
+      "IoT & Hardware": 6,
+      "Infrastructure & Cloud": 46,
+      "Web Frameworks": 20,
+      "DevOps": 73,
+      "Interview & Algorithms": 6,
+      "Security": 13,
+      "CLI Tools": 59,
+      "Developer Tools": 16,
+      "Testing": 7,
+      "Awesome Lists": 11,
+      "Uncategorized": 42
     }
   }
 }
