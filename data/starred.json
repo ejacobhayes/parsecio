@@ -1,6 +1,6 @@
 {
-  "generated": "2025-07-17T07:58:02.318Z",
-  "total": 307,
+  "generated": "2025-07-17T07:59:33.420Z",
+  "total": 325,
   "repositories": [
     {
       "name": "codecrafters-io/build-your-own-x",
@@ -260,7 +260,7 @@
       "name": "microsoft/vscode",
       "description": "Visual Studio Code",
       "url": "https://github.com/microsoft/vscode",
-      "stars": 174633,
+      "stars": 174635,
       "language": "TypeScript",
       "topics": [
         "editor",
@@ -272,7 +272,7 @@
       "categories": [
         "Developer Tools"
       ],
-      "lastUpdated": "2025-07-17T07:34:02Z",
+      "lastUpdated": "2025-07-17T07:59:01Z",
       "isArchived": false,
       "isFork": false
     },
@@ -301,7 +301,7 @@
       "name": "AUTOMATIC1111/stable-diffusion-webui",
       "description": "Stable Diffusion web UI",
       "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
-      "stars": 154572,
+      "stars": 154573,
       "language": "Python",
       "topics": [
         "ai",
@@ -325,7 +325,7 @@
         "Learning Resources",
         "AI/ML"
       ],
-      "lastUpdated": "2025-07-17T07:51:14Z",
+      "lastUpdated": "2025-07-17T07:58:15Z",
       "isArchived": false,
       "isFork": false
     },
@@ -356,7 +356,7 @@
       "name": "ollama/ollama",
       "description": "Get up and running with Llama 3.3, DeepSeek-R1, Phi-4, Gemma 3, Mistral Small 3.1 and other large language models.",
       "url": "https://github.com/ollama/ollama",
-      "stars": 146735,
+      "stars": 146736,
       "language": "Go",
       "topics": [
         "deepseek",
@@ -379,7 +379,7 @@
       "categories": [
         "AI/ML"
       ],
-      "lastUpdated": "2025-07-17T07:52:32Z",
+      "lastUpdated": "2025-07-17T07:59:14Z",
       "isArchived": false,
       "isFork": false
     },
@@ -409,7 +409,7 @@
       "name": "n8n-io/n8n",
       "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
       "url": "https://github.com/n8n-io/n8n",
-      "stars": 119186,
+      "stars": 119188,
       "language": "TypeScript",
       "topics": [
         "ai",
@@ -439,7 +439,7 @@
         "Developer Tools",
         "Infrastructure & Cloud"
       ],
-      "lastUpdated": "2025-07-17T07:53:43Z",
+      "lastUpdated": "2025-07-17T07:58:10Z",
       "isArchived": false,
       "isFork": false
     },
@@ -873,14 +873,14 @@
       "name": "x1xhlol/system-prompts-and-models-of-ai-tools",
       "description": "FULL v0, Cursor, Manus, Same.dev, Lovable, Devin, Replit Agent, Windsurf Agent, VSCode Agent, Dia Browser, Xcode, Trae AI & Cluely (And other Open Sourced) System Prompts, Tools & AI Models.",
       "url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
-      "stars": 68649,
+      "stars": 68651,
       "language": null,
       "topics": [],
       "categories": [
         "CLI Tools",
         "Developer Tools"
       ],
-      "lastUpdated": "2025-07-17T07:55:39Z",
+      "lastUpdated": "2025-07-17T07:58:25Z",
       "isArchived": false,
       "isFork": false
     },
@@ -949,26 +949,7 @@
       "categories": [
         "Awesome Lists"
       ],
-      "lastUpdated": "2025-07-17T07:55:27Z",
-      "isArchived": false,
-      "isFork": false
-    },
-    {
-      "name": "astral-sh/uv",
-      "description": "An extremely fast Python package and project manager, written in Rust.",
-      "url": "https://github.com/astral-sh/uv",
-      "stars": 61646,
-      "language": "Rust",
-      "topics": [
-        "packaging",
-        "python",
-        "resolver",
-        "uv"
-      ],
-      "categories": [
-        "Libraries"
-      ],
-      "lastUpdated": "2025-07-17T07:56:15Z",
+      "lastUpdated": "2025-07-17T07:59:13Z",
       "isArchived": false,
       "isFork": false
     },
@@ -1122,7 +1103,7 @@
       "name": "hiyouga/LLaMA-Factory",
       "description": "Unified Efficient Fine-Tuning of 100+ LLMs & VLMs (ACL 2024)",
       "url": "https://github.com/hiyouga/LLaMA-Factory",
-      "stars": 54445,
+      "stars": 54446,
       "language": "Python",
       "topics": [
         "agent",
@@ -1149,7 +1130,7 @@
       "categories": [
         "AI/ML"
       ],
-      "lastUpdated": "2025-07-17T07:57:30Z",
+      "lastUpdated": "2025-07-17T07:58:32Z",
       "isArchived": false,
       "isFork": false
     },
@@ -1541,7 +1522,18 @@
       "stars": 43040,
       "language": "TypeScript",
       "topics": [
-        "markdown"
+        "ai",
+        "ai-scraping",
+        "crawler",
+        "data",
+        "html-to-markdown",
+        "llm",
+        "markdown",
+        "rag",
+        "scraper",
+        "scraping",
+        "web-crawler",
+        "webscraping"
       ],
       "categories": [
         "AI/ML"
@@ -2130,7 +2122,23 @@
       "url": "https://github.com/docling-project/docling",
       "stars": 34358,
       "language": "Python",
-      "topics": [],
+      "topics": [
+        "ai",
+        "convert",
+        "document-parser",
+        "document-parsing",
+        "documents",
+        "docx",
+        "html",
+        "markdown",
+        "pdf",
+        "pdf-converter",
+        "pdf-to-json",
+        "pdf-to-text",
+        "pptx",
+        "tables",
+        "xlsx"
+      ],
       "categories": [
         "CLI Tools"
       ],
@@ -2258,22 +2266,6 @@
         "Infrastructure & Cloud"
       ],
       "lastUpdated": "2025-07-17T05:04:09Z",
-      "isArchived": false,
-      "isFork": false
-    },
-    {
-      "name": "jqlang/jq",
-      "description": "Command-line JSON processor",
-      "url": "https://github.com/jqlang/jq",
-      "stars": 32193,
-      "language": "C",
-      "topics": [
-        "jq"
-      ],
-      "categories": [
-        "CLI Tools"
-      ],
-      "lastUpdated": "2025-07-17T07:55:35Z",
       "isArchived": false,
       "isFork": false
     },
@@ -3005,7 +2997,7 @@
         "Databases",
         "Data & Analytics"
       ],
-      "lastUpdated": "2025-07-17T07:23:48Z",
+      "lastUpdated": "2025-07-17T07:58:16Z",
       "isArchived": false,
       "isFork": false
     },
@@ -3320,10 +3312,32 @@
       "url": "https://github.com/yamadashy/repomix",
       "stars": 17874,
       "language": "TypeScript",
-      "topics": [],
+      "topics": [
+        "ai",
+        "anthropic",
+        "artificial-intelligence",
+        "chatbot",
+        "chatgpt",
+        "claude",
+        "deepseek",
+        "developer-tools",
+        "gemini",
+        "genai",
+        "generative-ai",
+        "gpt",
+        "javascript",
+        "language-model",
+        "llama",
+        "llm",
+        "mcp",
+        "nodejs",
+        "openai",
+        "typescript"
+      ],
       "categories": [
         "CLI Tools",
-        "AI/ML"
+        "AI/ML",
+        "Developer Tools"
       ],
       "lastUpdated": "2025-07-17T07:57:21Z",
       "isArchived": false,
@@ -3759,9 +3773,20 @@
       "url": "https://github.com/mediar-ai/screenpipe",
       "stars": 15292,
       "language": "TypeScript",
-      "topics": [],
+      "topics": [
+        "agents",
+        "agi",
+        "ai",
+        "computer-vision",
+        "llm",
+        "machine-learning",
+        "ml",
+        "multimodal",
+        "vision"
+      ],
       "categories": [
-        "Uncategorized"
+        "Learning Resources",
+        "AI/ML"
       ],
       "lastUpdated": "2025-07-17T07:56:51Z",
       "isArchived": false,
@@ -4240,6 +4265,152 @@
       "isFork": false
     },
     {
+      "name": "cocktailpeanut/dalai",
+      "description": "The simplest way to run LLaMA on your local machine",
+      "url": "https://github.com/cocktailpeanut/dalai",
+      "stars": 13072,
+      "language": "CSS",
+      "topics": [
+        "ai",
+        "llama",
+        "llm"
+      ],
+      "categories": [
+        "AI/ML"
+      ],
+      "lastUpdated": "2025-07-17T07:57:57Z",
+      "isArchived": false,
+      "isFork": false
+    },
+    {
+      "name": "carla-simulator/carla",
+      "description": "Open-source simulator for autonomous driving research.",
+      "url": "https://github.com/carla-simulator/carla",
+      "stars": 12734,
+      "language": "C++",
+      "topics": [
+        "ai",
+        "artificial-intelligence",
+        "autonomous-driving",
+        "autonomous-vehicles",
+        "carla",
+        "carla-simulator",
+        "computer-vision",
+        "cross-platform",
+        "deep-learning",
+        "deep-reinforcement-learning",
+        "imitation-learning",
+        "research",
+        "ros",
+        "self-driving-car",
+        "simulator",
+        "ue4",
+        "unreal-engine-4"
+      ],
+      "categories": [
+        "Learning Resources",
+        "AI/ML"
+      ],
+      "lastUpdated": "2025-07-17T07:58:01Z",
+      "isArchived": false,
+      "isFork": false
+    },
+    {
+      "name": "openai/openai-agents-python",
+      "description": "A lightweight, powerful framework for multi-agent workflows",
+      "url": "https://github.com/openai/openai-agents-python",
+      "stars": 12663,
+      "language": "Python",
+      "topics": [],
+      "categories": [
+        "Web Frameworks"
+      ],
+      "lastUpdated": "2025-07-17T07:58:03Z",
+      "isArchived": false,
+      "isFork": false
+    },
+    {
+      "name": "Lightning-AI/litgpt",
+      "description": "20+ high-performance LLMs with recipes to pretrain, finetune and deploy at scale.",
+      "url": "https://github.com/Lightning-AI/litgpt",
+      "stars": 12499,
+      "language": "Python",
+      "topics": [
+        "ai",
+        "artificial-intelligence",
+        "deep-learning",
+        "large-language-models",
+        "llm",
+        "llm-inference",
+        "llms"
+      ],
+      "categories": [
+        "Learning Resources",
+        "AI/ML"
+      ],
+      "lastUpdated": "2025-07-17T07:58:10Z",
+      "isArchived": false,
+      "isFork": false
+    },
+    {
+      "name": "owainlewis/awesome-artificial-intelligence",
+      "description": "A curated list of Artificial Intelligence (AI) courses, books, video lectures and papers.",
+      "url": "https://github.com/owainlewis/awesome-artificial-intelligence",
+      "stars": 12073,
+      "language": null,
+      "topics": [
+        "ai",
+        "artificial-intelligence",
+        "deep-learning",
+        "intelligent-machines",
+        "intelligent-systems",
+        "machine-intelligence",
+        "machine-learning",
+        "neural-network",
+        "reinforcement-learning",
+        "statistical-learning",
+        "unsupervised-learning"
+      ],
+      "categories": [
+        "Learning Resources",
+        "Awesome Lists",
+        "AI/ML",
+        "Infrastructure & Cloud"
+      ],
+      "lastUpdated": "2025-07-17T07:58:14Z",
+      "isArchived": false,
+      "isFork": false
+    },
+    {
+      "name": "h2oai/h2ogpt",
+      "description": "Private chat with local GPT with document, images, video, etc. 100% private, Apache 2.0. Supports oLLaMa, Mixtral, llama.cpp, and more. Demo: https://gpt.h2o.ai/ https://gpt-docs.h2o.ai/",
+      "url": "https://github.com/h2oai/h2ogpt",
+      "stars": 11869,
+      "language": "Python",
+      "topics": [
+        "ai",
+        "chatgpt",
+        "embeddings",
+        "generative",
+        "gpt",
+        "gpt4all",
+        "llama2",
+        "llm",
+        "mixtral",
+        "pdf",
+        "private",
+        "privategpt",
+        "vectorstore"
+      ],
+      "categories": [
+        "Learning Resources",
+        "AI/ML"
+      ],
+      "lastUpdated": "2025-07-17T07:58:16Z",
+      "isArchived": false,
+      "isFork": false
+    },
+    {
       "name": "dail8859/NotepadNext",
       "description": "A cross-platform, reimplementation of Notepad++",
       "url": "https://github.com/dail8859/NotepadNext",
@@ -4290,6 +4461,28 @@
         "Infrastructure & Cloud"
       ],
       "lastUpdated": "2025-07-16T23:34:48Z",
+      "isArchived": false,
+      "isFork": false
+    },
+    {
+      "name": "dair-ai/ML-Papers-of-the-Week",
+      "description": "🔥Highlighting the top ML papers every week.",
+      "url": "https://github.com/dair-ai/ML-Papers-of-the-Week",
+      "stars": 11631,
+      "language": null,
+      "topics": [
+        "ai",
+        "data-science",
+        "deeplearning",
+        "machine-learning",
+        "nlp"
+      ],
+      "categories": [
+        "Learning Resources",
+        "AI/ML",
+        "Data & Analytics"
+      ],
+      "lastUpdated": "2025-07-17T07:58:20Z",
       "isArchived": false,
       "isFork": false
     },
@@ -4348,6 +4541,44 @@
       "isFork": false
     },
     {
+      "name": "neuml/txtai",
+      "description": "💡 All-in-one open-source AI framework for semantic search, LLM orchestration and language model workflows",
+      "url": "https://github.com/neuml/txtai",
+      "stars": 11219,
+      "language": "Python",
+      "topics": [
+        "ai",
+        "artificial-intelligence",
+        "embeddings",
+        "information-retrieval",
+        "language-model",
+        "large-language-models",
+        "llm",
+        "machine-learning",
+        "nlp",
+        "python",
+        "rag",
+        "retrieval-augmented-generation",
+        "search",
+        "search-engine",
+        "semantic-search",
+        "sentence-embeddings",
+        "transformers",
+        "txtai",
+        "vector-database",
+        "vector-search"
+      ],
+      "categories": [
+        "Web Frameworks",
+        "Learning Resources",
+        "Databases",
+        "AI/ML"
+      ],
+      "lastUpdated": "2025-07-17T07:58:26Z",
+      "isArchived": false,
+      "isFork": false
+    },
+    {
       "name": "frdel/agent-zero",
       "description": "Agent Zero AI framework",
       "url": "https://github.com/frdel/agent-zero",
@@ -4365,6 +4596,65 @@
         "Web Frameworks"
       ],
       "lastUpdated": "2025-07-17T07:17:09Z",
+      "isArchived": false,
+      "isFork": false
+    },
+    {
+      "name": "google/adk-python",
+      "description": "An open-source, code-first Python toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control.",
+      "url": "https://github.com/google/adk-python",
+      "stars": 10990,
+      "language": "Python",
+      "topics": [],
+      "categories": [
+        "CLI Tools"
+      ],
+      "lastUpdated": "2025-07-17T07:58:31Z",
+      "isArchived": false,
+      "isFork": false
+    },
+    {
+      "name": "getumbrel/llama-gpt",
+      "description": "A self-hosted, offline, ChatGPT-like chatbot. Powered by Llama 2. 100% private, with no data leaving your device. New: Code Llama support!",
+      "url": "https://github.com/getumbrel/llama-gpt",
+      "stars": 10989,
+      "language": "TypeScript",
+      "topics": [
+        "ai",
+        "chatgpt",
+        "code-llama",
+        "codellama",
+        "gpt",
+        "gpt-4",
+        "gpt4all",
+        "llama",
+        "llama-2",
+        "llama-cpp",
+        "llama2",
+        "llamacpp",
+        "llm",
+        "localai",
+        "openai",
+        "self-hosted"
+      ],
+      "categories": [
+        "AI/ML"
+      ],
+      "lastUpdated": "2025-07-17T07:58:33Z",
+      "isArchived": false,
+      "isFork": false
+    },
+    {
+      "name": "coderamp-labs/gitingest",
+      "description": "Replace 'hub' with 'ingest' in any GitHub URL to get a prompt-friendly extract of a codebase ",
+      "url": "https://github.com/coderamp-labs/gitingest",
+      "stars": 10971,
+      "language": "Python",
+      "topics": [],
+      "categories": [
+        "Uncategorized"
+      ],
+      "lastUpdated": "2025-07-17T07:58:34Z",
       "isArchived": false,
       "isFork": false
     },
@@ -4395,6 +4685,113 @@
         "AI/ML"
       ],
       "lastUpdated": "2025-07-17T07:13:24Z",
+      "isArchived": false,
+      "isFork": false
+    },
+    {
+      "name": "codota/TabNine",
+      "description": "AI Code Completions",
+      "url": "https://github.com/codota/TabNine",
+      "stars": 10788,
+      "language": "Shell",
+      "topics": [
+        "ai",
+        "artificial-intelligence",
+        "atom-package",
+        "bash",
+        "cpp",
+        "golang",
+        "gpt-2",
+        "java",
+        "javascript",
+        "jetbrains-plugin",
+        "lua",
+        "php",
+        "python",
+        "ruby",
+        "rust",
+        "sublime-package",
+        "swift",
+        "typescript",
+        "vim-plugin",
+        "vscode-extension"
+      ],
+      "categories": [
+        "AI/ML",
+        "Developer Tools",
+        "Libraries"
+      ],
+      "lastUpdated": "2025-07-17T07:58:36Z",
+      "isArchived": false,
+      "isFork": false
+    },
+    {
+      "name": "google/dopamine",
+      "description": "Dopamine is a research framework for fast prototyping of reinforcement learning algorithms. ",
+      "url": "https://github.com/google/dopamine",
+      "stars": 10769,
+      "language": "Jupyter Notebook",
+      "topics": [
+        "ai",
+        "google",
+        "ml",
+        "rl",
+        "tensorflow"
+      ],
+      "categories": [
+        "Web Frameworks",
+        "Learning Resources",
+        "AI/ML",
+        "Interview & Algorithms"
+      ],
+      "lastUpdated": "2025-07-17T07:58:38Z",
+      "isArchived": false,
+      "isFork": false
+    },
+    {
+      "name": "n8n-io/self-hosted-ai-starter-kit",
+      "description": "The Self-hosted AI Starter Kit is an open-source template that quickly sets up a local AI environment. Curated by n8n, it provides essential tools for creating secure, self-hosted AI workflows.",
+      "url": "https://github.com/n8n-io/self-hosted-ai-starter-kit",
+      "stars": 10618,
+      "language": null,
+      "topics": [
+        "ai",
+        "ai-agents",
+        "low-code",
+        "self-hosted",
+        "starter-kit"
+      ],
+      "categories": [
+        "CLI Tools",
+        "Templates"
+      ],
+      "lastUpdated": "2025-07-17T07:58:40Z",
+      "isArchived": false,
+      "isFork": false
+    },
+    {
+      "name": "microsoft/promptflow",
+      "description": "Build high-quality LLM apps - from prototyping, testing to production deployment and monitoring.",
+      "url": "https://github.com/microsoft/promptflow",
+      "stars": 10585,
+      "language": "Python",
+      "topics": [
+        "ai",
+        "ai-application-development",
+        "ai-applications",
+        "chatgpt",
+        "gpt",
+        "llm",
+        "prompt",
+        "prompt-engineering"
+      ],
+      "categories": [
+        "DevOps",
+        "AI/ML",
+        "Developer Tools",
+        "Testing"
+      ],
+      "lastUpdated": "2025-07-17T07:58:47Z",
       "isArchived": false,
       "isFork": false
     },
@@ -4435,6 +4832,42 @@
         "CLI Tools"
       ],
       "lastUpdated": "2025-07-17T02:25:44Z",
+      "isArchived": false,
+      "isFork": false
+    },
+    {
+      "name": "wandb/wandb",
+      "description": "The AI developer platform. Use Weights & Biases to train and fine-tune models, and manage models from experimentation to production.",
+      "url": "https://github.com/wandb/wandb",
+      "stars": 10100,
+      "language": "Python",
+      "topics": [
+        "ai",
+        "collaboration",
+        "data-science",
+        "data-versioning",
+        "deep-learning",
+        "experiment-track",
+        "hyperparameter-optimization",
+        "hyperparameter-search",
+        "hyperparameter-tuning",
+        "jax",
+        "keras",
+        "machine-learning",
+        "ml-platform",
+        "mlops",
+        "model-versioning",
+        "pytorch",
+        "reinforcement-learning",
+        "reproducibility",
+        "tensorflow"
+      ],
+      "categories": [
+        "Learning Resources",
+        "AI/ML",
+        "Data & Analytics"
+      ],
+      "lastUpdated": "2025-07-17T07:58:50Z",
       "isArchived": false,
       "isFork": false
     },
@@ -4505,6 +4938,21 @@
       "isFork": false
     },
     {
+      "name": "web-infra-dev/midscene",
+      "description": "Your AI Operator for Web, Android, Automation & Testing.",
+      "url": "https://github.com/web-infra-dev/midscene",
+      "stars": 9643,
+      "language": "TypeScript",
+      "topics": [],
+      "categories": [
+        "Developer Tools",
+        "Testing"
+      ],
+      "lastUpdated": "2025-07-17T07:59:02Z",
+      "isArchived": false,
+      "isFork": false
+    },
+    {
       "name": "nicolaka/netshoot",
       "description": "a Docker + Kubernetes network trouble-shooting swiss-army container",
       "url": "https://github.com/nicolaka/netshoot",
@@ -4523,6 +4971,36 @@
         "Infrastructure & Cloud"
       ],
       "lastUpdated": "2025-07-17T07:40:26Z",
+      "isArchived": false,
+      "isFork": false
+    },
+    {
+      "name": "olistic/warriorjs",
+      "description": "🏰 An exciting game of programming and Artificial Intelligence",
+      "url": "https://github.com/olistic/warriorjs",
+      "stars": 9500,
+      "language": "JavaScript",
+      "topics": [
+        "ai",
+        "artificial-intelligence",
+        "battle",
+        "epic",
+        "game",
+        "javascript",
+        "js",
+        "learn",
+        "nodejs",
+        "sharpen",
+        "skills",
+        "test",
+        "warrior",
+        "warriorjs"
+      ],
+      "categories": [
+        "AI/ML",
+        "Testing"
+      ],
+      "lastUpdated": "2025-07-17T07:59:06Z",
       "isArchived": false,
       "isFork": false
     },
@@ -4601,6 +5079,34 @@
         "Infrastructure & Cloud"
       ],
       "lastUpdated": "2025-07-17T07:47:40Z",
+      "isArchived": false,
+      "isFork": false
+    },
+    {
+      "name": "humanlayer/12-factor-agents",
+      "description": "What are the principles we can use to build LLM-powered software that is actually good enough to put in the hands of production customers?",
+      "url": "https://github.com/humanlayer/12-factor-agents",
+      "stars": 9206,
+      "language": "TypeScript",
+      "topics": [],
+      "categories": [
+        "AI/ML"
+      ],
+      "lastUpdated": "2025-07-17T07:59:08Z",
+      "isArchived": false,
+      "isFork": false
+    },
+    {
+      "name": "GLips/Figma-Context-MCP",
+      "description": "MCP server to provide Figma layout information to AI coding agents like Cursor",
+      "url": "https://github.com/GLips/Figma-Context-MCP",
+      "stars": 9169,
+      "language": "TypeScript",
+      "topics": [],
+      "categories": [
+        "Uncategorized"
+      ],
+      "lastUpdated": "2025-07-17T07:59:10Z",
       "isArchived": false,
       "isFork": false
     },
@@ -4789,7 +5295,7 @@
         "Security",
         "Infrastructure & Cloud"
       ],
-      "lastUpdated": "2025-07-17T01:07:04Z",
+      "lastUpdated": "2025-07-17T07:59:08Z",
       "isArchived": false,
       "isFork": false
     },
@@ -7252,21 +7758,22 @@
   ],
   "analytics": {
     "byLanguage": {
-      "Unknown": 24,
-      "TypeScript": 47,
+      "TypeScript": 51,
+      "JavaScript": 16,
+      "Python": 76,
+      "Unknown": 27,
+      "Jupyter Notebook": 13,
+      "Shell": 16,
+      "C++": 10,
+      "CSS": 1,
       "Go": 68,
-      "Jupyter Notebook": 12,
-      "Python": 68,
-      "JavaScript": 15,
-      "C++": 9,
       "Java": 2,
-      "Rust": 17,
-      "C": 7,
+      "Rust": 16,
+      "C": 6,
       "Groovy": 1,
       "HTML": 3,
       "C#": 3,
       "Makefile": 2,
-      "Shell": 15,
       "PowerShell": 3,
       "HCL": 1,
       "Assembly": 1,
@@ -7280,23 +7787,23 @@
       "D2": 1
     },
     "byCategory": {
-      "DevOps": 81,
-      "Learning Resources": 46,
-      "Awesome Lists": 13,
-      "AI/ML": 81,
-      "Data & Analytics": 27,
-      "Web Frameworks": 39,
-      "Uncategorized": 54,
-      "CLI Tools": 81,
-      "Developer Tools": 30,
-      "Testing": 10,
-      "Security": 17,
-      "Databases": 27,
-      "Infrastructure & Cloud": 54,
-      "Interview & Algorithms": 7,
+      "Uncategorized": 55,
+      "AI/ML": 96,
+      "Testing": 13,
+      "Developer Tools": 34,
+      "Learning Resources": 55,
+      "Data & Analytics": 29,
+      "DevOps": 82,
+      "CLI Tools": 82,
+      "Templates": 7,
+      "Web Frameworks": 42,
+      "Interview & Algorithms": 8,
       "Libraries": 18,
-      "IoT & Hardware": 7,
-      "Templates": 6
+      "Databases": 28,
+      "Awesome Lists": 14,
+      "Infrastructure & Cloud": 55,
+      "Security": 17,
+      "IoT & Hardware": 7
     }
   }
 }
