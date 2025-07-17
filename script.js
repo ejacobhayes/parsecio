@@ -251,7 +251,7 @@ class StarsDashboard {
                 </svg>
                 <div class="donut-center">
                     <div class="donut-total">${total}</div>
-                    <div class="donut-label">Languages</div>
+                    <div class="donut-label">with Languages</div>
                 </div>
             </div>
         `;
@@ -283,7 +283,7 @@ class StarsDashboard {
             });
             
             element.addEventListener('mouseleave', () => {
-                centerLabel.textContent = 'Languages';
+                centerLabel.textContent = 'with Languages';
                 centerTotal.textContent = total;
                 
                 segments_elements.forEach(el => {
