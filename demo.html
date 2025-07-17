@@ -6,22 +6,142 @@
     <title>Parsecio - GitHub Stars Dashboard</title>
     <link rel="icon" type="image/png" href="assets/parsecio_icon.png">
     <link rel="stylesheet" href="styles.css">
+    <style>
+        .nav-header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background-color: rgba(13, 17, 23, 0.9);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border-color);
+            padding: 15px 20px;
+            z-index: 1000;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .nav-logo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            text-decoration: none;
+            color: var(--text-primary);
+            font-weight: bold;
+            font-size: 1.1rem;
+        }
+
+        .nav-logo img {
+            width: 30px;
+            height: 30px;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 15px;
+            align-items: center;
+        }
+
+        /* Add padding to account for fixed nav */
+        .container {
+            padding-top: 60px;
+        }
+
+        .hero-section {
+            text-align: center;
+            padding: 40px 20px;
+            margin-bottom: 20px;
+        }
+
+        .hero-logo {
+            width: 180px;
+            height: auto;
+            filter: drop-shadow(0 4px 20px rgba(88, 166, 255, 0.3));
+        }
+
+        /* Reduce stats bar font size by 20% */
+        .stat-value {
+            font-size: 1.6rem !important; /* was 2rem */
+        }
+
+        .stat-label {
+            font-size: 0.72rem !important; /* was 0.9rem */
+        }
+
+        /* Better centering for desktop */
+        .stat {
+            flex: 1;
+            justify-content: center;
+        }
+
+        @media (max-width: 768px) {
+            .nav-links {
+                gap: 10px;
+            }
+            
+            .hero-logo {
+                width: 140px;
+            }
+            
+            .stat-value {
+                font-size: 1.2rem !important; /* was 1.5rem */
+            }
+
+            /* More compact mobile stats bar */
+            .stats-bar {
+                flex-direction: row !important;
+                gap: 1rem !important;
+                padding: 1rem !important;
+            }
+
+            .stat {
+                flex: 1;
+                min-width: 0;
+            }
+
+            .stat-label {
+                font-size: 0.65rem !important;
+                margin-top: 0.1rem !important;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .stats-bar {
+                gap: 0.5rem !important;
+                padding: 0.75rem !important;
+            }
+            
+            .stat-value {
+                font-size: 1rem !important;
+            }
+            
+            .stat-label {
+                font-size: 0.6rem !important;
+            }
+        }
+    </style>
 </head>
 <body>
+    <nav class="nav-header">
+        <a href="/" class="nav-logo">
+            <img src="assets/parsecio_icon.png" alt="Parsecio">
+            <span>Parsecio</span>
+        </a>
+        <div class="nav-links">
+            <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
+                <span class="theme-icon">☀️</span>
+            </button>
+            <button id="view-toggle" class="view-toggle" aria-label="Toggle view">
+                <span class="view-icon">▦</span>
+            </button>
+        </div>
+    </nav>
+
     <div class="container">
-        <header class="header">
-            <h1 class="logo-stack">
-                <img src="assets/parsecio.png" alt="Parsecio" class="logo-image">
-            </h1>
-            <div class="header-actions">
-                <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
-                    <span class="theme-icon">☀️</span>
-                </button>
-                <button id="view-toggle" class="view-toggle" aria-label="Toggle view">
-                    <span class="view-icon">▦</span>
-                </button>
-            </div>
-        </header>
+        <div class="hero-section">
+            <img src="assets/parsecio.png" alt="Parsecio" class="hero-logo">
+        </div>
 
         <div class="stats-bar">
             <div class="stat">
